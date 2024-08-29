@@ -2,7 +2,7 @@ interface Props {
   children: React.ReactNode;
 }
 
-function Link({ children }: Props) {
+function Button2({ children }: Props) {
   return (
     <>
       <button className="group bg-gradient-to-r from-bright-orange to-regal-blue inline-block text-transparent bg-clip-text hover:text-white">
@@ -24,4 +24,4 @@ function Link({ children }: Props) {
   );
 }
 
-export default Link;
+export default Button2;
