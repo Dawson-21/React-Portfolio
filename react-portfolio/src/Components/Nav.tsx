@@ -4,18 +4,18 @@ import { Link } from "react-router-dom";
 function Nav() {
   return (
     <>
-      <nav className="bg-white dark:bg-gray-950/95 fixed w-full z-20 top-0 start-0 border-b border-bright-orange/30">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
+      <nav className="bg-white dark:bg-gray-950/95 fixed w-full z-20 top-0 start-0 border-b border-bright-orange/40">
+        <div className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto py-2 lg:px-[6%] md:px-[4%] px-[3%]">
           <Link to="/">
-            <div className="transform hover:scale-[1.15] transition duration-500 ease-in-out flex items-center space-x-3 rtl:space-x-reverse">
+            <div className="transform hover:scale-[1.15] transition duration-500 ease-in-out flex items-center rtl:space-x-reverse">
               <img
                 src="My-Logo1.png"
-                className="h-20 sm:h-16"
+                className="h-16"
                 alt="Dawson Adams Logo"
               ></img>
             </div>
           </Link>
-          <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          <div className="flex md:order-2 rtl:space-x-reverse">
             <Link to="/resume">
               <Button> Resum&#232; </Button>
             </Link>

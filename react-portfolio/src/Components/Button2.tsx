@@ -5,7 +5,7 @@ interface Props {
 function Button2({ children }: Props) {
   return (
     <>
-      <button className="group bg-gradient-to-r from-bright-orange to-regal-blue inline-block text-transparent bg-clip-text hover:text-white">
+      <button className="group bg-gradient-to-r from-bright-orange to-regal-blue inline-block text-transparent bg-clip-text">
         {children}
         <svg
           className="w-5 h-5 ml-2 -mr-1 inline-block"
