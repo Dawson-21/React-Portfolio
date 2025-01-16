@@ -1,32 +1,37 @@
-import Button from "./Button";
 import { Link } from "react-router-dom";
+import Button2 from "./Button2";
 
 interface Props {
-  imgSrc: string;
+  img: string;
   title: string;
-  desc: string;
+  desc?: string;
 }
 
-function Card({ imgSrc, title, desc }: Props) {
+function Card({ img, title, desc }: Props) {
   return (
-    <div className="max-w-sm bg-white border-gray-200 rounded-xl shadow dark:bg-gray-950 dark:border-gray-950">
+    <>
       <Link to="#">
-        <img className="rounded-t-lg" src={imgSrc} alt="" />
+        <img className="rounded-t-lg" src={img} alt="" />
       </Link>
-      <div className="p-5">
+
+      <div className="p-5 pb-2">
         <Link to="#">
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="lg:text-2xl text-lg font-bold tracking-tight dark:text-white text-slate-950">
             {title}
           </h5>
         </Link>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+
+        <p className="mt-2 mb-2 font-normal dark:text-gray-400 text-gray-600">
           {desc}
         </p>
+
         <Link to="#">
-          <Button> Read More </Button>
+          <div className="mb-2 hover:scale-[1.15] hover:translate-x-5 transition duration-500 ease-in-out">
+            <Button2>Learn More</Button2>
+          </div>
         </Link>
       </div>
-    </div>
+    </>
   );
 }
 

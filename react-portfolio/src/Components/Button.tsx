@@ -3,16 +3,22 @@ interface Props {
 }
 
 function Button({ children }: Props) {
+  const top = () => {
+    window.scrollTo({
+      top: 0,
+    });
+  };
+
   return (
     <>
       <button
-        className="transform hover:scale-[1.15] transition duration-500 ease-in-out relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-medium text-gray-950 rounded-lg group 
-      bg-gradient-135 from-bright-orange from-20% to-regal-blue to-80% group-hover:from-bright-orange from-20% group-hover:to-regal-blue to-80% 
-      hover:text-white dark:text-white"
+        className="transform hover:scale-[1.15] transition duration-200 ease-in-out relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-medium hover:text-slate-100 text-slate-950 dark:text-white rounded-lg group 
+      bg-gradient-135 from-bright-orange from-20% to-regal-blue to-80% group-hover:from-bright-orange group-hover:to-regal-blue"
+        onClick={top}
       >
         <span
-          className="relative px-5 py-2.5 transition-all ease-in duration-75 
-          bg-white dark:bg-gray-950 rounded-md group-hover:bg-opacity-0"
+          className="relative w-[88px] py-2.5 transition-all ease-in duration-200 
+          bg-gray-100 dark:bg-slate-950 rounded-md group-hover:bg-opacity-0"
         >
           {children}
         </span>

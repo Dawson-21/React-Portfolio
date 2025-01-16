@@ -11,7 +11,8 @@ export default {
         'bright-orange': '#ff4500'
       },
       backgroundImage: {
-        'gradient-135': 'linear-gradient(135deg, var(--tw-gradient-stops))'
+        'gradient-135': 'linear-gradient(135deg, var(--tw-gradient-stops))',
+        'gradient-45': 'linear-gradient(45deg, var(--tw-gradient-stops))'
       },
     },
   },
