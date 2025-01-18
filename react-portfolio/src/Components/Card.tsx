@@ -16,7 +16,7 @@ function Card({ img, title, desc }: Props) {
 
       <div className="p-5 pb-2">
         <Link to="#">
-          <h5 className="lg:text-2xl text-lg font-bold tracking-tight dark:text-white text-slate-950">
+          <h5 className="lg:text-2xl text-lg font-myFont font-extrabold tracking-tight dark:text-light text-dark">
             {title}
           </h5>
         </Link>
@@ -26,7 +26,7 @@ function Card({ img, title, desc }: Props) {
         </p>
 
         <Link to="#">
-          <div className="mb-2 hover:scale-[1.15] hover:translate-x-5 transition duration-500 ease-in-out">
+          <div className="mb-2 hover:scale-[1.15] hover:translate-x-5 transition duration-500 ease-in-out font-myFont">
             <Button2>Learn More</Button2>
           </div>
         </Link>

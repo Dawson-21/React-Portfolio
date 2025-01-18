@@ -1,3 +1,4 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -8,11 +9,16 @@ export default {
     extend: {
       colors: {
         'regal-blue': '#0047ff',
-        'bright-orange': '#ff4500'
+        'bright-orange': '#ff4500',
+        'light': '#f3f4f6',
+        'dark': '#020617'
       },
       backgroundImage: {
         'gradient-135': 'linear-gradient(135deg, var(--tw-gradient-stops))',
         'gradient-45': 'linear-gradient(45deg, var(--tw-gradient-stops))'
+      },
+      fontFamily: {
+        myFont: ['Adani', ...defaultTheme.fontFamily.sans],
       },
     },
   },

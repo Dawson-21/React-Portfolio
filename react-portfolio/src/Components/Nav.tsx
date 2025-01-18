@@ -15,7 +15,7 @@ function Nav(props: {
 
   if (props.showMenu) {
     mobileMenu = (
-      <div className="fixed top-[90px] right-0 sm:w-[188px] w-[183px] h-auto bg-gray-100/70 dark:bg-slate-950/80 border-2 border-r-0 rounded-l-xl border-bright-orange/40 fade-left-fast md:hidden">
+      <div className="fixed top-[90px] right-0 sm:w-[188px] w-[183px] h-auto bg-light/70 dark:bg-dark/80 border-2 border-r-0 rounded-l-xl border-bright-orange/40 fade-left-fast md:hidden">
         <ul className="flex-col space-y-4 pl-6 py-5">
           <li onClick={() => props.setShowMenu(false)}>
             <Link to="/">
@@ -44,7 +44,7 @@ function Nav(props: {
 
   return (
     <>
-      <nav className="backdrop-blur-sm bg-gray-100/80 dark:bg-gray-950/80 fixed w-full z-20 top-0 start-0 border-b border-bright-orange/40">
+      <nav className="font-myFont backdrop-blur-sm bg-light/80 dark:bg-dark/80 fixed w-full z-20 top-0 start-0 border-b border-bright-orange/40">
         <div className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto py-2 lg:px-[6%] md:px-[4%] px-[3%]">
           <Link to="/" onClick={top}>
             <div
@@ -66,7 +66,7 @@ function Nav(props: {
 
             <button
               type="button"
-              className="inline-flex items-center p-2 w-10 h-10 mt-0.5 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-600"
+              className="inline-flex items-center p-2 w-10 h-10 mt-0.5 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-light dark:text-light dark:hover:bg-gray-800 dark:focus:ring-gray-600"
               onClick={() => props.setShowMenu(!props.showMenu)}
             >
               <span className="sr-only">Open main menu</span>

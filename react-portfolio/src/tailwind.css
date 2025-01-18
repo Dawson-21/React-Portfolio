@@ -4,50 +4,93 @@
 
 @layer components {
   .fade-left {
-    position:relative;
-    animation:animateleft 2s;
+    position: relative;
+    animation: animateleft 1s;
   }
   @keyframes animateleft {
-    from{right:-300px;opacity:0} 
-    to{right:0;opacity:1}
+    from {
+      right: -300px;
+      opacity: 0;
+    }
+    to {
+      right: 0;
+      opacity: 1;
+    }
   }
   .fade-left-fast {
-    position:relative;
-    animation:animateleftfast 1.5s;
+    position: relative;
+    animation: animateleftfast 1.5s;
   }
   @keyframes animateleftfast {
-    from{right:-190px;opacity:1} 
-    to{right:0;opacity:1}
+    from {
+      right: -190px;
+      opacity: 1;
+    }
+    to {
+      right: 0;
+      opacity: 1;
+    }
   }
   .fade-up {
-    position:relative;
-    animation:animatebottom 2s;
+    position: relative;
+    animation: animatebottom 2s;
   }
   @keyframes animatebottom {
-    from{bottom:-300px;opacity:0} 
-    to{bottom:0;opacity:1}
+    from {
+      bottom: -300px;
+      opacity: 0;
+    }
+    to {
+      bottom: 0;
+      opacity: 1;
+    }
   }
   .fade-right {
-    position:relative;
-    animation:animateright 2s;
+    position: relative;
+    animation: animateright 1s;
   }
   @keyframes animateright {
-    from{left:-300px;opacity:0} 
-    to{left:0;opacity:1}
+    from {
+      left: -300px;
+      opacity: 0;
+    }
+    to {
+      left: 0;
+      opacity: 1;
+    }
   }
   .fade-down {
-    position:relative;
-    animation:animatetop 2s;
+    position: relative;
+    animation: animatetop 2s;
   }
   @keyframes animatetop {
-    from{top:-300px;opacity:0} 
-    to{top:0;opacity:1}
+    from {
+      top: -300px;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      opacity: 1;
+    }
   }
   .fade-in {
-    animation:animatein 2s;
+    animation: animatein 2s;
   }
   @keyframes animatein {
-    0% {opacity:0;} 
-    100% {opacity:1;}
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: "Adani";
+    src: url("./src/assets/fonts/adani.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
   }
 }

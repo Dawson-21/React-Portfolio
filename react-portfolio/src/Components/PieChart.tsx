@@ -1,13 +1,13 @@
 export default function PieChart() {
   return (
     <>
-      <div className="grid grid-cols-12 py-20 bg-gray-100 snap-start">
+      <div className="grid grid-cols-12 py-20 bg-light snap-start">
         <div className="col-span-12 ml-[16%] mr-[16%] md:hidden block">
           <img src="pie-chart8.png" />
         </div>
 
-        <div className="md:col-span-4 col-span-6 md:pl-0 sm:pl-5">
-          <h2 className="xl:pt-24 lg:pt-20 md:pt-14 sm:-ml-0 -ml-3 text-center sm:text-5xl text-4xl font-semibold text-gray-950 tracking-wide">
+        <div className="md:col-span-4 col-span-6 md:pl-0 sm:pl-5 text-dark">
+          <h2 className="xl:pt-24 lg:pt-20 md:pt-14 sm:-ml-0 -ml-3 text-center sm:text-5xl text-4xl font-myFont font-extrabold tracking-wide">
             Coder
           </h2>
 
@@ -24,11 +24,11 @@ export default function PieChart() {
         </div>
 
         <div className="col-span-4 -mx-8 md:block hidden">
-          <img src="pie-chart8.png" />
+          <img src="pie-chart.png" />
         </div>
 
-        <div className="md:col-span-4 col-span-6 lg:pr-[15%] md:pr-[5%] md:pl-0 sm:pl-5">
-          <h2 className="xl:pt-24 lg:pt-20 md:pt-14 text-center sm:text-5xl text-4xl font-semibold text-gray-950 tracking-wide">
+        <div className="md:col-span-4 col-span-6 lg:pr-[15%] md:pr-[5%] md:pl-0 sm:pl-5 text-dark">
+          <h2 className="xl:pt-24 lg:pt-20 md:pt-14 text-center sm:text-5xl text-4xl font-myFont font-extrabold tracking-wide">
             Designer
           </h2>
 
