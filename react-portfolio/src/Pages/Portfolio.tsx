@@ -3,6 +3,8 @@ import Card from "../Components/Card";
 export default function Portfolio() {
   return (
     <>
+      {/****************** HERO SECTION ******************/}
+
       <div className="relative isolate px-6 lg:py-0 pt-32 py-10 lg:pt-14 lg:px-8 bg-light dark:bg-dark shadow-lg shadow-bright-orange/45 dark:shadow-gray-900 overflow-clip rounded-b-xl">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -15,7 +17,7 @@ export default function Portfolio() {
             <h1 className="max-w-2xl mb-4 mx-auto lg:text-center font-myFont font-extrabold tracking-tight leading-none text-4xl sm:text-5xl lg:text-6xl dark:text-light">
               Portfolio
             </h1>
-            <p className="max-w-2xl mb-6 mx-auto font-light text-center text-gray-500 lg:mb-8 text-lg dark:text-gray-400">
+            <p className="max-w-2xl mb-6 mx-auto font-myFont text-[15px] text-justify text-gray-600 lg:mb-8 text-lg dark:text-gray-400">
               From building dynamic systems to crafting user-friendly designs,
               I’m always up for a new coding challenge. Feel free to check out
               my projects and see what I’ve been up to!
@@ -55,6 +57,8 @@ export default function Portfolio() {
           <div className="relative aspect-[1155/378] -translate-x-1/2 bg-gradient-to-r from-[#0047ff] to-[#ff4500] opacity-20 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"></div>
         </div>
       </div>
+
+      {/****************** PROJECTS SECTION ******************/}
 
       <div className="py-20 bg-light">
         <div className="grid grid-cols-3">

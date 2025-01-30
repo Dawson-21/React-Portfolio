@@ -12,7 +12,7 @@ function Button({ children }: Props) {
   return (
     <>
       <button
-        className="transform hover:scale-[1.15] transition duration-200 ease-in-out relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-medium hover:text-light text-dark dark:text-light rounded-lg group 
+        className="transform hover:scale-[1.15] transition duration-200 ease-in-out relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-bold hover:text-light text-dark dark:text-light rounded-lg group 
       bg-gradient-135 from-bright-orange from-20% to-regal-blue to-80% group-hover:from-bright-orange group-hover:to-regal-blue"
         onClick={top}
       >

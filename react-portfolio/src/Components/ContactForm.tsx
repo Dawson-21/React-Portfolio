@@ -73,12 +73,12 @@ const ContactForm: React.FC = () => {
          Do I Need to include type="submit"? */}
         <div className="lg:place-self-end place-self-center max-lg:pt-10">
           <button
-            className="transform hover:scale-[1.15] transition duration-200 ease-in-out relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-md font-medium hover:text-light text-dark dark:text-light rounded-lg group 
+            className="transform hover:scale-[1.15] transition duration-200 ease-in-out relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-md font-bold hover:text-light text-dark dark:text-dark rounded-lg group 
             bg-gradient-135 from-bright-orange from-20% to-regal-blue to-80% group-hover:from-bright-orange group-hover:to-regal-blue"
           >
             <span
               className="relative w-40 py-2.5 transition-all ease-in duration-200 
-          bg-light dark:bg-dark rounded-md group-hover:bg-opacity-0"
+          bg-light dark:bg-light rounded-md group-hover:bg-opacity-0"
             >
               Send Email
             </span>

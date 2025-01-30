@@ -19,20 +19,21 @@ export default function Home() {
             <h1 className="max-w-2xl mb-4 md:-mr-20 -mr-5 font-myFont font-extrabold tracking-tight leading-none text-4xl sm:text-5xl lg:text-5xl xl:text-6xl dark:text-light">
               Hi, I'm Dawson Adams
             </h1>
-            <p className="max-w-2xl mb-6 font-light text-justify text-gray-900 lg:mb-8 xl:pr-20 lg:pr-10 text-lg dark:text-gray-400">
+            <p className="max-w-2xl mb-6 font-myFont text-[15px] text-justify text-gray-600 lg:mb-8 xl:pr-20 lg:pr-10 text-lg dark:text-gray-400">
               Professional web developer and aspiring software engineer with
-              skills ranging from React.js to C++. I recently graduated from
-              Texas A&M University - Corpus Christi with a Bachelor of Computer
-              Science.
+              skills ranging from front-end design and user experience
+              optimization to back-end development and database management. I
+              recently graduated from Texas A&M University - Corpus Christi with
+              a Bachelor of Computer Science.
             </p>
             <Link to="/about">
               <button
-                className="transform hover:scale-[1.15] transition duration-200 ease-in-out relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-myFont text-light dark:text-light rounded-lg group 
+                className="transform hover:scale-[1.15] transition duration-200 ease-in-out relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-myFont text-dark font-extrabold hover:text-light dark:text-light rounded-lg group 
                 bg-gradient-135 from-bright-orange from-20% to-regal-blue to-80% group-hover:from-bright-orange group-hover:to-regal-blue"
               >
                 <span
                   className="relative px-5 py-2.5 transition-all ease-in duration-200 
-                bg-bg dark:bg-slate-950 rounded-md group-hover:bg-opacity-0"
+                bg-light dark:bg-slate-950 rounded-md group-hover:bg-opacity-0"
                 >
                   Learn More
                 </span>

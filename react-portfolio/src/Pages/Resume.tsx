@@ -4,6 +4,8 @@ import ContactForm from "../Components/ContactForm";
 export default function Resume() {
   return (
     <>
+      {/****************** HERO SECTION ******************/}
+
       <div className="relative isolate px-6 lg:py-0 pt-32 py-10 lg:pt-14 lg:px-8 bg-light dark:bg-dark shadow-lg shadow-bright-orange/45 dark:shadow-gray-900 overflow-clip">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -23,6 +25,15 @@ export default function Resume() {
             </p>
           </div>
         </div>
+
+        <div
+          className="absolute inset-x-0 top-[calc(100%-13rem)] -z-30 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+          aria-hidden="true"
+        >
+          <div className="relative aspect-[1155/378] -translate-x-1/2 bg-gradient-to-r from-[#0047ff] to-[#ff4500] opacity-20 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"></div>
+        </div>
+
+        {/****************** RESUME SECTION ******************/}
 
         <div className="place-self-center pb-10">
           <iframe
@@ -100,14 +111,8 @@ export default function Resume() {
             </button>
           </Link>
         </div>
-
-        <div
-          className="absolute inset-x-0 top-[calc(100%-13rem)] -z-30 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
-          aria-hidden="true"
-        >
-          <div className="relative aspect-[1155/378] -translate-x-1/2 bg-gradient-to-r from-[#0047ff] to-[#ff4500] opacity-20 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"></div>
-        </div>
       </div>
+
       {/****************** CONTACT FORM SECTION ******************/}
 
       <div className="md:pt-[8.5vw] pt-[12.5vw] md:pb-[4.5vw] pb-[6.5vw] bg-light">

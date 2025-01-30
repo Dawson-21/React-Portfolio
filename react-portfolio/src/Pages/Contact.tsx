@@ -20,7 +20,7 @@ export default function Contact() {
               Contact
             </h1>
 
-            <p className="max-w-2xl mb-6 font-light text-justify text-dark lg:mb-8 xl:pr-20 lg:pr-10 text-lg dark:text-gray-400">
+            <p className="max-w-2xl mb-6 font-myFont text-[15px] text-justify text-gray-600 lg:mb-8 xl:pr-20 lg:pr-10 text-lg dark:text-gray-400">
               Reach out on social media or drop me an email for inquiries.
             </p>
 

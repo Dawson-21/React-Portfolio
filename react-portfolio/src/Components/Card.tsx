@@ -21,7 +21,7 @@ function Card({ img, title, desc }: Props) {
           </h5>
         </Link>
 
-        <p className="mt-2 mb-2 font-normal dark:text-gray-400 text-gray-600">
+        <p className="mt-2 mb-2 font-myFont text-[13px] dark:text-gray-400 text-gray-600">
           {desc}
         </p>
 

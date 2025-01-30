@@ -27,7 +27,7 @@ export default function About() {
             <h1 className="max-w-2xl mb-4 font-myFont font-extrabold tracking-tight leading-none text-4xl sm:text-5xl lg:text-5xl xl:text-6xl dark:text-white lg:text-center">
               About
             </h1>
-            <p className="max-w-2xl font-light text-justify text-gray-500 lg:mb-8 md:mb-0 mb-6 text-lg dark:text-gray-400">
+            <p className="max-w-2xl font-myFont text-[15px] text-justify text-gray-600 lg:mb-8 md:mb-0 mb-6 text-lg dark:text-gray-400">
               I'm passionate about all things code and love diving into new
               skills and challenges to keep growing my expertise. When I'm not
               wrestling with code, you can find me whipping up something tasty

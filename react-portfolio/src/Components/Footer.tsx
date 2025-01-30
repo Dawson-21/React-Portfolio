@@ -14,7 +14,7 @@ export default function Footer() {
           <Link to="/">
             <img
               src="My-Logo1.png"
-              className="h-20 hover:scale-[1.15] transition duration-500 ease-in-out"
+              className="h-[64px] hover:scale-[1.15] transition duration-500 ease-in-out"
               alt="Dawson Adams Logo"
               onClick={top}
             />
@@ -44,7 +44,7 @@ export default function Footer() {
         </div>
         <hr className="my-6 border-gray-300 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <span className="block text-sm text-gray-500 text-center dark:text-gray-400">
-          © 2023 <p className="inline">Dawson Adams</p>
+          © 2025 <p className="inline">Dawson Adams</p>
         </span>
       </div>
     </footer>

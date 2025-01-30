@@ -23,8 +23,12 @@ export default function PieChart() {
           </ul>
         </div>
 
-        <div className="col-span-4 -mx-8 md:block hidden">
+        <div className="col-span-4 -mx-8 dark:md:block hidden">
           <img src="pie-chart.png" />
+        </div>
+
+        <div className="col-span-4 -mx-8 dark:hidden md:block hidden">
+          <img src="pie-chart1.png" />
         </div>
 
         <div className="md:col-span-4 col-span-6 lg:pr-[15%] md:pr-[5%] md:pl-0 sm:pl-5 text-dark">
