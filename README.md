@@ -14,7 +14,7 @@ This project is a personal portfolio website built from scratch using React.js a
 ## Highlights
 - **Responsive Design:** Ensures a seamless experience across all devices using Tailwind CSS.
 - **Modern UI:** Implements a clean and modern user interface with the help of React.js.
-- **Backend Integration:** Utilizes Vercel to handle server-side operations and database management.
+- **Backend Integration:** Utilizes Vercel to handle server-side operations and GitHub for database management.
 - **State Management:** Efficiently manages application state using React hooks.
 
 ## Installation and Setup
