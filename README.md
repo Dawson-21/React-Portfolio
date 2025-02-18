@@ -17,13 +17,6 @@ This project is a personal portfolio website built from scratch using React.js a
 - **Backend Integration:** Utilizes Vercel to handle server-side operations and GitHub for database management.
 - **State Management:** Efficiently manages application state using React hooks.
 
-## Installation and Setup
-1. Clone the repository: `git clone <repository-url>`
-2. Navigate to the project directory: `cd portfolio-website`
-3. Install dependencies: `npm install`
-4. Start the development server: `npm run dev`
-5. Open your browser and visit `http://localhost:3000` to see the website in action.
-
 ## Future Enhancements
 - **Improved SEO:** Optimizing the website for better search engine rankings.
 - **Blog:** A blog section where I share my thoughts, tutorials, and experiences related to web development.
