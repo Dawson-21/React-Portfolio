@@ -9,7 +9,7 @@ export default function IconList({ img }: Props) {
         <div className="rounded-[8px] py-[0.8vw] bg-light dark:bg-dark transition-all ease-in duration-200 group-hover:bg-opacity-0">
           <img
             src={img}
-            className="w-auto h-8 px-[15%] inline-flex invert dark:invert-0"
+            className="w-auto h-8 px-[19%] inline-flex invert dark:invert-0"
           />
         </div>
       </div>

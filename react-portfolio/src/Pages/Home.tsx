@@ -71,7 +71,7 @@ export default function Home() {
         </div>
 
         <div className="inline-flex xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-10 md:gap-6 sm:gap-4 gap-2 pt-6">
-          <div className="md:max-w-sm max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
+          <div className="md:max-w-md max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
             <Card
               img="img-2.png"
               title="Portfolio Website"

@@ -77,7 +77,7 @@ export default function About() {
           <div className="lg:-ml-[34%] md:-ml-[24%] sm:-ml-[36%] -ml-[60%] xl:space-y-[3.2vw] lg:space-y-[3.4vw] md:space-y-[3.9vw] sm:space-y-[4.5vw] space-y-[4.8vw] lg:pt-0 pt-[1.8vw]">
             <p>I love going to the beach</p>
             <p>I'm slightly obsessed with ancient civilizations</p>
-            <p>Nicola Tesla is my mentor</p>
+            <p>Alan Watts & Nicola Tesla are my mentors</p>
           </div>
         </div>
       </div>
@@ -89,15 +89,16 @@ export default function About() {
 
         <SectionTitle>EDUCATION</SectionTitle>
 
-        <div className="grid lg:grid-cols-2 lg:h-[400px] lg:px-0 md:px-20 px-10 md:pb-20 pb-10">
+        <div className="grid max-w-[1400px] lg:grid-cols-2 lg:h-[400px] lg:px-0 md:px-20 px-10 md:pb-20 pb-10 place-self-center">
           <div className="lg:-mb-10 h-auto">
             <img
               src="tamucc.png"
-              className="h-auto xl:w-[80%] lg:w-[70%] md:w-[40%] sm:w-[40%] w-[50%] xl:pl-[10%] xl:mx-0 lg:mx-auto lg:pr-0 pr-5 sm:ml-[27%] ml-[20%]"
+              className="h-auto max-w-[600px] 2xl:w-[80%] xl:w-[80%] lg:w-[75%] sm:w-[40%] w-[50%] 
+                         xl:pl-[10%] xl:mx-0 lg:mx-auto lg:pr-0 pr-5 sm:ml-[27%] ml-[20%]"
             />
           </div>
 
-          <div className="font-light xl:text-lg lg:text-base xl:-ml-[10%] lg:-ml-[6%] lg:mr-[10%] space-y-5 lg:mt-0 mt-5">
+          <div className="font-light xl:text-lg lg:text-base max-w-[770px] xl:-ml-[10%] lg:-ml-[6%] lg:mr-[10%] space-y-5 lg:mt-0 mt-5">
             <p>
               In December 2023, I earned my Bachelor’s degree in Computer
               Science with a specialization in Systems Programming from Texas
@@ -130,14 +131,14 @@ export default function About() {
         <SectionTitle>SKILLS</SectionTitle>
 
         <div className="inline-flex">
-          <div className="w-[16vw] -mt-4 pr-6 xl:space-y-[67px] md:space-y-[72px] text-right font-myFont xl:text-lg md:text-base">
+          <div className="lg:w-[22vw] w-[16vw] -mt-4 pr-6 xl:space-y-[67px] md:space-y-[72px] text-right font-myFont xl:text-lg md:text-base">
             <p>Master</p>
             <p>Journeyman</p>
             <p>Apprentice</p>
             <p>Rookie</p>
           </div>
 
-          <div className="xl:w-[67vw] lg:w-[69vw] md:w-[72vw] border-l-[2px] border-gray-300">
+          <div className="2xl:w-[60vw] xl:w-[60vw] lg:w-[60vw] md:w-[72vw] border-l-[2px] border-gray-300">
             <div className="border-y-[2px] border-gray-300 h-24"></div>
             <div className="h-24"></div>
             <div className="border-y-[2px] border-gray-300 h-24"></div>
@@ -202,15 +203,15 @@ export default function About() {
       <div className="bg-light">
         <SectionTitle>CORE VALUES</SectionTitle>
 
-        <div className="grid xl:grid-cols-3 md:grid-cols-2 pb-20 -mt-10">
+        <div className="grid xl:grid-cols-3 md:grid-cols-2 pb-20 -mt-10 2xl:mx-[8%]">
           <div className="xl:pl-16 xl:-mr-16 py-8">
             <IconBox
-              icon="innovate2.svg"
-              title="Innovation"
-              desc="I'm dedicated to staying ahead in the ever-evolving tech landscape
-              by continuously learning and exploring new ideas. Embracing
-              innovation drives me to push boundaries and deliver cutting-edge
-              solutions."
+              icon="collab2.svg"
+              title="Collaboration"
+              desc="I believe that effective teamwork and clear communication are
+              essential for achieving success, whether collaborating within a
+              team or contributing to open-source projects. In my personal
+              experience, cooperation and shared goals drive the best outcomes."
             />
           </div>
 
@@ -249,12 +250,12 @@ export default function About() {
 
           <div className="py-8">
             <IconBox
-              icon="collab2.svg"
-              title="Collaboration"
-              desc="I believe that effective teamwork and clear communication are
-              essential for achieving success, whether collaborating within a
-              team or contributing to open-source projects. In my personal
-              experience, cooperation and shared goals drive the best outcomes."
+              icon="innovate2.svg"
+              title="Innovation"
+              desc="I'm dedicated to staying ahead in the ever-evolving tech landscape
+              by continuously learning and exploring new ideas. Embracing
+              innovation drives me to push boundaries and deliver cutting-edge
+              solutions."
             />
           </div>
 

@@ -23,18 +23,18 @@ export default function Portfolio() {
               my projects and see what I’ve been up to!
             </p>
           </div>
-          <div className="hidden -z-10 lg:col-span-12 lg:flex xl:h-36 lg:h-28 pt-10">
+          <div className="hidden -z-10 lg:col-span-12 lg:flex items-center xl:h-36 lg:h-28 pt-10">
             <img
               src="TGS.png"
-              className="absolute w-auto h-[10vw] fade-in top-[310px] translate-x-[72vw]"
+              className="absolute w-auto h-[10vw] fade-in translate-x-[72vw]"
             ></img>
             <img
               src="CD.png"
-              className="w-auto h-[8vw] absolute fade-in top-[325px] translate-x-[36vw] hidden dark:block"
+              className="w-auto h-[8vw] absolute fade-in translate-x-[36vw] hidden dark:block"
             ></img>
             <img
               src="CD2.png"
-              className="w-auto h-[8vw] absolute fade-in top-[325px] translate-x-[36vw] dark:hidden"
+              className="w-auto h-[8vw] absolute fade-in translate-x-[36vw] dark:hidden"
             ></img>
             <img
               src="MD.png"
@@ -75,21 +75,21 @@ export default function Portfolio() {
           <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
             <Card
               img="CNC2.png"
-              title="Garage Door Website"
-              desc="CNC Garage Doors is a locally owned and operated company servicing the residents of the Dallas/Fort Worth Metroplex. CNC reached out for help designing their brand and UI/UX."
+              title="Local Business Website"
+              desc="CNC Garage Doors is a locally owned and operated company servicing the residents of the Dallas/Fort Worth Metroplex. CNC reached out for help designing their new website and brand."
             />
           </div>
           <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
             <Card
               img="TGS2.png"
-              title="Gutter Business Website"
+              title="Fresh Website + Brand Redesign"
               desc="I developed this website using WordPress, incorporating various plugins to enhance performance and functionality. The result is a clean, modern, and streamlined one-page design tailored to meet the company’s needs for their new online presence."
             />
           </div>
           <div className="hidden lg:block max-w-[33%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
             <Card
               img="DCTC2.png"
-              title="Carpet Cleaning Website"
+              title="Vegas Carpet Cleaning Website"
               desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
                 eiusmod tempor incididunt ut labore."
             />
@@ -100,7 +100,7 @@ export default function Portfolio() {
           <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
             <Card
               img="img-2.png"
-              title="Portfolio Website"
+              title="MERN Stack Portfolio"
               desc="Built from the ground up using React.js
                 and Tailwind CSS, with many reusable components and well written
                 code."
