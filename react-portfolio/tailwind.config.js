@@ -19,6 +19,9 @@ export default {
       },
       fontFamily: {
         myFont: ['Adani', ...defaultTheme.fontFamily.sans],
+        style1: ['Dongle-Light', ...defaultTheme.fontFamily.sans],
+        style2: ['Dongle-Regular', ...defaultTheme.fontFamily.sans],
+        style3: ['Dongle-Bold', ...defaultTheme.fontFamily.sans],
       },
     },
   },

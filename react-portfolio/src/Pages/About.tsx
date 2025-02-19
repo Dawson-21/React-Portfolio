@@ -23,11 +23,11 @@ export default function About() {
               className="fade-right"
             ></img>
           </div>
-          <div className="place-self-center lg:col-span-7 fade-in lg:mt-0 mt-8">
-            <h1 className="max-w-2xl mb-4 font-myFont font-extrabold tracking-tight leading-none text-4xl sm:text-5xl lg:text-5xl xl:text-6xl dark:text-white lg:text-center">
+          <div className="place-self-center lg:col-span-7 fade-in lg:mt-0 mt-8 pl-44">
+            <h1 className="max-w-2xl mb-4 font-style3 text-4xl sm:text-5xl lg:text-5xl xl:text-9xl dark:text-white lg:text-center">
               About
             </h1>
-            <p className="max-w-2xl font-myFont text-[15px] text-justify text-gray-600 lg:mb-8 md:mb-0 mb-6 text-lg dark:text-gray-400">
+            <p className="max-w-2xl font-style1 text-3xl leading-none text-justify text-gray-600 lg:mb-8 md:mb-0 mb-6 dark:text-gray-400">
               I'm passionate about all things code and love diving into new
               skills and challenges to keep growing my expertise. When I'm not
               wrestling with code, you can find me whipping up something tasty
@@ -131,7 +131,7 @@ export default function About() {
         <SectionTitle>SKILLS</SectionTitle>
 
         <div className="inline-flex">
-          <div className="lg:w-[22vw] w-[16vw] -mt-4 pr-6 xl:space-y-[67px] md:space-y-[72px] text-right font-myFont xl:text-lg md:text-base">
+          <div className="lg:w-[22vw] w-[16vw] -mt-4 pr-6 xl:space-y-[59px] md:space-y-[72px] text-right font-style1 xl:text-3xl md:text-base">
             <p>Master</p>
             <p>Journeyman</p>
             <p>Apprentice</p>
@@ -147,7 +147,7 @@ export default function About() {
                 <p className="xl:pt-[194px] md:pt-[209px] font-extralight text-dark dark:text-white text-center xl:text-5xl lg:text-4xl md:text-3xl">
                   75%
                 </p>
-                <p className="font-myFont text-dark dark:text-white text-center xl:text-xl lg:text-base md:text-sm">
+                <p className="font-style2 text-dark dark:text-white text-center xl:text-4xl lg:text-base md:text-sm">
                   C/C++
                 </p>
                 <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-45 from-bright-orange from-20% to-regal-blue to-80% blur-2xl dark:opacity-20"></div>
@@ -157,7 +157,7 @@ export default function About() {
                 <p className="xl:pt-[250px] md:pt-[265px] font-extralight text-dark dark:text-white text-center xl:text-5xl lg:text-4xl md:text-3xl">
                   90%
                 </p>
-                <p className="font-myFont text-dark dark:text-white text-center xl:text-xl lg:text-base md:text-sm">
+                <p className="font-style2 text-dark dark:text-white text-center xl:text-4xl lg:text-base md:text-sm">
                   HTML/CSS
                 </p>
                 <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-to-br from-bright-orange from-20% to-regal-blue to-80% blur-2xl dark:opacity-20"></div>
@@ -167,7 +167,7 @@ export default function About() {
                 <p className="xl:pt-[230px] md:pt-[245px] font-extralight text-dark dark:text-white text-center xl:text-5xl lg:text-4xl md:text-3xl">
                   85%
                 </p>
-                <p className="font-myFont text-dark dark:text-white text-center xl:text-xl lg:text-base md:text-sm">
+                <p className="font-style2 text-dark dark:text-white text-center xl:text-4xl lg:text-base md:text-sm">
                   TypeScript
                 </p>
                 <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-to-t from-bright-orange from-20% to-regal-blue to-80% blur-2xl dark:opacity-20"></div>
@@ -177,7 +177,7 @@ export default function About() {
                 <p className="xl:pt-[210px] md:pt-[225px] font-extralight text-dark dark:text-white text-center xl:text-5xl lg:text-4xl md:text-3xl">
                   80%
                 </p>
-                <p className="font-myFont text-dark dark:text-white text-center xl:text-xl lg:text-base md:text-sm">
+                <p className="font-style2 text-dark dark:text-white text-center xl:text-4xl lg:text-base md:text-sm">
                   React JS
                 </p>
                 <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-to-b from-bright-orange from-20% to-regal-blue to-80% blur-2xl dark:opacity-20"></div>
@@ -187,7 +187,7 @@ export default function About() {
                 <p className="xl:pt-[156px] md:pt-[173px] font-extralight text-dark dark:text-white text-center xl:text-5xl lg:text-4xl md:text-3xl">
                   65%
                 </p>
-                <p className="font-myFont text-dark dark:text-white text-center xl:text-xl lg:text-base md:text-xs">
+                <p className="font-style2 text-dark dark:text-white text-center xl:text-4xl lg:text-base md:text-xs">
                   Python
                 </p>
                 <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-135 from-bright-orange from-20% to-regal-blue to-80% blur-2xl dark:opacity-20"></div>

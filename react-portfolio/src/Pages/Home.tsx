@@ -16,10 +16,10 @@ export default function Home() {
         </div>
         <div className="grid max-w-screen-2xl px-8 py-8 mx-auto xl:px-16 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 fade-in">
           <div className="mr-auto place-self-center lg:col-span-7">
-            <h1 className="max-w-2xl mb-4 md:-mr-20 -mr-5 font-[Adani] font-extrabold tracking-tight leading-none text-4xl sm:text-5xl lg:text-5xl xl:text-6xl dark:text-light">
+            <h1 className="max-w-2xl mb-4 md:-mr-20 -mr-5 font-style3 text-4xl sm:text-5xl lg:text-5xl xl:text-8xl dark:text-light">
               Hi, I'm Dawson Adams
             </h1>
-            <p className="max-w-2xl mb-6 font-[Adani] text-[15px] text-justify text-gray-600 lg:mb-8 xl:pr-20 lg:pr-10 text-lg dark:text-gray-400">
+            <p className="max-w-2xl mb-6 font-style1 text-justify text-gray-600 lg:mb-8 xl:pr-20 lg:pr-10 text-2xl dark:text-gray-400">
               Professional web developer and aspiring software engineer with
               skills ranging from front-end design and user experience
               optimization to back-end development and database management. I
@@ -28,11 +28,11 @@ export default function Home() {
             </p>
             <Link to="/about">
               <button
-                className="transform hover:scale-[1.15] transition duration-200 ease-in-out relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-myFont text-dark font-extrabold hover:text-light dark:text-light rounded-lg group 
+                className="transform hover:scale-[1.15] transition duration-200 ease-in-out relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-2xl font-style3 text-dark font-extrabold hover:text-light dark:text-light rounded-lg group 
                 bg-gradient-135 from-bright-orange from-20% to-regal-blue to-80% group-hover:from-bright-orange group-hover:to-regal-blue"
               >
                 <span
-                  className="relative px-5 py-2.5 transition-all ease-in duration-200 
+                  className="relative px-5 pt-1 pb-0.5 transition-all ease-in duration-200 
                 bg-light dark:bg-slate-950 rounded-md group-hover:bg-opacity-0"
                 >
                   Learn More
@@ -40,7 +40,7 @@ export default function Home() {
               </button>
             </Link>
             <Link to="/portfolio">
-              <div className="inline-flex px-5 py-3 mr-3 font-myFont hover:scale-[1.15] transition duration-500 ease-in-out">
+              <div className="inline-flex px-5 py-3 mr-3 text-2xl font-style2 hover:scale-[1.15] transition duration-500 ease-in-out">
                 <Button2>View My Work</Button2>
               </div>
             </Link>
@@ -63,7 +63,7 @@ export default function Home() {
         <div className="grid grid-cols-3">
           <div className="border-t-2 border-dark md:mt-3 mt-[10px] xl:ml-[25%] lg:ml-[20%] md:ml-[16%] ml-[12%] md:mr-4 sm:mr-6 mr-10 xl:translate-x-[15%] lg:translate-x-[5%]"></div>
 
-          <h2 className="sm:-mx-4 -mx-10 text-center font-myFont lg:text-lg md:text-base text-sm text-dark tracking-widest">
+          <h2 className="sm:-mx-4 -mx-10 text-center font-style1 lg:text-3xl md:text-base text-sm text-dark tracking-widest">
             MY LATEST PROJECTS
           </h2>
 

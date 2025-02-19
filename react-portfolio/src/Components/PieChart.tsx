@@ -7,11 +7,11 @@ export default function PieChart() {
         </div>
 
         <div className="md:col-span-4 col-span-6 md:pl-0 sm:pl-5 text-dark">
-          <h2 className="2xl:-mr-[2vw] xl:pt-24 lg:pt-20 md:pt-14 sm:-ml-0 -ml-3 text-center 2xl:text-6xl sm:text-5xl text-4xl font-myFont font-extrabold tracking-wide">
+          <h2 className="2xl:-mr-[2vw] xl:pt-24 lg:pt-20 md:pt-14 sm:-ml-0 -ml-3 text-center 2xl:text-8xl sm:text-5xl text-4xl font-style2 tracking-wide">
             Coder
           </h2>
 
-          <ul className="text-left 2xl:pl-[13.3vw] xl:pl-[37%] lg:pl-[35%] md:pl-[31%] pl-[32%] pt-4 lg:-mr-0 md:-mr-8 font-light xl:text-lg lg:text-base">
+          <ul className="text-left 2xl:pl-[13.3vw] xl:pl-[37%] lg:pl-[35%] md:pl-[31%] pl-[32%] lg:-mr-0 md:-mr-8 font-style1 text-3xl">
             <li>HTML5/CSS3</li>
             <li>TypeScript</li>
             <li>React.js</li>
@@ -19,7 +19,7 @@ export default function PieChart() {
             <li>C/C++</li>
             <li>Java</li>
             <li>Python</li>
-            <li className="md:text-base text-sm">Consulting Rubber Ducky</li>
+            <li className="md:text-2xl text-sm">Consulting Rubber Ducky</li>
           </ul>
         </div>
 
@@ -32,11 +32,11 @@ export default function PieChart() {
         </div>
 
         <div className="md:col-span-4 col-span-6 lg:pr-[15%] md:pr-[5%] md:pl-0 sm:pl-5 text-dark">
-          <h2 className="xl:pt-24 lg:pt-20 md:pt-14 text-center sm:text-5xl text-4xl font-myFont font-extrabold tracking-wide">
+          <h2 className="xl:pt-24 lg:pt-20 md:pt-14 text-center sm:text-8xl text-4xl font-style2 tracking-wide">
             Designer
           </h2>
 
-          <ul className="text-left 2xl:pl-[9vw] xl:pl-[28%] lg:pl-[23%] md:pl-[20%] sm:pl-[23%] pl-[26%] pt-4 font-light xl:text-lg lg:text-base">
+          <ul className="text-left 2xl:pl-[7.6vw] xl:pl-[28%] lg:pl-[23%] md:pl-[20%] sm:pl-[23%] pl-[26%] font-style1 text-3xl">
             <li>UI/UX Design</li>
             <li>User Engagement</li>
             <li>Responsive Design</li>
