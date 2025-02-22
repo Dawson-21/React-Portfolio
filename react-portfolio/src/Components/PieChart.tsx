@@ -2,8 +2,8 @@ export default function PieChart() {
   return (
     <>
       <div className="grid grid-cols-12 py-20 bg-light snap-start">
-        <div className="col-span-12 ml-[16%] mr-[16%] md:hidden block">
-          <img src="pie-chart.png" />
+        <div className="col-span-12 ml-[30%] mr-[30%] md:hidden block">
+          <img src="media/pie-chart.png" />
         </div>
 
         <div className="md:col-span-4 col-span-6 md:pl-0 sm:pl-5 text-dark">
@@ -24,11 +24,11 @@ export default function PieChart() {
         </div>
 
         <div className="2xl:mx-[5%] col-span-4 -mx-8 dark:md:block hidden">
-          <img src="pie-chart.png" />
+          <img src="media/pie-chart.png" />
         </div>
 
         <div className="col-span-4 -mx-8 dark:hidden md:block hidden">
-          <img src="pie-chart1.png" />
+          <img src="media/pie-chart1.png" />
         </div>
 
         <div className="md:col-span-4 col-span-6 lg:pr-[15%] md:pr-[5%] md:pl-0 sm:pl-5 text-dark">

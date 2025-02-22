@@ -46,7 +46,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="hidden -z-10 lg:col-span-5 lg:flex xl:-ml-[27%] lg:-ml-[20%] lg:pt-0 lg:mt-16 md:-mb-16 xl:h-[33vw] lg:h-[30vw] xl:w-[50vw] lg:w-[45vw] fade-left">
-            <img src="hero-img.png" alt="Dawson Adams Photo"></img>
+            <img src="media/hero-img.png" alt="Dawson Adams Photo"></img>
           </div>
         </div>
         <div
@@ -73,7 +73,7 @@ export default function Home() {
         <div className="inline-flex xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-10 md:gap-6 sm:gap-4 gap-2 pt-6">
           <div className="md:max-w-md max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-dark">
             <Card
-              img="img-2.png"
+              img="media/img-2.png"
               title="Portfolio Website"
               desc="Built from the ground up using React.js
                 and Tailwind CSS, with many reusable components and well written
@@ -82,14 +82,14 @@ export default function Home() {
           </div>
           <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-dark">
             <Card
-              img="MD3.png"
+              img="media/MD3.png"
               title="Web Development Website"
               desc="This is a website designed with WordPress using Elementor. I built the website for my freelance web development business."
             />
           </div>
           <div className="hidden md:block lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-dark">
             <Card
-              img="TGS2.png"
+              img="media/TGS2.png"
               title="Gutter Business Website"
               desc="I built this website using WordPress and various plugins for optimizations. Simple and sleek one page design for company's new website."
             />

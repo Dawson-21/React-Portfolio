@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="flex items-center justify-between">
           <Link to="/">
             <img
-              src="My-Logo1.png"
+              src="media/My-Logo1.png"
               className="h-[64px] hover:scale-[1.15] transition duration-500 ease-in-out"
               alt="Dawson Adams Logo"
               onClick={top}
