@@ -25,27 +25,27 @@ export default function Portfolio() {
           </div>
           <div className="hidden -z-10 lg:col-span-12 lg:flex items-center xl:h-36 lg:h-28 pt-10">
             <img
-              src="TGS.png"
+              src="media/TGS.png"
               className="absolute w-auto h-[10vw] fade-in translate-x-[72vw]"
             ></img>
             <img
-              src="CD.png"
+              src="media/CD.png"
               className="w-auto h-[8vw] absolute fade-in translate-x-[36vw] hidden dark:block"
             ></img>
             <img
-              src="CD2.png"
+              src="media/CD2.png"
               className="w-auto h-[8vw] absolute fade-in translate-x-[36vw] dark:hidden"
             ></img>
             <img
-              src="MD.png"
+              src="media/MD.png"
               className="w-auto h-[6vw] absolute fade-in translate-x-[7vw] hidden dark:block"
             ></img>
             <img
-              src="MD2.png"
+              src="media/MD2.png"
               className="w-auto h-[5.5vw] absolute fade-in translate-x-[7vw] dark:hidden"
             ></img>
             <img
-              src="DCTC.png"
+              src="media/DCTC.png"
               className="w-auto h-[9vw] absolute fade-in -mt-7 translate-x-[51vw]"
             ></img>
           </div>
@@ -74,21 +74,21 @@ export default function Portfolio() {
         <div className="inline-flex xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-10 md:gap-6 sm:gap-4 gap-2 pt-6">
           <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
             <Card
-              img="CNC2.png"
+              img="media/CNC2.png"
               title="Local Business Website"
               desc="CNC Garage Doors is a locally owned and operated company servicing the residents of the Dallas/Fort Worth Metroplex. CNC reached out for help designing their new website and brand."
             />
           </div>
           <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
             <Card
-              img="TGS2.png"
+              img="media/TGS2.png"
               title="Fresh Website + Brand Redesign"
               desc="I developed this website using WordPress, incorporating various plugins to enhance performance and functionality. The result is a clean, modern, and streamlined one-page design tailored to meet the company’s needs for their new online presence."
             />
           </div>
           <div className="hidden lg:block max-w-[33%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
             <Card
-              img="DCTC2.png"
+              img="media/DCTC2.png"
               title="Vegas Carpet Cleaning Website"
               desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
                 eiusmod tempor incididunt ut labore."
@@ -99,7 +99,7 @@ export default function Portfolio() {
         <div className="inline-flex xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-10 md:gap-6 sm:gap-4 gap-2 pt-10">
           <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
             <Card
-              img="img-2.png"
+              img="media/img-2.png"
               title="MERN Stack Portfolio"
               desc="Built from the ground up using React.js
                 and Tailwind CSS, with many reusable components and well written
@@ -108,14 +108,14 @@ export default function Portfolio() {
           </div>
           <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
             <Card
-              img="MD3.png"
+              img="media/MD3.png"
               title="Web Development Website"
               desc="This is a website designed with WordPress using Elementor. I built the website for my freelance web development business."
             />
           </div>
           <div className="hidden md:block lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
             <Card
-              img="CD4.png"
+              img="media/CD4.png"
               title="Demolition Website"
               desc="Ut enim ad minim veniam, quis nostrud exercitation ullamco
                 laboris nisi ut aliquip ex ea commodo consequat exercitation."
@@ -136,7 +136,7 @@ export default function Portfolio() {
         <div className="inline-flex xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-10 md:gap-6 sm:gap-4 gap-2 pt-6">
           <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
             <Card
-              img="img-1.png"
+              img="media/img-1.png"
               title="Project #1"
               desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
                 eiusmod tempor incididunt ut labore et dolore magna."
@@ -144,7 +144,7 @@ export default function Portfolio() {
           </div>
           <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
             <Card
-              img="img-1.png"
+              img="media/img-1.png"
               title="Project #2"
               desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
                 eiusmod tempor incididunt ut labore et dolore magna."
@@ -152,7 +152,7 @@ export default function Portfolio() {
           </div>
           <div className="hidden md:block lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
             <Card
-              img="img-1.png"
+              img="media/img-1.png"
               title="Project #3"
               desc="Ut enim ad minim veniam, quis nostrud exercitation ullamco
                 laboris nisi ut aliquip ex ea commodo consequat exercitation."

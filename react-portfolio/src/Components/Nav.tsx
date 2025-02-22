@@ -52,7 +52,7 @@ function Nav(props: {
               onClick={() => props.setShowMenu(false)}
             >
               <img
-                src="My-Logo1.png"
+                src="media/My-Logo1.png"
                 className="h-16"
                 alt="Dawson Adams Logo"
               ></img>
