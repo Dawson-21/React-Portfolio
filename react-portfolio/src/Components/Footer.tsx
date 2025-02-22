@@ -8,7 +8,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="shadow dark:bg-dark border-t-[1px] border-bright-orange/85 font-myFont">
+    <footer className="shadow bg-white dark:bg-dark border-t-[1px] border-bright-orange/85 font-myFont">
       <div className="w-full max-w-[89%] mx-auto p-2 sm:py-8 py-4">
         <div className="flex items-center justify-between">
           <Link to="/">

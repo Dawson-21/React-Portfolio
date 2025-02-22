@@ -7,7 +7,7 @@ export default function Home() {
     <>
       {/****************** HERO SECTION ******************/}
 
-      <div className="relative isolate px-6 lg:py-0 pt-28 py-10 lg:pt-14 lg:px-8 bg-bg dark:bg-dark shadow-lg shadow-bright-orange/45 dark:shadow-gray-900 overflow-clip rounded-b-xl">
+      <div className="relative isolate px-6 lg:py-0 pt-28 py-10 lg:pt-14 lg:px-8 bg-light dark:bg-dark shadow-lg shadow-bright-orange/45 dark:shadow-gray-900 overflow-clip rounded-b-xl">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
@@ -59,19 +59,19 @@ export default function Home() {
 
       {/****************** PROJECTS SECTION ******************/}
 
-      <div className="py-20 bg-light">
+      <div className="py-32 bg-light">
         <div className="grid grid-cols-3">
-          <div className="border-t-2 border-dark md:mt-3 mt-[10px] xl:ml-[25%] lg:ml-[20%] md:ml-[16%] ml-[12%] md:mr-4 sm:mr-6 mr-10 xl:translate-x-[15%] lg:translate-x-[5%]"></div>
+          <div className="border-t-2 border-gray-300 md:mt-3 mt-[10px] xl:ml-[25%] lg:ml-[20%] md:ml-[16%] ml-[12%] md:mr-4 sm:mr-6 mr-10 xl:translate-x-[15%] lg:translate-x-[5%]"></div>
 
-          <h2 className="sm:-mx-4 -mx-10 text-center font-myFont lg:text-lg md:text-base text-sm text-dark tracking-widest">
+          <h2 className="sm:-mx-4 -mx-10 text-center font-mono lg:text-lg md:text-base text-sm text-gray-500 tracking-widest">
             MY LATEST PROJECTS
           </h2>
 
-          <div className="border-t-2 border-dark md:mt-3 mt-[10px] xl:mr-[25%] lg:mr-[20%] md:mr-[16%] mr-[12%] md:ml-4 sm:ml-6 ml-10 xl:-translate-x-[15%] lg:-translate-x-[5%]"></div>
+          <div className="border-t-2 border-gray-300 md:mt-3 mt-[10px] xl:mr-[25%] lg:mr-[20%] md:mr-[16%] mr-[12%] md:ml-4 sm:ml-6 ml-10 xl:-translate-x-[15%] lg:-translate-x-[5%]"></div>
         </div>
-
+                
         <div className="inline-flex xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-10 md:gap-6 sm:gap-4 gap-2 pt-6">
-          <div className="md:max-w-md max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
+          <div className="md:max-w-md max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-dark">
             <Card
               img="img-2.png"
               title="Portfolio Website"
@@ -80,14 +80,14 @@ export default function Home() {
                 code."
             />
           </div>
-          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
+          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-dark">
             <Card
               img="MD3.png"
               title="Web Development Website"
               desc="This is a website designed with WordPress using Elementor. I built the website for my freelance web development business."
             />
           </div>
-          <div className="hidden md:block lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
+          <div className="hidden md:block lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-dark">
             <Card
               img="TGS2.png"
               title="Gutter Business Website"

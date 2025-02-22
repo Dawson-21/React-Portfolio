@@ -53,13 +53,13 @@ export default function Resume() {
 
       <div className="md:pt-[8.5vw] pt-[12.5vw] md:pb-[4.5vw] pb-[6.5vw] bg-light">
         <div className="grid grid-cols-3">
-          <div className="border-t-2 border-dark md:mt-3 mt-[10px] xl:ml-[25%] lg:ml-[20%] md:ml-[16%] ml-[12%] sm:mr-6 mr-10 xl:translate-x-[15%] lg:translate-x-[5%] md:translate-x-[15%]"></div>
+          <div className="border-t-2 border-gray-300 md:mt-3 mt-[10px] xl:ml-[25%] lg:ml-[20%] md:ml-[16%] ml-[12%] md:mr-4 sm:mr-6 mr-10 xl:translate-x-[15%] lg:translate-x-[5%]"></div>
 
-          <h2 className="text-center font-myFont lg:text-lg md:text-base text-sm text-dark tracking-widest">
+          <h2 className="sm:-mx-4 -mx-10 text-center font-mono lg:text-lg md:text-base text-sm text-gray-500 tracking-widest">
             SEND ME AN EMAIL
           </h2>
 
-          <div className="border-t-2 border-dark md:mt-3 mt-[10px] xl:mr-[25%] lg:mr-[20%] md:mr-[16%] mr-[12%] sm:ml-6 ml-10 xl:-translate-x-[15%] lg:-translate-x-[5%] md:-translate-x-[15%]"></div>
+          <div className="border-t-2 border-gray-300 md:mt-3 mt-[10px] xl:mr-[25%] lg:mr-[20%] md:mr-[16%] mr-[12%] md:ml-4 sm:ml-6 ml-10 xl:-translate-x-[15%] lg:-translate-x-[5%]"></div>
         </div>
 
         <ContactForm />

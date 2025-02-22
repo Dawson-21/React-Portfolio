@@ -33,7 +33,7 @@ const ContactForm: React.FC = () => {
           <label className="block lg:mb-4 text-lg font-medium text-dark">
             Email
             <input
-              className="shadow-sm bg-light border border-dark text-dark text-lg rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-dark dark:border-gray-600 dark:placeholder-gray-400 dark:text-light dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+              className="shadow-sm bg-white border border-dark text-dark text-lg rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-dark dark:border-gray-600 dark:placeholder-gray-400 dark:text-light dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
               type="email"
               placeholder="john.smith@email.com"
               name="email"
@@ -46,7 +46,7 @@ const ContactForm: React.FC = () => {
           <label className="block text-lg font-medium text-dark pt-[19px]">
             Subject
             <input
-              className="shadow-sm bg-light border border-dark text-dark text-lg rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-dark dark:border-gray-600 dark:placeholder-gray-400 dark:text-light dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+              className="shadow-sm bg-white border border-dark text-dark text-lg rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-dark dark:border-gray-600 dark:placeholder-gray-400 dark:text-light dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
               type="text"
               placeholder="What's the topic?"
               name="subject"
@@ -63,7 +63,7 @@ const ContactForm: React.FC = () => {
             <textarea
               id="message"
               rows={5}
-              className="block p-2.5 w-full text-lg text-dark bg-gray-50 rounded-lg shadow-sm border border-dark focus:ring-primary-500 focus:border-primary-500 dark:bg-dark dark:border-gray-600 dark:placeholder-gray-400 dark:text-light dark:focus:ring-primary-500 dark:focus:border-primary-500"
+              className="block p-2.5 w-full text-lg text-dark bg-white rounded-lg shadow-sm border border-dark focus:ring-primary-500 focus:border-primary-500 dark:bg-dark dark:border-gray-600 dark:placeholder-gray-400 dark:text-light dark:focus:ring-primary-500 dark:focus:border-primary-500"
               placeholder="Leave a comment..."
             ></textarea>
           </label>
@@ -78,7 +78,7 @@ const ContactForm: React.FC = () => {
           >
             <span
               className="relative w-40 py-2.5 transition-all ease-in duration-200 
-          bg-light dark:bg-light rounded-md group-hover:bg-opacity-0"
+          bg-white dark:bg-light rounded-md group-hover:bg-opacity-0"
             >
               Send Email
             </span>

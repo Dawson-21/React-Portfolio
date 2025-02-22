@@ -12,9 +12,9 @@ export default function Portfolio() {
         >
           <div className="relative aspect-[1155/678] -translate-x-1/2 rotate-[30deg] bg-gradient-to-l from-[#ff4500] to-[#0047ff] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"></div>
         </div>
-        <div className="grid max-w-screen-2xl px-8 py-8 mx-auto fade-in lg:py-20 lg:grid-cols-12">
-          <div className="lg:col-span-12">
-            <h1 className="max-w-2xl mb-4 mx-auto lg:text-center font-myFont font-extrabold tracking-tight leading-none text-4xl sm:text-5xl lg:text-6xl dark:text-light">
+        <div className="grid max-w-screen-2xl px-8 py-8 mx-auto fade-in lg:py-40 lg:grid-cols-12">
+          <div className="md:col-span-12">
+            <h1 className="max-w-2xl mb-4 mx-auto md:text-center font-myFont font-extrabold tracking-tight leading-none text-4xl sm:text-5xl lg:text-6xl dark:text-light">
               Portfolio
             </h1>
             <p className="max-w-2xl mb-6 mx-auto font-myFont text-[15px] text-justify text-gray-600 lg:mb-8 text-lg dark:text-gray-400">
@@ -23,30 +23,30 @@ export default function Portfolio() {
               my projects and see what I’ve been up to!
             </p>
           </div>
-          <div className="hidden -z-10 lg:col-span-12 lg:flex items-center xl:h-36 lg:h-28 pt-10">
-            <img
-              src="TGS.png"
-              className="absolute w-auto h-[10vw] fade-in translate-x-[72vw]"
-            ></img>
-            <img
-              src="CD.png"
-              className="w-auto h-[8vw] absolute fade-in translate-x-[36vw] hidden dark:block"
-            ></img>
-            <img
-              src="CD2.png"
-              className="w-auto h-[8vw] absolute fade-in translate-x-[36vw] dark:hidden"
-            ></img>
+          <div className="hidden -z-10 md:col-span-12 md:flex items-center justify-center md:h-[245px] pt-10 space-x-[2vw]">
             <img
               src="MD.png"
-              className="w-auto h-[6vw] absolute fade-in translate-x-[7vw] hidden dark:block"
+              className="w-auto h-[6vw] fade-in hidden dark:block"
             ></img>
             <img
               src="MD2.png"
-              className="w-auto h-[5.5vw] absolute fade-in translate-x-[7vw] dark:hidden"
+              className="w-auto h-[5.5vw] fade-in dark:hidden"
+            ></img>
+            <img
+              src="CD.png"
+              className="w-auto h-[8vw] fade-in hidden dark:block"
+            ></img>
+            <img
+              src="CD2.png"
+              className="w-auto h-[8vw] fade-in dark:hidden"
+            ></img>
+            <img
+              src="TGS.png"
+              className="w-auto h-[10vw] fade-in"
             ></img>
             <img
               src="DCTC.png"
-              className="w-auto h-[9vw] absolute fade-in -mt-7 translate-x-[51vw]"
+              className="w-auto h-[9vw] fade-in -mt-7"
             ></img>
           </div>
         </div>
@@ -60,33 +60,33 @@ export default function Portfolio() {
 
       {/****************** PROJECTS SECTION ******************/}
 
-      <div className="py-20 bg-light">
+      <div className="md:py-32 py-20 bg-light">
         <div className="grid grid-cols-3">
-          <div className="border-t-2 border-dark md:mt-3 mt-[10px] xl:ml-[25%] lg:ml-[20%] md:ml-[16%] ml-[12%] md:mr-4 sm:mr-6 mr-10 xl:translate-x-[15%] lg:translate-x-[5%]"></div>
+          <div className="border-t-2 border-gray-300 md:mt-3 mt-[10px] xl:ml-[25%] lg:ml-[20%] md:ml-[16%] ml-[12%] md:mr-4 sm:mr-6 mr-10 xl:translate-x-[15%] lg:translate-x-[5%]"></div>
 
-          <h2 className="sm:-mx-4 -mx-10 text-center font-myFont lg:text-lg md:text-base text-sm text-dark tracking-widest">
+          <h2 className="sm:-mx-4 -mx-10 text-center font-mono lg:text-lg md:text-base text-sm text-gray-500 tracking-widest">
             WEB DEVELOPMENT PROJECTS
           </h2>
 
-          <div className="border-t-2 border-dark md:mt-3 mt-[10px] xl:mr-[25%] lg:mr-[20%] md:mr-[16%] mr-[12%] md:ml-4 sm:ml-6 ml-10 xl:-translate-x-[15%] lg:-translate-x-[5%]"></div>
+          <div className="border-t-2 border-gray-300 md:mt-3 mt-[10px] xl:mr-[25%] lg:mr-[20%] md:mr-[16%] mr-[12%] md:ml-4 sm:ml-6 ml-10 xl:-translate-x-[15%] lg:-translate-x-[5%]"></div>
         </div>
 
         <div className="inline-flex xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-10 md:gap-6 sm:gap-4 gap-2 pt-6">
-          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
+          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-dark">
             <Card
               img="CNC2.png"
               title="Local Business Website"
               desc="CNC Garage Doors is a locally owned and operated company servicing the residents of the Dallas/Fort Worth Metroplex. CNC reached out for help designing their new website and brand."
             />
           </div>
-          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
+          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-dark">
             <Card
               img="TGS2.png"
               title="Fresh Website + Brand Redesign"
               desc="I developed this website using WordPress, incorporating various plugins to enhance performance and functionality. The result is a clean, modern, and streamlined one-page design tailored to meet the company’s needs for their new online presence."
             />
           </div>
-          <div className="hidden lg:block max-w-[33%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
+          <div className="hidden lg:block max-w-[33%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-dark">
             <Card
               img="DCTC2.png"
               title="Vegas Carpet Cleaning Website"
@@ -97,7 +97,7 @@ export default function Portfolio() {
         </div>
 
         <div className="inline-flex xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-10 md:gap-6 sm:gap-4 gap-2 pt-10">
-          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
+          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-dark">
             <Card
               img="img-2.png"
               title="MERN Stack Portfolio"
@@ -106,14 +106,14 @@ export default function Portfolio() {
                 code."
             />
           </div>
-          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
+          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-dark">
             <Card
               img="MD3.png"
               title="Web Development Website"
               desc="This is a website designed with WordPress using Elementor. I built the website for my freelance web development business."
             />
           </div>
-          <div className="hidden md:block lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
+          <div className="hidden md:block lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-dark">
             <Card
               img="CD4.png"
               title="Demolition Website"
@@ -134,7 +134,7 @@ export default function Portfolio() {
         </div>
 
         <div className="inline-flex xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-10 md:gap-6 sm:gap-4 gap-2 pt-6">
-          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
+          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-dark">
             <Card
               img="img-1.png"
               title="Project #1"
@@ -142,7 +142,7 @@ export default function Portfolio() {
                 eiusmod tempor incididunt ut labore et dolore magna."
             />
           </div>
-          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
+          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-dark">
             <Card
               img="img-1.png"
               title="Project #2"
@@ -150,7 +150,7 @@ export default function Portfolio() {
                 eiusmod tempor incididunt ut labore et dolore magna."
             />
           </div>
-          <div className="hidden md:block lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-light dark:bg-dark dark:border-dark">
+          <div className="hidden md:block lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-dark">
             <Card
               img="img-1.png"
               title="Project #3"
