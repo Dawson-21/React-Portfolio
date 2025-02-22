@@ -18,7 +18,7 @@ export default function About() {
         <div className="grid max-w-screen-2xl px-8 py-8 mx-auto lg:px-16 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="hidden -z-10 lg:col-span-5 lg:flex lg:-ml-[7%] lg:pt-0 lg:mt-16 md:-mb-16 xl:h-[33vw] lg:h-[30vw] xl:w-[50vw] lg:w-[45vw]">
             <img
-              src="hero-img2.png"
+              src="media/hero-img2.png"
               alt="Dawson Adams Photo"
               className="fade-right"
             ></img>
@@ -57,9 +57,9 @@ export default function About() {
 
         <div className="grid lg:grid-cols-4 grid-cols-2 font-light text-dark xl:text-lg lg:text-base">
           <div className="lg:-mt-4 -mt-2 xl:space-y-[0.9vw] space-y-[0.6vw]">
-            <IconList img="recipe.svg" />
-            <IconList img="piano.svg" />
-            <IconList img="snake.svg" />
+            <IconList img="media/recipe.svg" />
+            <IconList img="media/piano.svg" />
+            <IconList img="media/snake.svg" />
           </div>
 
           <div className="lg:-ml-[34%] md:-ml-[24%] sm:-ml-[36%] -ml-[60%] lg:-mr-3 xl:space-y-[3.2vw] lg:space-y-[3.4vw] md:space-y-[3.9vw] sm:space-y-[4.5vw] space-y-[4.8vw]">
@@ -69,9 +69,9 @@ export default function About() {
           </div>
 
           <div className="lg:-mt-4 mt-[0.6vw] xl:space-y-[0.9vw] space-y-[0.6vw]">
-            <IconList img="beach.svg" />
-            <IconList img="pyramid.svg" />
-            <IconList img="tesla.svg" />
+            <IconList img="media/beach.svg" />
+            <IconList img="media/pyramid.svg" />
+            <IconList img="media/tesla.svg" />
           </div>
 
           <div className="lg:-ml-[34%] md:-ml-[24%] sm:-ml-[36%] -ml-[60%] xl:space-y-[3.2vw] lg:space-y-[3.4vw] md:space-y-[3.9vw] sm:space-y-[4.5vw] space-y-[4.8vw] lg:pt-0 pt-[1.8vw]">
@@ -92,7 +92,7 @@ export default function About() {
         <div className="grid max-w-[1400px] lg:grid-cols-2 lg:h-[400px] lg:px-0 md:px-20 px-10 md:pb-20 pb-10 place-self-center">
           <div className="lg:-mb-10 h-auto">
             <img
-              src="tamucc.png"
+              src="media/tamucc.png"
               className="h-auto max-w-[600px] 2xl:w-[80%] xl:w-[80%] lg:w-[75%] sm:w-[40%] w-[50%] 
                          xl:pl-[10%] xl:mx-0 lg:mx-auto lg:pr-0 pr-5 sm:ml-[27%] ml-[20%]"
             />
@@ -206,7 +206,7 @@ export default function About() {
         <div className="grid xl:grid-cols-3 md:grid-cols-2 pb-20 -mt-10 2xl:mx-[8%]">
           <div className="xl:pl-16 xl:-mr-16 py-8">
             <IconBox
-              icon="collab2.svg"
+              icon="media/collab2.svg"
               title="Collaboration"
               desc="I believe that effective teamwork and clear communication are
               essential for achieving success, whether collaborating within a
@@ -217,7 +217,7 @@ export default function About() {
 
           <div className="py-8">
             <IconBox
-              icon="learn2.svg"
+              icon="media/learn2.svg"
               title="Continuous Learning"
               desc="I'm committed to continuous self-improvement and skill
               development, always eager to take on new challenges and master
@@ -228,7 +228,7 @@ export default function About() {
 
           <div className="xl:pr-16 xl:-ml-16 py-8">
             <IconBox
-              icon="quality2.svg"
+              icon="media/quality2.svg"
               title="Quality"
               desc="I take pride in delivering high-quality work, from writing clean,
               efficient code to ensuring every project meets the highest
@@ -239,7 +239,7 @@ export default function About() {
 
           <div className="xl:pl-16 xl:-mr-16 py-8">
             <IconBox
-              icon="trust2.svg"
+              icon="media/trust2.svg"
               title="Integrity"
               desc="I approach my work with honesty and integrity, ensuring that
               transparency and accountability are at the core of everything I
@@ -250,7 +250,7 @@ export default function About() {
 
           <div className="py-8">
             <IconBox
-              icon="innovate2.svg"
+              icon="media/innovate2.svg"
               title="Innovation"
               desc="I'm dedicated to staying ahead in the ever-evolving tech landscape
               by continuously learning and exploring new ideas. Embracing
@@ -261,7 +261,7 @@ export default function About() {
 
           <div className="xl:pr-16 xl:-ml-16 py-8">
             <IconBox
-              icon="creative2.svg"
+              icon="media/creative2.svg"
               title="Creativity"
               desc="I thrive on thinking outside the box, finding creative solutions
               to complex problems, and bringing unique perspectives to every
