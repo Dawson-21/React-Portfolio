@@ -14,7 +14,7 @@ export default function Portfolio() {
         </div>
         <div className="grid max-w-screen-2xl px-8 py-8 mx-auto fade-in lg:py-40 lg:grid-cols-12">
           <div className="md:col-span-12">
-            <h1 className="max-w-2xl mb-4 mx-auto md:text-center font-myFont font-extrabold tracking-tight leading-none text-4xl sm:text-5xl lg:text-6xl dark:text-light">
+            <h1 className="max-w-2xl mb-4 mx-auto md:text-center font-myFont font-bold tracking-tight leading-none text-4xl sm:text-5xl lg:text-6xl dark:text-light">
               Portfolio
             </h1>
             <p className="max-w-2xl mb-6 mx-auto font-myFont text-[15px] text-justify text-gray-600 lg:mb-8 text-lg dark:text-gray-400">

@@ -15,7 +15,7 @@ export default function IconBox({ icon, title, desc }: Props) {
           />
         </div>
       </div>
-      <h3 className="py-3 text-center text-2xl font-myFont font-extrabold text-dark tracking-wide">
+      <h3 className="py-3 text-center text-2xl font-myFont font-bold text-dark tracking-wide">
         {title}
       </h3>
       <p className="px-20 text-center font-light">{desc}</p>

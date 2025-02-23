@@ -2,12 +2,15 @@ export default function PieChart() {
   return (
     <>
       <div className="grid grid-cols-12 py-20 bg-light snap-start">
-        <div className="col-span-12 ml-[30%] mr-[30%] md:hidden block">
+        <div className="col-span-12 ml-[30%] mr-[30%] dark:block dark:md:hidden hidden">
           <img src="media/pie-chart.png" />
+        </div>
+        <div className="col-span-12 ml-[30%] mr-[30%] md:hidden block dark:hidden">
+          <img src="media/pie-chart1.png" />
         </div>
 
         <div className="md:col-span-4 col-span-6 md:pl-0 sm:pl-5 text-dark">
-          <h2 className="2xl:-mr-[2vw] xl:pt-24 lg:pt-20 md:pt-14 sm:-ml-0 -ml-3 text-center 2xl:text-6xl sm:text-5xl text-4xl font-myFont font-extrabold tracking-wide">
+          <h2 className="2xl:-mr-[2vw] xl:pt-24 lg:pt-20 md:pt-14 sm:-ml-0 -ml-3 text-center 2xl:text-6xl sm:text-5xl text-4xl font-myFont font-bold tracking-wide">
             Coder
           </h2>
 
@@ -32,11 +35,11 @@ export default function PieChart() {
         </div>
 
         <div className="md:col-span-4 col-span-6 lg:pr-[15%] md:pr-[5%] md:pl-0 sm:pl-5 text-dark">
-          <h2 className="xl:pt-24 lg:pt-20 md:pt-14 text-center sm:text-5xl text-4xl font-myFont font-extrabold tracking-wide">
+          <h2 className="xl:pt-24 lg:pt-20 md:pt-14 text-center 2xl:text-6xl sm:text-5xl text-4xl font-myFont font-bold tracking-wide">
             Designer
           </h2>
 
-          <ul className="text-left 2xl:pl-[9vw] xl:pl-[28%] lg:pl-[23%] md:pl-[20%] sm:pl-[23%] pl-[26%] pt-4 font-light xl:text-lg lg:text-base">
+          <ul className="text-left 2xl:pl-[7.5vw] xl:pl-[28%] lg:pl-[23%] md:pl-[20%] sm:pl-[23%] pl-[26%] pt-4 font-light xl:text-lg lg:text-base">
             <li>UI/UX Design</li>
             <li>User Engagement</li>
             <li>Responsive Design</li>

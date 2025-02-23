@@ -15,7 +15,7 @@ export default function Resume() {
         </div>
         <div className="grid max-w-screen-2xl px-8 py-8 mx-auto fade-in lg:py-20 lg:grid-cols-12">
           <div className="lg:col-span-12">
-            <h1 className="max-w-2xl mb-4 mx-auto lg:text-center font-myFont font-extrabold tracking-tight leading-none text-4xl sm:text-5xl lg:text-6xl dark:text-light">
+            <h1 className="max-w-2xl mb-4 mx-auto lg:text-center font-myFont font-bold tracking-tight leading-none text-4xl sm:text-5xl lg:text-6xl dark:text-light">
               Resum&#232;
             </h1>
             <p className="max-w-2xl mx-auto font-light text-center text-gray-700 text-lg dark:text-gray-400">

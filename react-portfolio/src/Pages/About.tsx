@@ -24,7 +24,7 @@ export default function About() {
             ></img>
           </div>
           <div className="place-self-center lg:col-span-7 fade-in lg:mt-0 mt-8">
-            <h1 className="max-w-2xl mb-4 font-myFont font-extrabold tracking-tight leading-none text-4xl sm:text-5xl lg:text-5xl xl:text-6xl dark:text-white lg:text-center">
+            <h1 className="max-w-2xl mb-4 font-myFont font-bold tracking-tight leading-none text-4xl sm:text-5xl lg:text-5xl xl:text-6xl dark:text-white lg:text-center">
               About
             </h1>
             <p className="max-w-2xl font-myFont text-[15px] text-justify text-gray-600 lg:mb-8 md:mb-0 mb-6 text-lg dark:text-gray-400">

@@ -18,7 +18,8 @@ export default {
         'gradient-45': 'linear-gradient(45deg, var(--tw-gradient-stops))'
       },
       fontFamily: {
-        myFont: ['Adani', ...defaultTheme.fontFamily.sans],
+        sans: ['Arial', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        myFont: ['Adani', 'sans-serif'],
       },
     },
   },
