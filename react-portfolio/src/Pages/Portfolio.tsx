@@ -25,27 +25,27 @@ export default function Portfolio() {
           </div>
           <div className="hidden -z-10 md:col-span-12 md:flex items-center justify-center md:h-[245px] pt-10 space-x-[2vw]">
             <img
-              src="MD.png"
+              src="media/MD.png"
               className="w-auto h-[6vw] fade-in hidden dark:block"
             ></img>
             <img
-              src="MD2.png"
+              src="media/MD2.png"
               className="w-auto h-[5.5vw] fade-in dark:hidden"
             ></img>
             <img
-              src="CD.png"
+              src="media/CD.png"
               className="w-auto h-[8vw] fade-in hidden dark:block"
             ></img>
             <img
-              src="CD2.png"
+              src="media/CD2.png"
               className="w-auto h-[8vw] fade-in dark:hidden"
             ></img>
             <img
-              src="TGS.png"
+              src="media/TGS.png"
               className="w-auto h-[10vw] fade-in"
             ></img>
             <img
-              src="DCTC.png"
+              src="media/DCTC.png"
               className="w-auto h-[9vw] fade-in -mt-7"
             ></img>
           </div>
