@@ -27,7 +27,7 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <div className="xl:px-[11vw] lg:px-[7vw] md:px-[15vw] sm:px-[10vw] px-[5vw] py-10 bg-transparent font-myFont">
+    <div className="2xl:px-[11vw] xl:px-[9vw] lg:px-[7vw] md:px-[15vw] sm:px-[10vw] px-[5vw] py-10 bg-transparent font-myFont">
       <form onSubmit={handleSubmit}>
         <div className="lg:w-1/2 w-full inline-block lg:pr-10 -translate-y-[17px]">
           <label className="block lg:mb-4 text-lg font-medium text-dark dark:text-white">

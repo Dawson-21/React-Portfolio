@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom";
+import SectionTitle from "../Components/SectionTitle";
 import Socials from "../Components/Socials";
 import ContactForm from "../Components/ContactForm";
 
@@ -43,17 +43,8 @@ export default function Contact() {
 
       {/****************** CONTACT FORM SECTION ******************/}
 
-      <div className="lg:py-32 pt-16 bg-light dark:bg-dark2">
-        <div className="grid grid-cols-3">
-          <div className="border-t-2 border-gray-300 dark:border-white md:mt-3 mt-[10px] xl:ml-[25%] lg:ml-[20%] md:ml-[16%] ml-[12%] sm:mr-6 mr-10 xl:translate-x-[15%] lg:translate-x-[5%] md:translate-x-[15%]"></div>
-
-          <h2 className="sm:-mx-4 -mx-10 text-center font-mono lg:text-lg md:text-base text-sm text-gray-500 dark:text-white tracking-widest">
-            SEND ME AN EMAIL
-          </h2>
-
-          <div className="border-t-2 border-gray-300 dark:border-white md:mt-3 mt-[10px] xl:mr-[25%] lg:mr-[20%] md:mr-[16%] mr-[12%] sm:ml-6 ml-10 xl:-translate-x-[15%] lg:-translate-x-[5%] md:-translate-x-[15%]"></div>
-        </div>
-
+      <div className="md:pb-32 pb-16 md:pt-10 bg-light dark:bg-dark2">
+        <SectionTitle> SEND ME AN EMAIL </SectionTitle>
         <ContactForm />
       </div>
     </>

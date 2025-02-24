@@ -38,7 +38,7 @@ export default function Portfolio() {
               className="w-auto h-[8vw] fade-in hidden dark:block"
             ></img>
             <img
-              src="media/CD2.png"
+              src="media/CD1.png"
               className="w-auto h-[8vw] fade-in dark:hidden"
             ></img>
             <img
@@ -66,53 +66,56 @@ export default function Portfolio() {
         <SectionTitle>WEB DEVELOPMENT PROJECTS</SectionTitle>
 
         <div className="inline-flex xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-5 md:gap-4 sm:gap-3 gap-2">
-          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light dark:border-2">
+          <div className="lg:max-w-[33%] max-w-[60%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light border-white border-2 dark:border-2">
             <Card
               img="media/CNC2.png"
               title="Local Business Website"
-              desc="CNC Garage Doors is a locally owned and operated company servicing the residents of the Dallas/Fort Worth Metroplex. CNC reached out for help designing their new website and brand."
+              desc="Built a user-friendly one-page website for CNC Garage Doors with WordPress, employing my proficiency in custom plugin integration, 
+              cross-browser compatibility, and mobile-first design to ensure a seamless experience across all devices."
             />
           </div>
-          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light dark:border-2">
+          <div className="lg:max-w-[33%] max-w-[60%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light border-white border-2 dark:border-2">
             <Card
               img="media/TGS2.png"
               title="Fresh Website + Brand Redesign"
-              desc="I developed this website using WordPress, incorporating various plugins to enhance performance and functionality. The result is a clean, modern, and streamlined one-page design tailored to meet the company’s needs for their new online presence."
+              desc="Created an optimized one-page website for Texas Gutter Service with WordPress, utilizing my expertise in custom theme development, 
+              responsive design principles, and advanced SEO techniques to ensure high visibility and user engagement."
             />
           </div>
-          <div className="hidden lg:block max-w-[33%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light dark:border-2">
+          <div className="hidden lg:block max-w-[31%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light border-white border-2 dark:border-2">
             <Card
-              img="media/DCTC2.png"
+              img="media/details.png"
               title="Vegas Carpet Cleaning Website"
-              desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-                eiusmod tempor incididunt ut labore."
+              desc="Designed a sleek one-page website for Details Carpet and Tile Care using WordPress, incorporating my skills in UX/UI design, intuitive 
+              navigation, and performance optimization to provide an excellent user experience."
             />
           </div>
         </div>
 
         <div className="inline-flex xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-5 md:gap-4 sm:gap-3 gap-2 pt-10">
-          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light dark:border-2">
+          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light border-white border-2 dark:border-2">
             <Card
               img="media/img-2.png"
-              title="MERN Stack Portfolio"
-              desc="Built from the ground up using React.js
-                and Tailwind CSS, with many reusable components and well written
-                code."
+              title="React Portfolio"
+              desc="This modern, fully responsive site showcases my web development projects and skills, providing a dynamic and engaging experience 
+              for potential clients and collaborators. The website leverages React for efficient component-based development, Tailwind CSS for rapid 
+              and responsive design, and Vercel for seamless deployment and hosting."
             />
           </div>
-          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light dark:border-2">
+          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light border-white border-2 dark:border-2">
             <Card
-              img="media/MD3.png"
+              img="media/MD1.png"
               title="Web Development Website"
-              desc="This is a website designed with WordPress using Elementor. I built the website for my freelance web development business."
+              desc="Crafted a professional Wordpress website for my web development company, Modern Dev. Incorporating plugins like MonsterInsights, 
+              the website features vast analytics and user engaement metrics. This project emphasizes the innovative and client-focused approach that my work embodies."
             />
           </div>
-          <div className="hidden md:block lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light dark:border-2">
+          <div className="hidden lg:block lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light border-white border-2 dark:border-2">
             <Card
-              img="media/CD4.png"
+              img="media/CD2.png"
               title="Demolition Website"
-              desc="Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat exercitation."
+              desc="Developed a robust and professional one-page website for Clayton Demolition using WordPress, leveraging Elementor for easy design, 
+              LiteSpeed Cache for enhanced performance, and All in One SEO for optimized search engine presence."
             />
           </div>
         </div>
@@ -120,7 +123,7 @@ export default function Portfolio() {
         <SectionTitle>PERSONAL PROJECTS</SectionTitle>
 
         <div className="inline-flex xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-5 md:gap-4 sm:gap-3 gap-2">
-          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light dark:border-2">
+          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light border-white border-2 dark:border-2">
             <Card
               img="media/img-1.png"
               title="Project #1"
@@ -128,7 +131,7 @@ export default function Portfolio() {
                 eiusmod tempor incididunt ut labore et dolore magna."
             />
           </div>
-          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light dark:border-2">
+          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light border-white border-2 dark:border-2">
             <Card
               img="media/img-1.png"
               title="Project #2"
@@ -136,7 +139,7 @@ export default function Portfolio() {
                 eiusmod tempor incididunt ut labore et dolore magna."
             />
           </div>
-          <div className="hidden md:block lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light dark:border-2">
+          <div className="hidden md:block lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light border-white border-2 dark:border-2">
             <Card
               img="media/img-1.png"
               title="Project #3"
