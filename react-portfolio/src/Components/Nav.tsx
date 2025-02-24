@@ -44,7 +44,7 @@ function Nav(props: {
 
   return (
     <>
-      <nav className="font-myFont backdrop-blur-sm bg-light/80 dark:bg-dark/80 fixed w-full z-20 top-0 start-0 border-b border-bright-orange/40">
+      <nav className="font-myFont backdrop-blur-sm bg-light/80 dark:bg-dark/80 fixed w-full z-20 top-0 start-0 border-b border-bright-orange/40 dark:border-white">
         <div className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto py-2 lg:px-[6%] md:px-[4%] px-[3%]">
           <Link to="/" onClick={top}>
             <div

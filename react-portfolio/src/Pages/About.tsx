@@ -8,7 +8,7 @@ export default function About() {
     <>
       {/****************** HERO SECTION ******************/}
 
-      <div className="relative isolate px-6 lg:pt-14 lg:pb-0 pt-24 pb-3 lg:px-8 bg-bg dark:bg-dark shadow-lg shadow-regal-blue/45 dark:shadow-dark rounded-b-xl">
+      <div className="relative isolate px-6 lg:pt-14 lg:pb-0 pt-24 pb-3 lg:px-8 bg-bg dark:bg-dark shadow-md shadow-regal-blue/45 dark:shadow-white overflow-clip">
         <div
           className="absolute inset-x-0 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
@@ -50,19 +50,19 @@ export default function About() {
 
       {/****************** FUN FACTS SECTION ******************/}
 
-      <div className="bg-light pb-20">
+      <div className="bg-light dark:bg-dark2 pb-20">
         <hr className="w-full h-[2px] mx-auto border-0 bg-gray-300" />
 
         <SectionTitle>FUN FACTS</SectionTitle>
 
-        <div className="grid lg:grid-cols-4 grid-cols-2 font-light text-dark xl:text-lg lg:text-base">
+        <div className="grid lg:grid-cols-4 grid-cols-2 font-light text-dark xl:text-lg lg:text-base pt-5">
           <div className="lg:-mt-4 -mt-2 xl:space-y-[0.9vw] space-y-[0.6vw]">
             <IconList img="media/recipe.svg" />
             <IconList img="media/piano.svg" />
             <IconList img="media/snake.svg" />
           </div>
 
-          <div className="lg:-ml-[34%] md:-ml-[24%] sm:-ml-[36%] -ml-[60%] lg:-mr-3 xl:space-y-[3.2vw] lg:space-y-[3.4vw] md:space-y-[3.9vw] sm:space-y-[4.5vw] space-y-[4.8vw]">
+          <div className="lg:-ml-[34%] md:-ml-[24%] sm:-ml-[36%] -ml-[60%] lg:-mr-3 xl:space-y-[3.2vw] lg:space-y-[3.4vw] md:space-y-[3.9vw] sm:space-y-[4.5vw] space-y-[4.8vw] dark:text-white">
             <p>I enjoy experimenting with new vegan recipes</p>
             <p>Piano and Guitar are my favorite instruments to play</p>
             <p>I have three snakes, a bearded dragon, and a cat</p>
@@ -74,7 +74,7 @@ export default function About() {
             <IconList img="media/tesla.svg" />
           </div>
 
-          <div className="lg:-ml-[34%] md:-ml-[24%] sm:-ml-[36%] -ml-[60%] xl:space-y-[3.2vw] lg:space-y-[3.4vw] md:space-y-[3.9vw] sm:space-y-[4.5vw] space-y-[4.8vw] lg:pt-0 pt-[1.8vw]">
+          <div className="lg:-ml-[34%] md:-ml-[24%] sm:-ml-[36%] -ml-[60%] xl:space-y-[3.2vw] lg:space-y-[3.4vw] md:space-y-[3.9vw] sm:space-y-[4.5vw] space-y-[4.8vw] lg:pt-0 pt-[1.8vw] dark:text-white">
             <p>I love going to the beach</p>
             <p>I'm slightly obsessed with ancient civilizations</p>
             <p>Alan Watts & Nicola Tesla are my mentors</p>
@@ -84,12 +84,12 @@ export default function About() {
 
       {/****************** EDUCATION SECTION ******************/}
 
-      <div className="bg-light">
+      <div className="bg-light dark:bg-dark2">
         <hr className="w-full h-[2px] mx-auto border-0 bg-gray-300" />
 
         <SectionTitle>EDUCATION</SectionTitle>
 
-        <div className="grid max-w-[1400px] lg:grid-cols-2 lg:h-[400px] lg:px-0 md:px-20 px-10 md:pb-20 pb-10 place-self-center">
+        <div className="grid max-w-[1400px] lg:grid-cols-2 lg:h-[400px] lg:px-0 md:px-20 px-10 md:pb-20 pb-10 pt-5 place-self-center">
           <div className="lg:-mb-10 h-auto">
             <img
               src="media/tamucc.png"
@@ -98,7 +98,7 @@ export default function About() {
             />
           </div>
 
-          <div className="font-light xl:text-lg lg:text-base max-w-[770px] xl:-ml-[10%] lg:-ml-[6%] lg:mr-[10%] space-y-5 lg:mt-0 mt-5">
+          <div className="font-light dark:text-white xl:text-lg lg:text-base max-w-[770px] xl:-ml-[10%] lg:-ml-[6%] lg:mr-[10%] space-y-5 lg:mt-0 mt-5">
             <p>
               In December 2023, I earned my Bachelor’s degree in Computer
               Science with a specialization in Systems Programming from Texas
@@ -127,11 +127,11 @@ export default function About() {
 
       {/****************** SKILLS SECTION ******************/}
 
-      <div className="md:block hidden bg-light overflow-y-hidden">
+      <div className="md:block hidden bg-light dark:bg-dark2 overflow-y-hidden">
         <SectionTitle>SKILLS</SectionTitle>
 
-        <div className="inline-flex">
-          <div className="lg:w-[22vw] w-[16vw] -mt-4 pr-6 xl:space-y-[67px] md:space-y-[72px] text-right font-myFont xl:text-lg md:text-base">
+        <div className="inline-flex pt-5">
+          <div className="lg:w-[22vw] w-[16vw] -mt-4 pr-6 xl:space-y-[67px] md:space-y-[72px] text-right font-myFont xl:text-lg md:text-base dark:text-white">
             <p>Master</p>
             <p>Journeyman</p>
             <p>Apprentice</p>
@@ -143,54 +143,54 @@ export default function About() {
             <div className="h-24"></div>
             <div className="border-y-[2px] border-gray-300 h-24"></div>
             <div className="h-24 flex">
-              <div className="w-[11.5vw] h-[288.5px] -translate-y-[193px] ml-5 bg-light dark:bg-dark overflow-hidden">
+              <div className="w-[11.5vw] h-[288.5px] -translate-y-[193px] ml-5 bg-light dark:bg-dark2 overflow-hidden">
                 <p className="xl:pt-[194px] md:pt-[209px] font-extralight text-dark dark:text-white text-center xl:text-5xl lg:text-4xl md:text-3xl">
                   75%
                 </p>
                 <p className="font-myFont text-dark dark:text-white text-center xl:text-xl lg:text-base md:text-sm">
                   C/C++
                 </p>
-                <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-45 from-bright-orange from-20% to-regal-blue to-80% blur-2xl dark:opacity-20"></div>
+                <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-45 from-bright-orange from-20% to-regal-blue to-80% blur-2xl"></div>
               </div>
 
-              <div className="w-[11.5vw] h-[345px] -translate-y-[249px] ml-5 bg-light dark:bg-dark overflow-hidden">
+              <div className="w-[11.5vw] h-[345px] -translate-y-[249px] ml-5 bg-light dark:bg-dark2 overflow-hidden">
                 <p className="xl:pt-[250px] md:pt-[265px] font-extralight text-dark dark:text-white text-center xl:text-5xl lg:text-4xl md:text-3xl">
                   90%
                 </p>
                 <p className="font-myFont text-dark dark:text-white text-center xl:text-xl lg:text-base md:text-sm">
                   HTML/CSS
                 </p>
-                <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-to-br from-bright-orange from-20% to-regal-blue to-80% blur-2xl dark:opacity-20"></div>
+                <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-to-br from-bright-orange from-20% to-regal-blue to-80% blur-2xl"></div>
               </div>
 
-              <div className="w-[11.5vw] h-[325px] -translate-y-[229px] ml-5 bg-light dark:bg-dark overflow-hidden">
+              <div className="w-[11.5vw] h-[325px] -translate-y-[229px] ml-5 bg-light dark:bg-dark2 overflow-hidden">
                 <p className="xl:pt-[230px] md:pt-[245px] font-extralight text-dark dark:text-white text-center xl:text-5xl lg:text-4xl md:text-3xl">
                   85%
                 </p>
                 <p className="font-myFont text-dark dark:text-white text-center xl:text-xl lg:text-base md:text-sm">
                   TypeScript
                 </p>
-                <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-to-t from-bright-orange from-20% to-regal-blue to-80% blur-2xl dark:opacity-20"></div>
+                <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-to-t from-bright-orange from-20% to-regal-blue to-80% blur-2xl"></div>
               </div>
 
-              <div className="w-[11.5vw] h-[305px] -translate-y-[209px] ml-5 bg-light dark:bg-dark overflow-hidden">
+              <div className="w-[11.5vw] h-[305px] -translate-y-[209px] ml-5 bg-light dark:bg-dark2 overflow-hidden">
                 <p className="xl:pt-[210px] md:pt-[225px] font-extralight text-dark dark:text-white text-center xl:text-5xl lg:text-4xl md:text-3xl">
                   80%
                 </p>
                 <p className="font-myFont text-dark dark:text-white text-center xl:text-xl lg:text-base md:text-sm">
                   React JS
                 </p>
-                <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-to-b from-bright-orange from-20% to-regal-blue to-80% blur-2xl dark:opacity-20"></div>
+                <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-to-b from-bright-orange from-20% to-regal-blue to-80% blur-2xl"></div>
               </div>
 
-              <div className="w-[11.5vw] h-[250px] -translate-y-[154.5px] ml-5 bg-light dark:bg-dark overflow-hidden">
+              <div className="w-[11.5vw] h-[250px] -translate-y-[154.5px] ml-5 bg-light dark:bg-dark2 overflow-hidden">
                 <p className="xl:pt-[156px] md:pt-[173px] font-extralight text-dark dark:text-white text-center xl:text-5xl lg:text-4xl md:text-3xl">
                   65%
                 </p>
                 <p className="font-myFont text-dark dark:text-white text-center xl:text-xl lg:text-base md:text-xs">
                   Python
                 </p>
-                <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-135 from-bright-orange from-20% to-regal-blue to-80% blur-2xl dark:opacity-20"></div>
+                <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-135 from-bright-orange from-20% to-regal-blue to-80% blur-2xl"></div>
               </div>
             </div>
           </div>
@@ -200,10 +200,10 @@ export default function About() {
 
       {/****************** VALUES SECTION ******************/}
 
-      <div className="bg-light">
+      <div className="bg-light dark:bg-dark2">
         <SectionTitle>CORE VALUES</SectionTitle>
 
-        <div className="grid xl:grid-cols-3 md:grid-cols-2 pb-20 -mt-10 2xl:mx-[8%]">
+        <div className="grid xl:grid-cols-3 md:grid-cols-2 pb-20 -mt-5 2xl:mx-[8%]">
           <div className="xl:pl-16 xl:-mr-16 py-8">
             <IconBox
               icon="media/collab2.svg"
