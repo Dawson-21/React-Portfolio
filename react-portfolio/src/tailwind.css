@@ -89,7 +89,7 @@
 @layer base {
   @font-face {
     font-family: "Adani";
-    src: url("./src/assets/fonts/adani.ttf") format("truetype");
+    src: url("./fonts/adani.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
   }

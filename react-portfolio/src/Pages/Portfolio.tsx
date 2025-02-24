@@ -1,11 +1,12 @@
 import Card from "../Components/Card";
+import SectionTitle from "../Components/SectionTitle";
 
 export default function Portfolio() {
   return (
     <>
       {/****************** HERO SECTION ******************/}
 
-      <div className="relative isolate px-6 lg:py-0 pt-32 py-10 lg:pt-14 lg:px-8 bg-light dark:bg-dark shadow-lg shadow-bright-orange/45 dark:shadow-gray-900 overflow-clip rounded-b-xl">
+      <div className="relative isolate px-6 lg:py-0 pt-32 py-10 lg:pt-14 lg:px-8 bg-light dark:bg-dark shadow-md shadow-bright-orange/45 dark:shadow-white overflow-clip">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
@@ -60,33 +61,26 @@ export default function Portfolio() {
 
       {/****************** PROJECTS SECTION ******************/}
 
-      <div className="md:py-32 py-20 bg-light">
-        <div className="grid grid-cols-3">
-          <div className="border-t-2 border-gray-300 md:mt-3 mt-[10px] xl:ml-[25%] lg:ml-[20%] md:ml-[16%] ml-[12%] md:mr-4 sm:mr-6 mr-10 xl:translate-x-[15%] lg:translate-x-[5%]"></div>
+      <div className="md:pb-32 pb-20 md:pt-10 bg-light dark:bg-dark2">
 
-          <h2 className="sm:-mx-4 -mx-10 text-center font-mono lg:text-lg md:text-base text-sm text-gray-500 tracking-widest">
-            WEB DEVELOPMENT PROJECTS
-          </h2>
+        <SectionTitle>WEB DEVELOPMENT PROJECTS</SectionTitle>
 
-          <div className="border-t-2 border-gray-300 md:mt-3 mt-[10px] xl:mr-[25%] lg:mr-[20%] md:mr-[16%] mr-[12%] md:ml-4 sm:ml-6 ml-10 xl:-translate-x-[15%] lg:-translate-x-[5%]"></div>
-        </div>
-
-        <div className="inline-flex xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-10 md:gap-6 sm:gap-4 gap-2 pt-6">
-          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-dark">
+        <div className="inline-flex xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-5 md:gap-4 sm:gap-3 gap-2">
+          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light dark:border-2">
             <Card
               img="media/CNC2.png"
               title="Local Business Website"
               desc="CNC Garage Doors is a locally owned and operated company servicing the residents of the Dallas/Fort Worth Metroplex. CNC reached out for help designing their new website and brand."
             />
           </div>
-          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-dark">
+          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light dark:border-2">
             <Card
               img="media/TGS2.png"
               title="Fresh Website + Brand Redesign"
               desc="I developed this website using WordPress, incorporating various plugins to enhance performance and functionality. The result is a clean, modern, and streamlined one-page design tailored to meet the company’s needs for their new online presence."
             />
           </div>
-          <div className="hidden lg:block max-w-[33%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-dark">
+          <div className="hidden lg:block max-w-[33%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light dark:border-2">
             <Card
               img="media/DCTC2.png"
               title="Vegas Carpet Cleaning Website"
@@ -96,8 +90,8 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="inline-flex xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-10 md:gap-6 sm:gap-4 gap-2 pt-10">
-          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-dark">
+        <div className="inline-flex xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-5 md:gap-4 sm:gap-3 gap-2 pt-10">
+          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light dark:border-2">
             <Card
               img="media/img-2.png"
               title="MERN Stack Portfolio"
@@ -106,14 +100,14 @@ export default function Portfolio() {
                 code."
             />
           </div>
-          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-dark">
+          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light dark:border-2">
             <Card
               img="media/MD3.png"
               title="Web Development Website"
               desc="This is a website designed with WordPress using Elementor. I built the website for my freelance web development business."
             />
           </div>
-          <div className="hidden md:block lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-dark">
+          <div className="hidden md:block lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light dark:border-2">
             <Card
               img="media/CD4.png"
               title="Demolition Website"
@@ -122,19 +116,11 @@ export default function Portfolio() {
             />
           </div>
         </div>
+        
+        <SectionTitle>PERSONAL PROJECTS</SectionTitle>
 
-        <div className="grid grid-cols-3 pt-20">
-          <div className="border-t-2 border-gray-300 md:mt-3 mt-[10px] xl:ml-[25%] lg:ml-[20%] md:ml-[16%] ml-[12%] md:mr-4 sm:mr-6 mr-10 xl:translate-x-[15%] lg:translate-x-[5%]"></div>
-
-          <h2 className="sm:-mx-4 -mx-10 text-center font-mono lg:text-lg md:text-base text-sm text-gray-500 tracking-widest">
-            PERSONAL PROJECTS
-          </h2>
-
-          <div className="border-t-2 border-gray-300 md:mt-3 mt-[10px] xl:mr-[25%] lg:mr-[20%] md:mr-[16%] mr-[12%] md:ml-4 sm:ml-6 ml-10 xl:-translate-x-[15%] lg:-translate-x-[5%]"></div>
-        </div>
-
-        <div className="inline-flex xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-10 md:gap-6 sm:gap-4 gap-2 pt-6">
-          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-dark">
+        <div className="inline-flex xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-5 md:gap-4 sm:gap-3 gap-2">
+          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light dark:border-2">
             <Card
               img="media/img-1.png"
               title="Project #1"
@@ -142,7 +128,7 @@ export default function Portfolio() {
                 eiusmod tempor incididunt ut labore et dolore magna."
             />
           </div>
-          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-dark">
+          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light dark:border-2">
             <Card
               img="media/img-1.png"
               title="Project #2"
@@ -150,7 +136,7 @@ export default function Portfolio() {
                 eiusmod tempor incididunt ut labore et dolore magna."
             />
           </div>
-          <div className="hidden md:block lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-dark">
+          <div className="hidden md:block lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light dark:border-2">
             <Card
               img="media/img-1.png"
               title="Project #3"

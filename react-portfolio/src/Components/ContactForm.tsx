@@ -30,7 +30,7 @@ const ContactForm: React.FC = () => {
     <div className="xl:px-[11vw] lg:px-[7vw] md:px-[15vw] sm:px-[10vw] px-[5vw] py-10 bg-transparent font-myFont">
       <form onSubmit={handleSubmit}>
         <div className="lg:w-1/2 w-full inline-block lg:pr-10 -translate-y-[17px]">
-          <label className="block lg:mb-4 text-lg font-medium text-dark">
+          <label className="block lg:mb-4 text-lg font-medium text-dark dark:text-white">
             Email
             <input
               className="shadow-sm bg-white border border-dark text-dark text-lg rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-dark dark:border-gray-600 dark:placeholder-gray-400 dark:text-light dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
@@ -43,7 +43,7 @@ const ContactForm: React.FC = () => {
             />
           </label>
 
-          <label className="block text-lg font-medium text-dark pt-[19px]">
+          <label className="block text-lg font-medium text-dark dark:text-white pt-[19px]">
             Subject
             <input
               className="shadow-sm bg-white border border-dark text-dark text-lg rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-dark dark:border-gray-600 dark:placeholder-gray-400 dark:text-light dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
@@ -58,7 +58,7 @@ const ContactForm: React.FC = () => {
         </div>
 
         <div className="lg:w-1/2 w-full lg:inline-block">
-          <label className="block text-lg font-medium text-dark">
+          <label className="block text-lg font-medium text-dark dark:text-white">
             Message
             <textarea
               id="message"
@@ -73,12 +73,12 @@ const ContactForm: React.FC = () => {
          Do I Need to include type="submit"? */}
         <div className="lg:place-self-end place-self-center max-lg:pt-10">
           <button
-            className="transform hover:scale-[1.15] transition duration-200 ease-in-out relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-md font-bold hover:text-light text-dark dark:text-dark rounded-lg group 
+            className="transform hover:scale-[1.15] transition duration-200 ease-in-out relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-md font-bold hover:text-light text-dark dark:text-white rounded-lg group 
             bg-gradient-135 from-bright-orange from-20% to-regal-blue to-80% group-hover:from-bright-orange group-hover:to-regal-blue"
           >
             <span
               className="relative w-40 py-2.5 transition-all ease-in duration-200 
-          bg-white dark:bg-light rounded-md group-hover:bg-opacity-0"
+          bg-white dark:bg-dark2 rounded-md group-hover:bg-opacity-0"
             >
               Send Email
             </span>

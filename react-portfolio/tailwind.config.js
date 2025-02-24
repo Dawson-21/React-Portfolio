@@ -11,7 +11,8 @@ export default {
         'regal-blue': '#0047ff',
         'bright-orange': '#ff4500',
         'light': '#f3f4f6',
-        'dark': '#020617'
+        'dark': '#020617',
+        'dark2': '#1e212b'
       },
       backgroundImage: {
         'gradient-135': 'linear-gradient(135deg, var(--tw-gradient-stops))',
