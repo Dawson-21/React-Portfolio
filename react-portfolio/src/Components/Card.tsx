@@ -16,12 +16,12 @@ function Card({ img, title, desc }: Props) {
 
       <div className="p-5 pb-2">
         <Link to="#">
-          <h5 className="lg:text-2xl text-lg font-myFont font-bold tracking-tight text-dark">
+          <h5 className="lg:text-2xl text-lg font-myFont font-bold tracking-tight text-dark dark:text-white">
             {title}
           </h5>
         </Link>
 
-        <p className="mt-2 mb-2 font-myFont text-[13px] text-gray-600">
+        <p className="mt-2 mb-2 font-myFont text-[13px] text-gray-600 dark:text-gray-300">
           {desc}
         </p>
 

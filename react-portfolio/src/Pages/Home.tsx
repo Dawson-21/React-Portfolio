@@ -65,7 +65,7 @@ export default function Home() {
         <SectionTitle>MY LATEST PROJECTS</SectionTitle>
                 
         <div className="inline-flex xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-10 md:gap-6 sm:gap-4 gap-2 z-10">
-          <div className="md:max-w-md max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light dark:border-2">
+          <div className="md:max-w-md max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light dark:border-2">
             <Card
               img="media/img-2.png"
               title="Portfolio Website"
@@ -74,14 +74,14 @@ export default function Home() {
                 code."
             />
           </div>
-          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light dark:border-2">
+          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light dark:border-2">
             <Card
               img="media/MD3.png"
               title="Web Development Website"
               desc="This is a website designed with WordPress using Elementor. I built the website for my freelance web development business."
             />
           </div>
-          <div className="hidden md:block lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-light dark:border-light dark:border-2">
+          <div className="hidden md:block lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light dark:border-2">
             <Card
               img="media/TGS2.png"
               title="Gutter Business Website"
