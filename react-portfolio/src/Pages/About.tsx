@@ -74,7 +74,7 @@ export default function About() {
             <IconList img="media/tesla.svg" />
           </div>
 
-          <div className="lg:-ml-[34%] md:-ml-[24%] sm:-ml-[36%] -ml-[60%] xl:space-y-[3.2vw] lg:space-y-[3.4vw] md:space-y-[3.9vw] sm:space-y-[4.5vw] space-y-[4.8vw] lg:pt-0 pt-[1.8vw] dark:text-white">
+          <div className="font-myFont lg:-ml-[34%] md:-ml-[24%] sm:-ml-[36%] -ml-[60%] xl:space-y-[3.2vw] lg:space-y-[3.4vw] md:space-y-[3.9vw] sm:space-y-[4.5vw] space-y-[4.8vw] lg:pt-0 pt-[1.8vw] dark:text-white">
             <p>I love going to the beach</p>
             <p>I'm slightly obsessed with ancient civilizations</p>
             <p>Alan Watts & Nicola Tesla are my mentors</p>
@@ -98,7 +98,7 @@ export default function About() {
             />
           </div>
 
-          <div className="font-light dark:text-white xl:text-lg lg:text-base max-w-[770px] xl:-ml-[10%] lg:-ml-[6%] lg:mr-[10%] space-y-5 lg:mt-0 mt-5">
+          <div className="font-myFont font-light dark:text-white leading-normal xl:text-lg lg:text-md text-base max-w-[770px] xl:-ml-[10%] lg:-ml-[9%] lg:mr-[10%] space-y-2 lg:mt-0 mt-5">
             <p>
               In December 2023, I earned my Bachelor’s degree in Computer
               Science with a specialization in Systems Programming from Texas
@@ -122,7 +122,7 @@ export default function About() {
           </div>
         </div>
 
-        <hr className="w-full h-[2px] mx-auto border-0 bg-gray-300" />
+        <hr className="w-full h-[2px] mx-auto border-0 bg-gray-300 xl:mt-20 lg:mt-5" />
       </div>
 
       {/****************** SKILLS SECTION ******************/}

@@ -19,7 +19,7 @@ export default function Resume() {
             <h1 className="max-w-2xl mb-4 mx-auto lg:text-center font-myFont font-bold tracking-tight leading-none text-4xl sm:text-5xl lg:text-6xl dark:text-light">
               Resum&#232;
             </h1>
-            <p className="max-w-2xl mx-auto font-light text-center text-gray-700 text-lg dark:text-gray-400">
+            <p className="max-w-2xl mx-auto font-myFont text-[15px] text-justify text-gray-600 lg:mb-8 md:mb-0 mb-6 text-lg dark:text-gray-400">
               If my skills and experience align with what you're looking for,
               please feel free to reach out. I would love to connect and
               contribute to your team's success!
