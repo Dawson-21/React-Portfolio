@@ -13,7 +13,7 @@ export default function About() {
           className="absolute inset-x-0 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
         >
-          <div className="relative aspect-[1155/678] translate-x-1/2 rotate-[180deg] bg-gradient-to-l from-[#ff4500] to-[#0047ff] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"></div>
+          <div className="relative aspect-[1155/678] translate-x-1/2 rotate-[180deg] bg-gradient-to-l from-[#ff4500] to-[#0047ff] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" />
         </div>
         <div className="grid max-w-screen-2xl px-8 py-8 mx-auto lg:px-16 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="hidden -z-10 lg:col-span-5 lg:flex lg:-ml-[7%] lg:pt-0 lg:mt-16 md:-mb-16 xl:h-[33vw] lg:h-[30vw] xl:w-[50vw] lg:w-[45vw]">
@@ -21,7 +21,7 @@ export default function About() {
               src="media/hero-img2.png"
               alt="Dawson Adams Photo"
               className="fade-right"
-            ></img>
+             />
           </div>
           <div className="place-self-center lg:col-span-7 fade-in lg:mt-0 mt-8">
             <h1 className="max-w-2xl mb-4 font-myFont font-bold tracking-tight leading-none text-4xl sm:text-5xl lg:text-5xl xl:text-6xl dark:text-white lg:text-center">
@@ -40,7 +40,7 @@ export default function About() {
           className="absolute inset-x-0 -translate-x-[700px] translate-y-16 -z-30 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
           aria-hidden="true"
         >
-          <div className="relative aspect-[1155/378] -translate-x-1/2 bg-gradient-to-r from-[#0047ff] to-[#ff4500] opacity-20 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"></div>
+          <div className="relative aspect-[1155/378] -translate-x-1/2 bg-gradient-to-r from-[#0047ff] to-[#ff4500] opacity-20 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" />
         </div>
       </div>
 
@@ -139,9 +139,9 @@ export default function About() {
           </div>
 
           <div className="2xl:w-[60vw] xl:w-[60vw] lg:w-[60vw] md:w-[72vw] border-l-[2px] border-gray-300">
-            <div className="border-y-[2px] border-gray-300 h-24"></div>
-            <div className="h-24"></div>
-            <div className="border-y-[2px] border-gray-300 h-24"></div>
+            <div className="border-y-[2px] border-gray-300 h-24" />
+            <div className="h-24" />
+            <div className="border-y-[2px] border-gray-300 h-24" />
             <div className="h-24 flex">
               <div className="w-[11.5vw] h-[288.5px] -translate-y-[193px] ml-5 bg-light dark:bg-dark2 overflow-hidden">
                 <p className="xl:pt-[194px] md:pt-[209px] font-extralight text-dark dark:text-white text-center xl:text-5xl lg:text-4xl md:text-3xl">
@@ -150,7 +150,7 @@ export default function About() {
                 <p className="font-myFont text-dark dark:text-white text-center xl:text-xl lg:text-base md:text-sm">
                   C/C++
                 </p>
-                <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-45 from-bright-orange from-20% to-regal-blue to-80% blur-2xl"></div>
+                <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-45 from-bright-orange from-20% to-regal-blue to-80% blur-2xl" />
               </div>
 
               <div className="w-[11.5vw] h-[345px] -translate-y-[249px] ml-5 bg-light dark:bg-dark2 overflow-hidden">
@@ -160,7 +160,7 @@ export default function About() {
                 <p className="font-myFont text-dark dark:text-white text-center xl:text-xl lg:text-base md:text-sm">
                   HTML/CSS
                 </p>
-                <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-to-br from-bright-orange from-20% to-regal-blue to-80% blur-2xl"></div>
+                <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-to-br from-bright-orange from-20% to-regal-blue to-80% blur-2xl" />
               </div>
 
               <div className="w-[11.5vw] h-[325px] -translate-y-[229px] ml-5 bg-light dark:bg-dark2 overflow-hidden">
@@ -170,7 +170,7 @@ export default function About() {
                 <p className="font-myFont text-dark dark:text-white text-center xl:text-xl lg:text-base md:text-sm">
                   TypeScript
                 </p>
-                <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-to-t from-bright-orange from-20% to-regal-blue to-80% blur-2xl"></div>
+                <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-to-t from-bright-orange from-20% to-regal-blue to-80% blur-2xl" />
               </div>
 
               <div className="w-[11.5vw] h-[305px] -translate-y-[209px] ml-5 bg-light dark:bg-dark2 overflow-hidden">
@@ -180,7 +180,7 @@ export default function About() {
                 <p className="font-myFont text-dark dark:text-white text-center xl:text-xl lg:text-base md:text-sm">
                   React JS
                 </p>
-                <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-to-b from-bright-orange from-20% to-regal-blue to-80% blur-2xl"></div>
+                <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-to-b from-bright-orange from-20% to-regal-blue to-80% blur-2xl" />
               </div>
 
               <div className="w-[11.5vw] h-[250px] -translate-y-[154.5px] ml-5 bg-light dark:bg-dark2 overflow-hidden">
@@ -190,7 +190,7 @@ export default function About() {
                 <p className="font-myFont text-dark dark:text-white text-center xl:text-xl lg:text-base md:text-xs">
                   Python
                 </p>
-                <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-135 from-bright-orange from-20% to-regal-blue to-80% blur-2xl"></div>
+                <div className="border-0 rounded-full w-40 h-80 -translate-y-[400px] translate-x-1 bg-gradient-135 from-bright-orange from-20% to-regal-blue to-80% blur-2xl" />
               </div>
             </div>
           </div>

@@ -11,7 +11,7 @@ export default function Portfolio() {
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
         >
-          <div className="relative aspect-[1155/678] -translate-x-1/2 rotate-[30deg] bg-gradient-to-l from-[#ff4500] to-[#0047ff] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"></div>
+          <div className="relative aspect-[1155/678] -translate-x-1/2 rotate-[30deg] bg-gradient-to-l from-[#ff4500] to-[#0047ff] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" />
         </div>
         <div className="grid max-w-screen-2xl px-8 py-8 mx-auto fade-in lg:py-40 lg:grid-cols-12">
           <div className="md:col-span-12">
@@ -28,34 +28,34 @@ export default function Portfolio() {
             <img
               src="media/MD.png"
               className="w-auto h-[6vw] fade-in hidden dark:block"
-            ></img>
+             />
             <img
               src="media/MD2.png"
               className="w-auto h-[5.5vw] fade-in dark:hidden"
-            ></img>
+             />
             <img
               src="media/CD.png"
               className="w-auto h-[8vw] fade-in hidden dark:block"
-            ></img>
+             />
             <img
               src="media/CD1.png"
               className="w-auto h-[8vw] fade-in dark:hidden"
-            ></img>
+             />
             <img
               src="media/TGS.png"
               className="w-auto h-[10vw] fade-in"
-            ></img>
+             />
             <img
               src="media/DCTC.png"
               className="w-auto h-[9vw] fade-in -mt-7"
-            ></img>
+             />
           </div>
         </div>
         <div
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-30 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
           aria-hidden="true"
         >
-          <div className="relative aspect-[1155/378] -translate-x-1/2 bg-gradient-to-r from-[#0047ff] to-[#ff4500] opacity-20 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"></div>
+          <div className="relative aspect-[1155/378] -translate-x-1/2 bg-gradient-to-r from-[#0047ff] to-[#ff4500] opacity-20 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" />
         </div>
       </div>
 

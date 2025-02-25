@@ -65,7 +65,7 @@ const ContactForm: React.FC = () => {
               rows={5}
               className="block p-2.5 w-full text-lg text-dark bg-white rounded-lg shadow-sm border border-dark focus:ring-primary-500 focus:border-primary-500 dark:bg-dark dark:border-gray-600 dark:placeholder-gray-400 dark:text-light dark:focus:ring-primary-500 dark:focus:border-primary-500"
               placeholder="Leave a comment..."
-            ></textarea>
+             />
           </label>
         </div>
 
