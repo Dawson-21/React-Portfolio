@@ -29,7 +29,7 @@ export default function Contact() {
           </div>
 
           <div className="hidden -z-10 lg:col-span-5 lg:flex xl:-ml-[27%] lg:-ml-[20%] lg:pt-0 lg:mt-16 md:-mb-16 xl:h-[33vw] lg:h-[30vw] xl:w-[50vw] lg:w-[45vw] fade-left">
-            <img src="media/hero-img3.png" alt="Dawson Adams"></img>
+            <img src="media/hero-img3.png" alt="Dawson Adams" />
           </div>
         </div>
 
