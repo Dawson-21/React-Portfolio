@@ -20,9 +20,9 @@ export default function Resume() {
               Resum&#232;
             </h1>
             <p className="max-w-2xl mx-auto font-myFont text-[15px] text-justify text-gray-600 lg:mb-8 md:mb-0 mb-6 text-lg dark:text-gray-400">
-              If my skills and experience align with what you're looking for,
+              If my skills and experience align with what you&#39;re looking for,
               please feel free to reach out. I would love to connect and
-              contribute to your team's success!
+              contribute to your team&#39;s success!
             </p>
           </div>
         </div>

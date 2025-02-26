@@ -19,7 +19,7 @@ export default function About() {
           <div className="hidden -z-10 lg:col-span-5 lg:flex lg:-ml-[7%] lg:pt-0 lg:mt-16 md:-mb-16 xl:h-[33vw] lg:h-[30vw] xl:w-[50vw] lg:w-[45vw]">
             <img
               src="media/hero-img2.png"
-              alt="Dawson Adams Photo"
+              alt="Dawson Adams"
               className="fade-right"
             ></img>
           </div>
@@ -28,8 +28,8 @@ export default function About() {
               About
             </h1>
             <p className="max-w-2xl font-myFont text-[15px] text-justify text-gray-600 lg:mb-8 md:mb-0 mb-6 text-lg dark:text-gray-400">
-              I'm passionate about all things code and love diving into new
-              skills and challenges to keep growing my expertise. When I'm not
+              I&#39;m passionate about all things code and love diving into new
+              skills and challenges to keep growing my expertise. When I&#39;m not
               wrestling with code, you can find me whipping up something tasty
               in the kitchen, exploring the great outdoors, or hanging out with
               my many pets.
@@ -57,9 +57,9 @@ export default function About() {
 
         <div className="grid lg:grid-cols-4 grid-cols-2 font-light text-dark xl:text-lg lg:text-base pt-5">
           <div className="lg:-mt-4 -mt-2 xl:space-y-[0.9vw] space-y-[0.6vw]">
-            <IconList img="media/recipe.svg" />
-            <IconList img="media/piano.svg" />
-            <IconList img="media/snake.svg" />
+            <IconList img="media/recipe.svg" alt="Cake icon" />
+            <IconList img="media/piano.svg" alt="Piano icon" />
+            <IconList img="media/snake.svg" alt="Snake icon" />
           </div>
 
           <div className="lg:-ml-[34%] md:-ml-[24%] sm:-ml-[36%] -ml-[60%] lg:-mr-3 xl:space-y-[3.2vw] lg:space-y-[3.4vw] md:space-y-[3.9vw] sm:space-y-[4.5vw] space-y-[4.8vw] dark:text-white">
@@ -69,14 +69,14 @@ export default function About() {
           </div>
 
           <div className="lg:-mt-4 mt-[0.6vw] xl:space-y-[0.9vw] space-y-[0.6vw]">
-            <IconList img="media/beach.svg" />
-            <IconList img="media/pyramid.svg" />
-            <IconList img="media/tesla.svg" />
+            <IconList img="media/beach.svg" alt="Palm tree icon" />
+            <IconList img="media/pyramid.svg" alt="Pyramid icon" />
+            <IconList img="media/tesla.svg" alt="Tesla tower icon" />
           </div>
 
           <div className="font-myFont lg:-ml-[34%] md:-ml-[24%] sm:-ml-[36%] -ml-[60%] xl:space-y-[3.2vw] lg:space-y-[3.4vw] md:space-y-[3.9vw] sm:space-y-[4.5vw] space-y-[4.8vw] lg:pt-0 pt-[1.8vw] dark:text-white">
             <p>I love going to the beach</p>
-            <p>I'm slightly obsessed with ancient civilizations</p>
+            <p>I&#39;m slightly obsessed with ancient civilizations</p>
             <p>Alan Watts & Nicola Tesla are my mentors</p>
           </div>
         </div>
@@ -93,6 +93,7 @@ export default function About() {
           <div className="lg:-mb-10 h-auto">
             <img
               src="media/tamucc.png"
+              alt="Texas A&M University - Corpus Christi Logo"
               className="h-auto max-w-[600px] 2xl:w-[80%] xl:w-[80%] lg:w-[75%] sm:w-[40%] w-[50%] 
                          xl:pl-[10%] xl:mx-0 lg:mx-auto lg:pr-0 pr-5 sm:ml-[27%] ml-[20%]"
             />
@@ -100,7 +101,7 @@ export default function About() {
 
           <div className="font-myFont font-light dark:text-white leading-normal xl:text-lg lg:text-md text-base max-w-[770px] xl:-ml-[10%] lg:-ml-[9%] lg:mr-[10%] space-y-2 lg:mt-0 mt-5">
             <p>
-              In December 2023, I earned my Bachelor’s degree in Computer
+              In December 2023, I earned my Bachelor&#39;s degree in Computer
               Science with a specialization in Systems Programming from Texas
               A&M University - Corpus Christi. During my time at the university,
               I built a strong foundation in fundamental computer science
@@ -207,6 +208,7 @@ export default function About() {
           <div className="xl:pl-16 xl:-mr-16 py-8">
             <IconBox
               icon="media/collab2.svg"
+              alt="Collaboration icon"
               title="Collaboration"
               desc="I believe that effective teamwork and clear communication are
               essential for achieving success, whether collaborating within a
@@ -218,8 +220,9 @@ export default function About() {
           <div className="py-8">
             <IconBox
               icon="media/learn2.svg"
+              alt="Brain and pencil icon"
               title="Continuous Learning"
-              desc="I'm committed to continuous self-improvement and skill
+              desc="I&#39;m committed to continuous self-improvement and skill
               development, always eager to take on new challenges and master
               emerging technologies. This drive ensures I remain adaptable and
               ready to excel in any environment."
@@ -229,6 +232,7 @@ export default function About() {
           <div className="xl:pr-16 xl:-ml-16 py-8">
             <IconBox
               icon="media/quality2.svg"
+              alt="Sparkling diamond icon"
               title="Quality"
               desc="I take pride in delivering high-quality work, from writing clean,
               efficient code to ensuring every project meets the highest
@@ -240,6 +244,7 @@ export default function About() {
           <div className="xl:pl-16 xl:-mr-16 py-8">
             <IconBox
               icon="media/trust2.svg"
+              alt="Handshake icon"
               title="Integrity"
               desc="I approach my work with honesty and integrity, ensuring that
               transparency and accountability are at the core of everything I
@@ -251,8 +256,9 @@ export default function About() {
           <div className="py-8">
             <IconBox
               icon="media/innovate2.svg"
+              alt="Light bulb icon"
               title="Innovation"
-              desc="I'm dedicated to staying ahead in the ever-evolving tech landscape
+              desc="I&#39;m dedicated to staying ahead in the ever-evolving tech landscape
               by continuously learning and exploring new ideas. Embracing
               innovation drives me to push boundaries and deliver cutting-edge
               solutions."
@@ -262,6 +268,7 @@ export default function About() {
           <div className="xl:pr-16 xl:-ml-16 py-8">
             <IconBox
               icon="media/creative2.svg"
+              alt="Web art icon"
               title="Creativity"
               desc="I thrive on thinking outside the box, finding creative solutions
               to complex problems, and bringing unique perspectives to every

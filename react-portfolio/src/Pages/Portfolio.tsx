@@ -20,33 +20,39 @@ export default function Portfolio() {
             </h1>
             <p className="max-w-2xl mb-6 mx-auto font-myFont text-[15px] text-justify text-gray-600 lg:mb-8 text-lg dark:text-gray-400">
               From building dynamic systems to crafting user-friendly designs,
-              I’m always up for a new coding challenge. Feel free to check out
-              my projects and see what I’ve been up to!
+              I&#39;m always up for a new coding challenge. Feel free to check out
+              my projects and see what I&#39;ve been up to!
             </p>
           </div>
           <div className="hidden -z-10 md:col-span-12 md:flex items-center justify-center md:h-[245px] pt-10 space-x-[2vw]">
             <img
               src="media/MD.png"
+              alt="Modern Dev Logo"
               className="w-auto h-[6vw] fade-in hidden dark:block"
             ></img>
             <img
               src="media/MD2.png"
+              alt="Modern Dev Logo"
               className="w-auto h-[5.5vw] fade-in dark:hidden"
             ></img>
             <img
               src="media/CD.png"
+              alt="Clayton Demolition Logo"
               className="w-auto h-[8vw] fade-in hidden dark:block"
             ></img>
             <img
               src="media/CD1.png"
+              alt="Clayton Demolition Logo"
               className="w-auto h-[8vw] fade-in dark:hidden"
             ></img>
             <img
               src="media/TGS.png"
+              alt="Texas Gutter Service Logo"
               className="w-auto h-[10vw] fade-in"
             ></img>
             <img
               src="media/DCTC.png"
+              alt="Details Carpet and Tile Care Logo"
               className="w-auto h-[9vw] fade-in -mt-7"
             ></img>
           </div>
@@ -69,6 +75,7 @@ export default function Portfolio() {
           <div className="lg:max-w-[33%] max-w-[60%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light border-white border-2 dark:border-2">
             <Card
               img="media/CNC2.png"
+              alt="CNC Garage Doors Website"
               title="Local Business Website"
               desc="Built a user-friendly one-page website for CNC Garage Doors with WordPress, employing my proficiency in custom plugin integration, 
               cross-browser compatibility, and mobile-first design to ensure a seamless experience across all devices."
@@ -77,6 +84,7 @@ export default function Portfolio() {
           <div className="lg:max-w-[33%] max-w-[60%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light border-white border-2 dark:border-2">
             <Card
               img="media/TGS2.png"
+              alt="Texas Gutter Service Website"
               title="Fresh Website + Brand Redesign"
               desc="Created an optimized one-page website for Texas Gutter Service with WordPress, utilizing my expertise in custom theme development, 
               responsive design principles, and advanced SEO techniques to ensure high visibility and user engagement."
@@ -85,6 +93,7 @@ export default function Portfolio() {
           <div className="hidden lg:block max-w-[31%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light border-white border-2 dark:border-2">
             <Card
               img="media/details.png"
+              alt="Details Carpet and Tile Care Website"
               title="Vegas Carpet Cleaning Website"
               desc="Designed a sleek one-page website for Details Carpet and Tile Care using WordPress, incorporating my skills in UX/UI design, intuitive 
               navigation, and performance optimization to provide an excellent user experience."
@@ -96,6 +105,7 @@ export default function Portfolio() {
           <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light border-white border-2 dark:border-2">
             <Card
               img="media/img-2.png"
+              alt="Portfolio Website"
               title="React Portfolio"
               desc="This modern, fully responsive site showcases my web development projects and skills, providing a dynamic and engaging experience 
               for potential clients and collaborators. The website leverages React for efficient component-based development, Tailwind CSS for rapid 
@@ -105,6 +115,7 @@ export default function Portfolio() {
           <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light border-white border-2 dark:border-2">
             <Card
               img="media/MD1.png"
+              alt="Modern Dev Website"
               title="Web Development Website"
               desc="Crafted a professional Wordpress website for my web development company, Modern Dev. Incorporating plugins like MonsterInsights, 
               the website features vast analytics and user engaement metrics. This project emphasizes the innovative and client-focused approach that my work embodies."
@@ -113,6 +124,7 @@ export default function Portfolio() {
           <div className="hidden lg:block lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light border-white border-2 dark:border-2">
             <Card
               img="media/CD2.png"
+              alt="Clayton Demolition Website"
               title="Demolition Website"
               desc="Developed a robust and professional one-page website for Clayton Demolition using WordPress, leveraging Elementor for easy design, 
               LiteSpeed Cache for enhanced performance, and All in One SEO for optimized search engine presence."
@@ -126,6 +138,7 @@ export default function Portfolio() {
           <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light border-white border-2 dark:border-2">
             <Card
               img="media/img-1.png"
+              alt="Project #1"
               title="Project #1"
               desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
                 eiusmod tempor incididunt ut labore et dolore magna."
@@ -134,6 +147,7 @@ export default function Portfolio() {
           <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light border-white border-2 dark:border-2">
             <Card
               img="media/img-1.png"
+              alt="Project #2"
               title="Project #2"
               desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
                 eiusmod tempor incididunt ut labore et dolore magna."
@@ -142,6 +156,7 @@ export default function Portfolio() {
           <div className="hidden md:block lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light border-white border-2 dark:border-2">
             <Card
               img="media/img-1.png"
+              alt="Project #3"
               title="Project #3"
               desc="Ut enim ad minim veniam, quis nostrud exercitation ullamco
                 laboris nisi ut aliquip ex ea commodo consequat exercitation."

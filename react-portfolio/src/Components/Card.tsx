@@ -3,15 +3,16 @@ import Button2 from "./Button2";
 
 interface Props {
   img: string;
+  alt: string;
   title: string;
   desc?: string;
 }
 
-function Card({ img, title, desc }: Props) {
+function Card({ img, alt, title, desc }: Props) {
   return (
     <>
       <Link to="#">
-        <img className="rounded-t-lg" src={img} alt="" />
+        <img className="rounded-t-lg" src={img} alt={alt} />
       </Link>
 
       <div className="p-5 pb-2">
