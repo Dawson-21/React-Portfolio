@@ -19,13 +19,13 @@ export default function SectionTitle({ children }: Props) {
   return (
     <>
       <div className="grid grid-cols-3  pt-20 pb-5">
-        <div className={`border-t-2 border-gray-300 dark:border-white md:mt-2 mt-1 ${spacer1}`}></div>
+        <div className={`border-t-2 border-gray-300 dark:border-white md:mt-2 mt-1 ${spacer1}`} />
 
         <h2 className="sm:-mx-4 -mx-10 text-center font-myFont lg:text-sm md:text-[13px] text-[10px] text-gray-500 dark:text-white tracking-widest">
           {children}
         </h2>
 
-        <div className={`border-t-2 border-gray-300 dark:border-white md:mt-2 mt-1 ${spacer2}`}></div>
+        <div className={`border-t-2 border-gray-300 dark:border-white md:mt-2 mt-1 ${spacer2}`} />
       </div>
     </>
   );
