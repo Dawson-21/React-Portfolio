@@ -55,7 +55,7 @@ function Nav(props: {
                 src="media/My-Logo1.png"
                 className="h-16"
                 alt="Dawson Adams Logo"
-              ></img>
+               />
             </div>
           </Link>
 
