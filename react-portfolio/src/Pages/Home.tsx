@@ -64,15 +64,14 @@ export default function Home() {
 
         <SectionTitle>MY LATEST PROJECTS</SectionTitle>
                 
-        <div className="inline-flex xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-10 md:gap-6 sm:gap-4 gap-2 z-10">
+        <div className="inline-flex xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-5 md:gap-4 sm:gap-3 gap-2 z-10">
           <div className="md:max-w-md max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light dark:border-2">
             <Card
               img="media/img-2.png"
               alt="Portfolio Website"
               title="Portfolio Website"
-              desc="Built from the ground up using React.js
-                and Tailwind CSS, with many reusable components and well written
-                code."
+              desc="This responsive site, built with React, Tailwind, and Vercel, showcases my web development projects and skills, providing 
+              a dynamic and engaging experience for potential clients and collaborators."
             />
           </div>
           <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light dark:border-2">
@@ -80,7 +79,8 @@ export default function Home() {
               img="media/MD3.png"
               alt="Modern Dev Website"
               title="Web Development Website"
-              desc="This is a website designed with WordPress using Elementor. I built the website for my freelance web development business."
+              desc="Crafted a professional Wordpress website for my web development company, Modern Dev. Incorporating plugins like MonsterInsights, 
+              the website features vast analytics and user engaement metrics."
             />
           </div>
           <div className="hidden md:block lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light dark:border-2">
@@ -88,7 +88,8 @@ export default function Home() {
               img="media/TGS2.png"
               alt="Texas Gutter Service Website"
               title="Gutter Business Website"
-              desc="I built this website using WordPress and various plugins for optimizations. Simple and sleek one page design for company's new website."
+              desc="Clean one-page website for Texas Gutter Service, utilizing my expertise in custom theme development, 
+              responsive design principles, and advanced SEO techniques to ensure high visibility and user engagement."
             />
           </div>
         </div>
