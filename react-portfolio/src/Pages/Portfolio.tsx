@@ -26,14 +26,14 @@ export default function Portfolio() {
           </div>
           <div className="hidden -z-10 md:col-span-12 md:flex items-center justify-center md:h-[245px] pt-10 space-x-[2vw]">
             <img
-              src="media/MD.png"
+              src="media/MD-Logo.png"
               alt="Modern Dev Logo"
-              className="w-auto h-[6vw] hidden dark:block"
+              className="w-auto h-[5.7vw] dark:hidden"
              />
             <img
-              src="media/MD2.png"
+              src="media/MD-Logo-dark.png"
               alt="Modern Dev Logo"
-              className="w-auto h-[5.3vw] dark:hidden"
+              className="w-auto h-[6vw] hidden dark:block"
              />
             <img
               src="media/CD.png"

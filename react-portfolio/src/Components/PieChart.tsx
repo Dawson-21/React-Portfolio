@@ -26,12 +26,12 @@ export default function PieChart() {
           </ul>
         </div>
 
-        <div className="2xl:mx-[5%] col-span-4 -mx-8 dark:md:block hidden">
+        <div className="2xl:mx-[5%] col-span-4 -mx-8 dark:hidden md:block hidden">
           <img src="media/pie-chart.png" alt="Coder and Designer Pie Chart" />
         </div>
 
-        <div className="col-span-4 -mx-8 dark:hidden md:block hidden">
-          <img src="media/pie-chart1.png" alt="Coder and Designer Pie Chart" />
+        <div className="2xl:mx-[5%] col-span-4 -mx-8 dark:md:block hidden">
+          <img src="media/pie-chart-dark.png" alt="Coder and Designer Pie Chart" />
         </div>
 
         <div className="md:col-span-4 col-span-6 lg:pr-[15%] md:pr-[5%] md:pl-0 sm:pl-5 text-dark dark:text-white">
