@@ -13,7 +13,7 @@ export default function Portfolio() {
         >
           <div className="relative aspect-[1155/678] -translate-x-1/2 rotate-[30deg] bg-gradient-to-l from-[#ff4500] to-[#0047ff] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" />
         </div>
-        <div className="grid max-w-screen-2xl px-8 py-8 mx-auto fade-in lg:py-40 lg:grid-cols-12">
+        <div className="grid max-w-screen-2xl px-8 py-8 mx-auto lg:py-40 lg:grid-cols-12">
           <div className="md:col-span-12">
             <h1 className="max-w-2xl mb-4 mx-auto md:text-center font-myFont font-bold tracking-tight leading-none text-4xl sm:text-5xl lg:text-6xl dark:text-light">
               Portfolio
@@ -28,32 +28,32 @@ export default function Portfolio() {
             <img
               src="media/MD.png"
               alt="Modern Dev Logo"
-              className="w-auto h-[6vw] fade-in hidden dark:block"
+              className="w-auto h-[6vw] hidden dark:block"
              />
             <img
               src="media/MD2.png"
               alt="Modern Dev Logo"
-              className="w-auto h-[5.5vw] fade-in dark:hidden"
+              className="w-auto h-[5.3vw] -mr-4 dark:hidden"
              />
             <img
               src="media/CD.png"
               alt="Clayton Demolition Logo"
-              className="w-auto h-[8vw] fade-in hidden dark:block"
+              className="w-auto h-[8vw] hidden dark:block"
              />
             <img
               src="media/CD1.png"
               alt="Clayton Demolition Logo"
-              className="w-auto h-[8vw] fade-in dark:hidden"
+              className="w-auto h-[8vw] dark:hidden"
              />
             <img
               src="media/TGS.png"
               alt="Texas Gutter Service Logo"
-              className="w-auto h-[10vw] fade-in"
+              className="w-auto h-[10vw]"
              />
             <img
               src="media/DCTC.png"
               alt="Details Carpet and Tile Care Logo"
-              className="w-auto h-[9vw] fade-in -mt-7"
+              className="w-auto h-[9vw] -mt-7"
              />
           </div>
         </div>
