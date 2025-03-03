@@ -10,9 +10,6 @@ function Button({ children, currentPage }: Props) {
     });
   };
 
-  if (currentPage != undefined)
-    console.log(currentPage);
-
   let style = currentPage ? "opacity-40" : "opacity-100";
 
   return (
