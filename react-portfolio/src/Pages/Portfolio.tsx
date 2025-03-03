@@ -33,7 +33,7 @@ export default function Portfolio() {
             <img
               src="media/MD2.png"
               alt="Modern Dev Logo"
-              className="w-auto h-[5.3vw] -mr-4 dark:hidden"
+              className="w-auto h-[5.3vw] dark:hidden"
              />
             <img
               src="media/CD.png"
