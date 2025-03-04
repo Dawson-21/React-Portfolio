@@ -3,10 +3,10 @@ export default function PieChart() {
     <>
       <div className="grid grid-cols-12 py-20 bg-light dark:bg-dark2 snap-start">
         <div className="col-span-12 ml-[30%] mr-[30%] dark:block dark:md:hidden hidden">
-          <img src="media/pie-chart.png" alt="Coder and Designer Pie Chart" />
+          <img src="media/pie-chart-dark.png" alt="Coder and Designer Pie Chart" />
         </div>
         <div className="col-span-12 ml-[30%] mr-[30%] md:hidden block dark:hidden">
-          <img src="media/pie-chart1.png" alt="Coder and Designer Pie Chart" />
+          <img src="media/pie-chart.png" alt="Coder and Designer Pie Chart" />
         </div>
 
         <div className="md:col-span-4 col-span-6 md:pl-0 sm:pl-5 text-dark dark:text-white">
