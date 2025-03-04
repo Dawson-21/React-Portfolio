@@ -56,25 +56,25 @@ export default function About() {
         <SectionTitle>FUN FACTS</SectionTitle>
 
         <div className="grid lg:grid-cols-4 grid-cols-2 font-light text-dark xl:text-lg lg:text-base pt-5">
-          <div className="lg:-mt-4 -mt-2 xl:space-y-[0.9vw] space-y-[0.6vw]">
+          <div className="lg:-mt-4 -mt-2 md:-ml-0 -ml-8 xl:space-y-[0.9vw] space-y-[0.6vw]">
             <IconList img="media/recipe.svg" alt="Cake icon" />
             <IconList img="media/piano.svg" alt="Piano icon" />
             <IconList img="media/snake.svg" alt="Snake icon" />
           </div>
 
-          <div className="lg:-ml-[34%] md:-ml-[24%] sm:-ml-[36%] -ml-[60%] lg:-mr-3 xl:space-y-[3.2vw] lg:space-y-[3.4vw] md:space-y-[3.9vw] sm:space-y-[4.5vw] space-y-[4.8vw] dark:text-white">
+          <div className="lg:-ml-[34%] md:-ml-[24%] sm:-ml-[39%] -ml-[68%] lg:-mr-3 xl:space-y-[3.2vw] lg:space-y-[3.4vw] md:space-y-[3.9vw] sm:space-y-[4.5vw] space-y-[1.6rem] dark:text-white">
             <p>I enjoy experimenting with new vegan recipes</p>
             <p>Piano and Guitar are my favorite instruments to play</p>
             <p>I have three snakes, a bearded dragon, and a cat</p>
           </div>
 
-          <div className="lg:-mt-4 mt-[0.6vw] xl:space-y-[0.9vw] space-y-[0.6vw]">
+          <div className="lg:-mt-4 mt-[0.6vw] md:-ml-0 -ml-8 xl:space-y-[0.9vw] space-y-[0.6vw]">
             <IconList img="media/beach.svg" alt="Palm tree icon" />
             <IconList img="media/pyramid.svg" alt="Pyramid icon" />
             <IconList img="media/tesla.svg" alt="Tesla tower icon" />
           </div>
 
-          <div className="font-myFont lg:-ml-[34%] md:-ml-[24%] sm:-ml-[36%] -ml-[60%] xl:space-y-[3.2vw] lg:space-y-[3.4vw] md:space-y-[3.9vw] sm:space-y-[4.5vw] space-y-[4.8vw] lg:pt-0 pt-[1.8vw] dark:text-white">
+          <div className="font-myFont lg:-ml-[34%] md:-ml-[24%] sm:-ml-[39%] -ml-[68%] xl:space-y-[3.2vw] lg:space-y-[3.4vw] md:space-y-[3.9vw] sm:space-y-[4.5vw] space-y-[1.6rem] lg:pt-0 pt-[1.8vw] dark:text-white">
             <p>I love going to the beach</p>
             <p>I&#39;m slightly obsessed with ancient civilizations</p>
             <p>Alan Watts & Nicola Tesla are my mentors</p>
