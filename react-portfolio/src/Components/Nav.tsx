@@ -22,7 +22,7 @@ function Nav(props: {
 
   if (props.showMenu) {
     mobileMenu = (
-      <div className="fixed top-[90px] right-0 sm:w-[188px] w-[183px] h-auto bg-light/70 dark:bg-dark/80 border-2 border-r-0 rounded-l-xl border-bright-orange/40 fade-left-fast md:hidden">
+      <div className="fixed top-[90px] right-0 sm:w-[188px] w-[178px] h-auto bg-light/70 dark:bg-dark/80 border-2 border-r-0 rounded-l-xl border-bright-orange/40 fade-left-fast md:hidden">
         <ul className="flex-col space-y-4 pl-6 py-5">
           <li onClick={() => props.setShowMenu(false)}>
             <Link to="/">

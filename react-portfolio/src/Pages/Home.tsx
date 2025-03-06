@@ -20,7 +20,7 @@ export default function Home() {
             <h1 className="max-w-2xl mb-4 md:-mr-20 -mr-5 font-myFont font-bold tracking-tight leading-none text-4xl sm:text-5xl lg:text-5xl xl:text-[55px] dark:text-light">
               Hi, I&#39;m Dawson Adams
             </h1>
-            <p className="max-w-2xl mb-6 font-myFont text-[15px] text-justify text-gray-600 lg:mb-8 xl:pr-20 lg:pr-10 text-lg dark:text-gray-400">
+            <p className="max-w-2xl mb-6 font-myFont text-[15px] sm:text-justify text-gray-600 lg:mb-8 xl:pr-20 lg:pr-10 text-lg dark:text-gray-400">
               Professional web developer and aspiring software engineer with
               skills ranging from front-end design and user experience
               optimization to back-end development and database management. I
@@ -41,7 +41,7 @@ export default function Home() {
               </button>
             </Link>
             <Link to="/portfolio">
-              <div className="inline-flex px-5 py-3 mr-3 font-myFont hover:scale-[1.15] transition duration-500 ease-in-out">
+              <div className="inline-flex sm:px-5 px-3 py-3 mr-3 font-myFont hover:scale-[1.15] transition duration-500 ease-in-out">
                 <Button2>View My Work</Button2>
               </div>
             </Link>
@@ -64,8 +64,8 @@ export default function Home() {
 
         <SectionTitle>MY LATEST PROJECTS</SectionTitle>
                 
-        <div className="inline-flex xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-5 md:gap-4 sm:gap-3 gap-2 z-10">
-          <div className="md:max-w-md max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light dark:border-2">
+        <div className="sm:inline-flex sm:flex-row flex-col xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-5 md:gap-4 sm:gap-3 gap-2">
+          <div className="md:max-w-md sm:max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light dark:border-2">
             <Card
               img="media/img-2.png"
               alt="Portfolio Website"
@@ -74,7 +74,7 @@ export default function Home() {
               a dynamic and engaging experience for potential clients and collaborators."
             />
           </div>
-          <div className="lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light dark:border-2">
+          <div className="lg:max-w-[33%] sm:max-w-[50%] sm:mt-0 mt-5 rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light dark:border-2">
             <Card
               img="media/MD3.png"
               alt="Modern Dev Website"
@@ -83,7 +83,7 @@ export default function Home() {
               the website features vast analytics and user engaement metrics."
             />
           </div>
-          <div className="hidden md:block lg:max-w-[33%] max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light dark:border-2">
+          <div className="block sm:hidden md:block lg:max-w-[33%] sm:max-w-[50%] sm:mt-0 mt-5 rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light dark:border-2">
             <Card
               img="media/TGS2.png"
               alt="Texas Gutter Service Website"

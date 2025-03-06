@@ -19,7 +19,7 @@
   }
   .fade-left-fast {
     position: relative;
-    animation: animateleftfast 1.5s;
+    animation: animateleftfast 0.6s;
   }
   @keyframes animateleftfast {
     from {

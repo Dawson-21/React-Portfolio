@@ -14,7 +14,7 @@ export default function PieChart() {
             Coder
           </h2>
 
-          <ul className="font-myFont text-left 2xl:pl-[13.3vw] xl:pl-[37%] lg:pl-[35%] md:pl-[31%] sm:pl-[32%] pl-[14vw] pt-4 lg:-mr-0 md:-mr-8 font-light xl:text-lg lg:text-base">
+          <ul className="font-myFont text-left 2xl:pl-[13.3vw] xl:pl-[37%] lg:pl-[35%] md:pl-[31%] sm:pl-[32%] pl-[12vw] pt-4 lg:-mr-0 md:-mr-8 font-light xl:text-lg lg:text-base">
             <li>HTML5/CSS3</li>
             <li>TypeScript</li>
             <li>React.js</li>
@@ -39,7 +39,7 @@ export default function PieChart() {
             Designer
           </h2>
 
-          <ul className="font-myFont text-left 2xl:pl-[7.5vw] xl:pl-[28%] lg:pl-[23%] md:pl-[20%] sm:pl-[23%] pl-[11vw] pt-4 font-light xl:text-lg lg:text-base">
+          <ul className="font-myFont text-left 2xl:pl-[7.5vw] xl:pl-[28%] lg:pl-[23%] md:pl-[20%] sm:pl-[23%] pl-[7vw] pt-4 font-light xl:text-lg lg:text-base">
             <li>UI/UX Design</li>
             <li>User Engagement</li>
             <li>Responsive Design</li>
