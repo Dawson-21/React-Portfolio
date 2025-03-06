@@ -24,7 +24,7 @@ export default function ToTop() {
 
   return (
     <>
-      <div className="fixed w-full bottom-8 lg:pl-[95%] md:pl-[93%] pl-[90%]">
+      <div className="fixed w-full bottom-8 lg:pl-[95%] md:pl-[93%] sm:pl-[90%] pl-[87%]">
         {toTopButton && (
           <button
             className="transform hover:scale-[1.15] transition duration-300 ease-in-out relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-medium hover:text-light rounded-full group 

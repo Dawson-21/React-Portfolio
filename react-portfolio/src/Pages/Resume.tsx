@@ -36,7 +36,7 @@ export default function Resume() {
 
         {/****************** RESUME SECTION ******************/}
 
-        <div className="place-self-center pb-10">
+        <div className="place-self-center pb-10 md:block hidden">
           <iframe
             src="https://moderndev.pro/wp-content/uploads/2025/01/AI-Software-Engineer.pdf"
             title="Dawson Adams Resume"
@@ -44,10 +44,28 @@ export default function Resume() {
             width={850}
           />
         </div>
+        
+        <div className="place-self-center pb-10 md:hidden block">
+          <a
+            href="https://moderndev.pro/wp-content/uploads/2025/01/AI-Software-Engineer.pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="transform hover:scale-[1.15] transition duration-300 ease-in-out relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-myFont text-dark font-extrabold hover:text-light dark:text-light rounded-lg group 
+            bg-gradient-135 from-bright-orange from-20% to-regal-blue to-80% group-hover:from-bright-orange group-hover:to-regal-blue"
+          >
+            <span
+              className="relative px-20 py-2.5 transition-all ease-in duration-300 
+            bg-light dark:bg-slate-950 rounded-md group-hover:bg-opacity-0"
+            >
+              View Resume
+            </span>
+          </a>
+        </div>
 
         <div className="place-self-center pb-10">
           <Socials />
         </div>
+
       </div>
 
       {/****************** CONTACT FORM SECTION ******************/}
