@@ -1,7 +1,7 @@
-import PieChart from "../Components/PieChart";
-import IconBox from "../Components/IconBox";
-import IconList from "../Components/IconList";
-import SectionTitle from "../Components/SectionTitle";
+import PieChart from "../components/PieChart";
+import IconBox from "../components/IconBox";
+import IconList from "../components/IconList";
+import SectionTitle from "../components/SectionTitle";
 
 export default function About() {
   return (

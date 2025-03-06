@@ -1,5 +1,5 @@
-import Card from "../Components/Card";
-import SectionTitle from "../Components/SectionTitle";
+import Card from "../components/Card";
+import SectionTitle from "../components/SectionTitle";
 
 export default function Portfolio() {
   return (

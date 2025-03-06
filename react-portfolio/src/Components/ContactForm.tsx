@@ -1,17 +1,18 @@
 import React, { useState } from "react";
 
 interface ContactFormData {
-  name: string;
   email: string;
+  subject: string;
   message: string;
 }
 
 const ContactForm: React.FC = () => {
   const [formData, setFormData] = useState<ContactFormData>({
-    name: "",
     email: "",
+    subject: "",
     message: "",
   });
+  const [status, setStatus] = useState("");
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -22,8 +23,24 @@ const ContactForm: React.FC = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
     // Send formData to the backend
-    console.log("Form submitted:", formData);
+    setStatus("Sending...");
+
+    const response = await fetch("/api/contact", {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify(formData),
+    });
+
+    if (response.ok) {
+      setStatus("Message sent successfully!");
+      setFormData({ email: "", subject: "", message: "" });
+      console.log("Form submitted:", formData);
+    } else {
+      setStatus("An error occurred, please try again.");
+      console.log("Error submitting form:", formData);
+    }
   };
 
   return (
@@ -50,7 +67,7 @@ const ContactForm: React.FC = () => {
               type="text"
               placeholder="What's the topic?"
               name="subject"
-              value={formData.name}
+              value={formData.subject}
               onChange={handleChange}
               required
             />

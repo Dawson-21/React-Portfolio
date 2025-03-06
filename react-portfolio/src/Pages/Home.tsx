@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import Button2 from "../Components/Button2";
-import Card from "../Components/Card";
-import SectionTitle from "../Components/SectionTitle";
+import Button2 from "../components/Button2";
+import Card from "../components/Card";
+import SectionTitle from "../components/SectionTitle";
 
 export default function Home() {
   return (

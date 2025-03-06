@@ -1,6 +1,6 @@
-import Nav from "./Components/Nav";
-import Footer from "./Components/Footer";
-import ToTop from "./Components/ToTop";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
+import ToTop from "./components/ToTop";
 import { Outlet } from "react-router-dom";
 import { useState } from "react";
 

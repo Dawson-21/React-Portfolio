@@ -1,6 +1,6 @@
-import ContactForm from "../Components/ContactForm";
-import Socials from "../Components/Socials";
-import SectionTitle from "../Components/SectionTitle";
+import ContactForm from "../components/ContactForm";
+import Socials from "../components/Socials";
+import SectionTitle from "../components/SectionTitle";
 
 export default function Resume() {
   return (
