@@ -12,7 +12,7 @@ const ContactForm: React.FC = () => {
     subject: "",
     message: "",
   });
-  const [status, setStatus] = useState("");
+  // const [status, setStatus] = useState("");
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -25,7 +25,7 @@ const ContactForm: React.FC = () => {
     e.preventDefault();
 
     // Send formData to the backend
-    setStatus("Sending...");
+    // setStatus("Sending...");
 
     const response = await fetch("/api/contact", {
       method: "POST",
@@ -34,11 +34,11 @@ const ContactForm: React.FC = () => {
     });
 
     if (response.ok) {
-      setStatus("Message sent successfully!");
+      // setStatus("Message sent successfully!");
       setFormData({ email: "", subject: "", message: "" });
       console.log("Form submitted:", formData);
     } else {
-      setStatus("An error occurred, please try again.");
+      // setStatus("An error occurred, please try again.");
       console.log("Error submitting form:", formData);
     }
   };
