@@ -17,6 +17,17 @@ export default function Home() {
         </div>
         <div className="grid max-w-screen-2xl px-8 py-8 mx-auto xl:px-16 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 fade-in">
           <div className="mr-auto place-self-center lg:col-span-7">
+
+            <div className="font-myFont text-3xl sm:hidden text-dark dark:text-white">
+              <p className="[@media(max-width:350px)]:block hidden">under 350px</p>
+              <p className="[@media(max-width:375px)]:block hidden">under 375px</p>
+              <p className="[@media(max-width:400px)]:block hidden">under 400px</p>
+              <p className="[@media(max-width:425px)]:block hidden">under 425px</p>
+              <p className="[@media(max-width:450px)]:block hidden">under 450px</p>
+              <p className="[@media(max-width:475px)]:block hidden">under 475px</p>
+              <p className="[@media(max-width:500px)]:block hidden">under 500px</p>
+            </div>
+
             <h1 className="max-w-2xl mb-4 md:-mr-20 -mr-5 font-myFont font-bold tracking-tight leading-none [@media(max-width:450px)]:text-[27px] text-4xl sm:text-5xl lg:text-5xl xl:text-[55px] dark:text-light">
               Hi, I&#39;m Dawson Adams
             </h1>
