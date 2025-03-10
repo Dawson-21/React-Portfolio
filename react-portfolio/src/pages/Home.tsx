@@ -93,12 +93,6 @@ export default function Home() {
             />
           </div>
         </div>
-        <div
-          className="absolute inset-x-0 -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-3rem)]"
-          aria-hidden="true"
-        >
-          <div className="relative aspect-[19/10] -translate-x-[100%] bg-gradient-to-r from-[#0047ff] to-[#ff4500] opacity-20 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" />
-        </div>
       </div>
     </>
   );
