@@ -19,13 +19,17 @@ export default function Home() {
           <div className="mr-auto place-self-center lg:col-span-7">
 
             <div className="font-myFont text-3xl sm:hidden text-dark dark:text-white">
-              <p className="[@media(max-width:375px)]:block hidden">under 375px</p>
               <p className="[@media(max-width:380px)]:block hidden">under 380px</p>
+              <p className="[@media(max-width:382px)]:block hidden">under 382px</p>
+              <p className="[@media(max-width:384px)]:block hidden">under 384px</p>
+              <p className="[@media(max-width:386px)]:block hidden">under 386px</p>
+              <p className="[@media(max-width:388px)]:block hidden">under 388px</p>
               <p className="[@media(max-width:390px)]:block hidden">under 390px</p>
-              <p className="[@media(max-width:400px)]:block hidden">under 400px</p>
               <p className="[@media(max-width:410px)]:block hidden">under 410px</p>
-              <p className="[@media(max-width:420px)]:block hidden">under 420px</p>
-              <p className="[@media(max-width:425px)]:block hidden">under 425px</p>
+              <p className="[@media(max-width:412px)]:block hidden">under 412px</p>
+              <p className="[@media(max-width:414px)]:block hidden">under 414px</p>
+              <p className="[@media(max-width:416px)]:block hidden">under 416px</p>
+              <p className="[@media(max-width:418px)]:block hidden">under 418px</p>
             </div>
 
             <h1 className="max-w-2xl mb-4 md:-mr-20 -mr-5 font-myFont font-bold tracking-tight leading-none [@media(max-width:450px)]:text-[27px] text-4xl sm:text-5xl lg:text-5xl xl:text-[55px] dark:text-light">
