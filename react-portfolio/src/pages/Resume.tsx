@@ -14,7 +14,7 @@ export default function Resume() {
         >
           <div className="relative aspect-[1155/678] -translate-x-1/2 rotate-[30deg] bg-gradient-to-l from-[#ff4500] to-[#0047ff] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" />
         </div>
-        <div className="grid max-w-screen-2xl px-8 py-8 mx-auto fade-in lg:py-20 lg:grid-cols-12">
+        <div className="grid max-w-screen-2xl px-4 py-8 mx-auto sm:px-8 fade-in lg:py-20 lg:grid-cols-12">
           <div className="lg:col-span-12">
             <h1 className="max-w-2xl mb-4 mx-auto lg:text-center font-myFont font-bold tracking-tight leading-none text-4xl sm:text-5xl lg:text-6xl dark:text-light">
               Resum&#232;

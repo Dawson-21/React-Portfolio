@@ -15,7 +15,7 @@ export default function About() {
         >
           <div className="relative aspect-[1155/678] translate-x-1/2 rotate-[180deg] bg-gradient-to-l from-[#ff4500] to-[#0047ff] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" />
         </div>
-        <div className="grid max-w-screen-2xl px-8 py-8 mx-auto lg:px-16 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+        <div className="grid max-w-screen-2xl px-4 py-8 mx-auto sm:px-8 lg:px-16 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="hidden -z-10 lg:col-span-5 lg:flex lg:-ml-[7%] lg:pt-0 lg:mt-16 md:-mb-16 xl:h-[33vw] lg:h-[30vw] xl:w-[50vw] lg:w-[45vw]">
             <img
               src="media/hero-img2.png"
