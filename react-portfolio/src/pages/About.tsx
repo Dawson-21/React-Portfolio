@@ -56,25 +56,25 @@ export default function About() {
         <SectionTitle>FUN FACTS</SectionTitle>
 
         <div className="grid lg:grid-cols-4 grid-cols-2 font-myFont text-dark dark:text-white xl:text-lg sm:text-base text-[14px] pt-5">
-          <div className="lg:-mt-4 -mt-2 md:-ml-0 -ml-10 xl:space-y-[0.9vw] space-y-[0.6vw]">
+          <div className="lg:-mt-4 -mt-2 md:-ml-0 sm:-ml-12 [@media(max-width:450px)]:-ml-10 xl:space-y-[0.9vw] space-y-[0.6vw]">
             <IconList img="media/recipe.svg" alt="Cake icon" />
             <IconList img="media/piano.svg" alt="Piano icon" />
             <IconList img="media/snake.svg" alt="Snake icon" />
           </div>
 
-          <div className="lg:-ml-[34%] md:-ml-[24%] sm:-ml-[39%] -ml-[72%] lg:-mr-6 xl:space-y-[3.2vw] lg:space-y-[3.4vw] md:space-y-[3.9vw] sm:space-y-[4.5vw] space-y-[1.8rem]">
+          <div className="lg:-ml-[34%] md:-ml-[24%] sm:-ml-[41%] -ml-[60%] [@media(max-width:450px)]:-ml-[73%] lg:-mr-6 xl:space-y-[3.2vw] lg:space-y-[3.4vw] md:space-y-[3.9vw] sm:space-y-[4.5vw] space-y-[1.8rem]">
             <p>I enjoy experimenting with new vegan recipes</p>
             <p>Piano and Guitar are my favorite instruments to play</p>
             <p>I have three snakes, a bearded dragon, and a cat</p>
           </div>
 
-          <div className="lg:-mt-4 mt-[0.6vw] md:-ml-0 -ml-10 xl:space-y-[0.9vw] space-y-[0.6vw]">
+          <div className="lg:-mt-4 mt-[0.6vw] md:-ml-0 sm:-ml-12 [@media(max-width:450px)]:-ml-10 xl:space-y-[0.9vw] space-y-[0.6vw]">
             <IconList img="media/beach.svg" alt="Palm tree icon" />
             <IconList img="media/pyramid.svg" alt="Pyramid icon" />
             <IconList img="media/tesla.svg" alt="Tesla tower icon" />
           </div>
 
-          <div className="lg:-ml-[34%] md:-ml-[24%] sm:-ml-[39%] -ml-[72%] xl:space-y-[3.2vw] lg:space-y-[3.4vw] md:space-y-[3.9vw] sm:space-y-[4.5vw] space-y-[1.8rem] lg:pt-0 sm:pt-[1.8vw] pt-[2.9vw]">
+          <div className="lg:-ml-[34%] md:-ml-[24%] sm:-ml-[41%] -ml-[60%] [@media(max-width:450px)]:-ml-[73%] xl:space-y-[3.2vw] lg:space-y-[3.4vw] md:space-y-[3.9vw] sm:space-y-[4.5vw] space-y-[1.8rem] lg:pt-0 sm:pt-[1.8vw] pt-[2.9vw]">
             <p>I love going to the beach</p>
             <p>I&#39;m slightly obsessed with ancient civilizations</p>
             <p>Alan Watts & Nicola Tesla are my mentors</p>
