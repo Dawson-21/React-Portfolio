@@ -13,7 +13,7 @@ function Button2({ children }: Props) {
       {children}
       <svg
         className="w-5 h-5 ml-2 -mr-1 inline-block"
-        fill='rgb(0, 52, 182)'
+        fill='rgb(0, 64, 227)'
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >

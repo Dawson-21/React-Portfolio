@@ -41,7 +41,7 @@ export default function Home() {
               </button>
             </Link>
             <Link to="/portfolio">
-              <div className="inline-flex sm:px-5 px-3 py-3 mr-3 font-myFont hover:scale-[1.15] transition duration-500 ease-in-out">
+              <div className="inline-flex sm:px-5 px-3 py-3 font-myFont hover:scale-[1.15] transition duration-500 ease-in-out">
                 <Button2>View My Work</Button2>
               </div>
             </Link>
