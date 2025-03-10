@@ -81,7 +81,7 @@ export default function Portfolio() {
               cross-browser compatibility, and mobile-first design to ensure a seamless experience across all devices."
               btn="View Project"
               link="https://cncgaragedoors.com"
-              newPage={true}
+              newPage
             />
           </div>
           <div className="md:max-w-[33%] sm:mt-0 mt-5 rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light border-white border-2">
@@ -93,7 +93,7 @@ export default function Portfolio() {
               responsive design principles, and advanced SEO techniques to ensure high visibility and user engagement."
               btn="View Project"
               link="https://texasgutterservice.com"
-              newPage={true}
+              newPage
             />
           </div>
           <div className="block sm:hidden md:block md:max-w-[33%] sm:mt-0 mt-5 rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light border-white border-2">
@@ -105,7 +105,7 @@ export default function Portfolio() {
               navigation, and performance optimization to provide an excellent user experience."
               btn="View Project"
               link="https://detailscarpetandtilecare.com"
-              newPage={true}
+              newPage
             />
           </div>
         </div>
@@ -120,7 +120,6 @@ export default function Portfolio() {
               for potential clients and collaborators. The website leverages React for efficient component-based development, Tailwind CSS for rapid 
               and responsive design, and Vercel for seamless deployment and hosting."
               link="#"
-              newPage={false}
             />
           </div>
           <div className="md:max-w-[33%] sm:mt-0 mt-5 rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light border-white border-2">
@@ -132,7 +131,7 @@ export default function Portfolio() {
               the website features vast analytics and user engaement metrics. This project emphasizes the innovative and client-focused approach that my work embodies."
               btn="View Project"
               link="https://moderndev.pro"
-              newPage={true}
+              newPage
             />
           </div>
           <div className="block sm:hidden md:block md:max-w-[33%] sm:mt-0 mt-5 rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light border-white border-2">
@@ -144,7 +143,7 @@ export default function Portfolio() {
               LiteSpeed Cache for enhanced performance, and All in One SEO for optimized search engine presence."
               btn="View Project"
               link="https://claytondemolition.com"
-              newPage={true}
+              newPage
             />
           </div>
         </div>

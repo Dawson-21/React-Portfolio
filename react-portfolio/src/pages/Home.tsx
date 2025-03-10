@@ -82,7 +82,6 @@ export default function Home() {
               desc="This responsive site, built with React, Tailwind, and Vercel, showcases my web development projects and skills, providing 
               a dynamic and engaging experience for potential clients and collaborators."
               link="#"
-              newPage={false}
             />
           </div>
           <div className="md:max-w-[33%] sm:mt-0 mt-5 rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light border-white border-2">
@@ -94,7 +93,7 @@ export default function Home() {
               the website features vast analytics and user engaement metrics."
               btn="View Project"
               link="https://moderndev.pro"
-              newPage={true}
+              newPage
             />
           </div>
           <div className="block sm:hidden md:block md:max-w-[33%] sm:mt-0 mt-5 rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light border-white border-2">
@@ -106,7 +105,7 @@ export default function Home() {
               responsive design principles, and advanced SEO techniques to ensure high visibility and user engagement."
               btn="View Project"
               link="https://texasgutterservice.com"
-              newPage={true}
+              newPage
             />
           </div>
         </div>
