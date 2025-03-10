@@ -55,7 +55,7 @@ export default function About() {
 
         <SectionTitle>FUN FACTS</SectionTitle>
 
-        <div className="grid lg:grid-cols-4 grid-cols-2 font-myFont text-dark dark:text-white xl:text-lg sm:text-base text-[14px] pt-5">
+        <div className="grid lg:grid-cols-4 grid-cols-2 font-myFont text-dark dark:text-white xl:text-lg sm:text-base text-[14px] [@media(max-width:390px)]:text-[13px] pt-5">
           <div className="lg:-mt-4 -mt-2 md:-ml-0 sm:-ml-12 [@media(max-width:450px)]:-ml-10 xl:space-y-[0.9vw] space-y-[0.6vw]">
             <IconList img="media/recipe.svg" alt="Cake icon" />
             <IconList img="media/piano.svg" alt="Piano icon" />
