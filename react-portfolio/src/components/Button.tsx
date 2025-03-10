@@ -10,7 +10,7 @@ function Button({ children, currentPage }: Props) {
     });
   };
 
-  let style = currentPage ? "opacity-40" : "opacity-100";
+  let style = currentPage ? "opacity-60" : "opacity-100";
 
   return (
     <>

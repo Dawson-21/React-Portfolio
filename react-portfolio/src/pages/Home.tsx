@@ -81,6 +81,8 @@ export default function Home() {
               title="Portfolio Website"
               desc="This responsive site, built with React, Tailwind, and Vercel, showcases my web development projects and skills, providing 
               a dynamic and engaging experience for potential clients and collaborators."
+              link="#"
+              newPage={false}
             />
           </div>
           <div className="md:max-w-[33%] sm:mt-0 mt-5 rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light border-white border-2">
@@ -90,6 +92,9 @@ export default function Home() {
               title="Web Development Website"
               desc="Crafted a professional Wordpress website for my web development company, Modern Dev. Incorporating plugins like MonsterInsights, 
               the website features vast analytics and user engaement metrics."
+              btn="View Project"
+              link="https://moderndev.pro"
+              newPage={true}
             />
           </div>
           <div className="block sm:hidden md:block md:max-w-[33%] sm:mt-0 mt-5 rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light border-white border-2">
@@ -99,6 +104,9 @@ export default function Home() {
               title="Gutter Business Website"
               desc="Clean one-page website for Texas Gutter Service, utilizing my expertise in custom theme development, 
               responsive design principles, and advanced SEO techniques to ensure high visibility and user engagement."
+              btn="View Project"
+              link="https://texasgutterservice.com"
+              newPage={true}
             />
           </div>
         </div>
