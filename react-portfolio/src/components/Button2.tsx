@@ -5,21 +5,6 @@ interface Props {
 function Button2({ children }: Props) {
   return (
     <>
-      {/* <button className="group bg-gradient-to-r from-bright-orange to-regal-blue inline-block text-transparent bg-clip-text">
-        {children}
-        <svg
-          className="w-5 h-5 ml-2 -mr-1 inline-block"
-          fill="blue"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            fillRule="evenodd"
-            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-            clipRule="evenodd"
-          />
-        </svg>
-      </button> */}
       <button
         className="text-transparent bg-clip-text"
         style={{
@@ -29,7 +14,7 @@ function Button2({ children }: Props) {
         {children}
         <svg
           className="w-5 h-5 ml-2 -mr-1 inline-block"
-          fill="blue"
+          fill="#0047ff"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
         >
