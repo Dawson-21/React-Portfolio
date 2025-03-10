@@ -19,13 +19,13 @@ export default function Home() {
           <div className="mr-auto place-self-center lg:col-span-7">
 
             <div className="font-myFont text-3xl sm:hidden text-dark dark:text-white">
-              <p className="[@media(max-width:350px)]:block hidden">under 350px</p>
               <p className="[@media(max-width:375px)]:block hidden">under 375px</p>
+              <p className="[@media(max-width:380px)]:block hidden">under 380px</p>
+              <p className="[@media(max-width:390px)]:block hidden">under 390px</p>
               <p className="[@media(max-width:400px)]:block hidden">under 400px</p>
+              <p className="[@media(max-width:410px)]:block hidden">under 410px</p>
+              <p className="[@media(max-width:420px)]:block hidden">under 420px</p>
               <p className="[@media(max-width:425px)]:block hidden">under 425px</p>
-              <p className="[@media(max-width:450px)]:block hidden">under 450px</p>
-              <p className="[@media(max-width:475px)]:block hidden">under 475px</p>
-              <p className="[@media(max-width:500px)]:block hidden">under 500px</p>
             </div>
 
             <h1 className="max-w-2xl mb-4 md:-mr-20 -mr-5 font-myFont font-bold tracking-tight leading-none [@media(max-width:450px)]:text-[27px] text-4xl sm:text-5xl lg:text-5xl xl:text-[55px] dark:text-light">
