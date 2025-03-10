@@ -15,26 +15,14 @@ export default function Home() {
         >
           <div className="relative aspect-[1155/678] -translate-x-1/2 rotate-[30deg] bg-gradient-to-l from-[#ff4500] to-[#0047ff] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" />
         </div>
+
         <div className="grid max-w-screen-2xl px-8 py-8 mx-auto xl:px-16 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 fade-in">
           <div className="mr-auto place-self-center lg:col-span-7">
 
-            <div className="font-myFont text-3xl sm:hidden text-dark dark:text-white">
-              <p className="[@media(max-width:380px)]:block hidden">under 380px</p>
-              <p className="[@media(max-width:382px)]:block hidden">under 382px</p>
-              <p className="[@media(max-width:384px)]:block hidden">under 384px</p>
-              <p className="[@media(max-width:386px)]:block hidden">under 386px</p>
-              <p className="[@media(max-width:388px)]:block hidden">under 388px</p>
-              <p className="[@media(max-width:390px)]:block hidden">under 390px</p>
-              <p className="[@media(max-width:410px)]:block hidden">under 410px</p>
-              <p className="[@media(max-width:412px)]:block hidden">under 412px</p>
-              <p className="[@media(max-width:414px)]:block hidden">under 414px</p>
-              <p className="[@media(max-width:416px)]:block hidden">under 416px</p>
-              <p className="[@media(max-width:418px)]:block hidden">under 418px</p>
-            </div>
-
-            <h1 className="max-w-2xl mb-4 md:-mr-20 -mr-5 font-myFont font-bold tracking-tight leading-none [@media(max-width:450px)]:text-[27px] text-4xl sm:text-5xl lg:text-5xl xl:text-[55px] dark:text-light">
+            <h1 className="max-w-2xl mb-4 md:-mr-20 -mr-8 font-myFont font-bold tracking-tight leading-none [@media(max-width:450px)]:text-3xl text-4xl sm:text-5xl lg:text-5xl xl:text-[55px] dark:text-light">
               Hi, I&#39;m Dawson Adams
             </h1>
+
             <p className="max-w-2xl mb-6 font-myFont text-[15px] sm:text-justify text-gray-600 lg:mb-8 xl:pr-20 lg:pr-10 text-lg dark:text-gray-400">
               Professional web developer and aspiring software engineer with
               skills ranging from front-end design and user experience
@@ -42,6 +30,7 @@ export default function Home() {
               recently graduated from Texas A&M University - Corpus Christi with
               a Bachelor of Computer Science.
             </p>
+
             <Link to="/about">
               <button
                 className="transform hover:scale-[1.15] transition duration-200 ease-in-out relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-myFont text-dark font-extrabold hover:text-light dark:text-light rounded-lg group 
@@ -55,22 +44,27 @@ export default function Home() {
                 </span>
               </button>
             </Link>
+
             <Link to="/portfolio">
               <div className="inline-flex sm:px-5 px-3 py-3 -mr-5 font-myFont hover:scale-[1.15] transition duration-500 ease-in-out">
                 <Button2>View My Work</Button2>
               </div>
             </Link>
           </div>
+
           <div className="hidden -z-10 lg:col-span-5 lg:flex xl:-ml-[27%] lg:-ml-[20%] lg:pt-0 lg:mt-16 md:-mb-16 xl:h-[33vw] lg:h-[30vw] xl:w-[50vw] lg:w-[45vw] fade-left">
             <img src="media/hero-img.png" alt="Dawson Adams" />
           </div>
+
         </div>
+
         <div
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-30 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
           aria-hidden="true"
         >
           <div className="relative aspect-[1155/378] -translate-x-1/2 bg-gradient-to-r from-[#0047ff] to-[#ff4500] opacity-20 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" />
         </div>
+
       </div>
 
       {/****************** PROJECTS SECTION ******************/}
