@@ -74,25 +74,25 @@ export default function Home() {
         <SectionTitle>MY LATEST PROJECTS</SectionTitle>
                 
         <div className="sm:inline-flex sm:flex-row flex-col xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-5 md:gap-4 sm:gap-3 gap-2">
-          <div className="md:max-w-md sm:max-w-[50%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light dark:border-2">
+          <div className="md:max-w-[33%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light border-white border-2">
             <Card
-              img="media/img-2.png"
+              img="media/portfolio.png"
               alt="Portfolio Website"
               title="Portfolio Website"
               desc="This responsive site, built with React, Tailwind, and Vercel, showcases my web development projects and skills, providing 
               a dynamic and engaging experience for potential clients and collaborators."
             />
           </div>
-          <div className="lg:max-w-[33%] sm:max-w-[50%] sm:mt-0 mt-5 rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light dark:border-2">
+          <div className="md:max-w-[33%] sm:mt-0 mt-5 rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light border-white border-2">
             <Card
-              img="media/MD3.png"
+              img="media/MD1.png"
               alt="Modern Dev Website"
               title="Web Development Website"
               desc="Crafted a professional Wordpress website for my web development company, Modern Dev. Incorporating plugins like MonsterInsights, 
               the website features vast analytics and user engaement metrics."
             />
           </div>
-          <div className="block sm:hidden md:block lg:max-w-[33%] sm:max-w-[50%] sm:mt-0 mt-5 rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light dark:border-2">
+          <div className="block sm:hidden md:block md:max-w-[33%] sm:mt-0 mt-5 rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light border-white border-2">
             <Card
               img="media/TGS2.png"
               alt="Texas Gutter Service Website"
