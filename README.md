@@ -1,6 +1,6 @@
 # Portfolio Website
 
-**Technologies Used:** React.js, Tailwind CSS, React Router, Vercel
+**Technologies Used:** React.js, Tailwind CSS, React Router, Vercel, DeepSource
 
 ## Description
 This project is a personal portfolio website built from scratch using React.js and styled with Tailwind CSS. It showcases my skills, projects, and experience in web development, providing a seamless and responsive user experience.
