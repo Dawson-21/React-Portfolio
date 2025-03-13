@@ -254,13 +254,11 @@ export default function About() {
 
           <div className="py-8">
             <IconBox
-              icon="media/innovate2.svg"
+              icon="media/clarity.svg"
               alt="Light bulb icon"
-              title="Innovation"
-              desc="I&#39;m dedicated to staying ahead in the ever-evolving tech landscape
-              by continuously learning and exploring new ideas. Embracing
-              innovation drives me to push boundaries and deliver cutting-edge
-              solutions."
+              title="Clarity"
+              desc="I prioritize clarity in everything I do to create a smooth and productive work environment. Whether writing code, 
+              documenting processes, or discussing technical concepts, I ensure my communication is precise and easy to understand."
             />
           </div>
 

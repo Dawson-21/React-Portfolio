@@ -90,7 +90,7 @@ export default function Home() {
               alt="Modern Dev Website"
               title="Web Development Website"
               desc="Crafted a professional Wordpress website for my web development company, Modern Dev. Incorporating plugins like MonsterInsights, 
-              the website features vast analytics and user engaement metrics."
+              the website features vast analytics and user engaement metrics, allowing for data-driven decision making."
               btn="View Project"
               link="https://moderndev.pro"
               newPage
