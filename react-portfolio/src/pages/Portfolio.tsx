@@ -127,7 +127,7 @@ export default function Portfolio() {
               img="media/MD1.png"
               alt="Modern Dev Website"
               title="Web Development Website"
-              desc="Crafted a professional Wordpress website for my web development company, Modern Dev. Incorporating plugins like MonsterInsights, 
+              desc="Crafted a professional Wordpress website for my freelance web development business, Modern Dev. Incorporating plugins like MonsterInsights, 
               the website features vast analytics and user engaement metrics. This project emphasizes the innovative and client-focused approach that my work embodies."
               btn="View Project"
               link="https://moderndev.pro"
@@ -139,8 +139,9 @@ export default function Portfolio() {
               img="media/CD2.png"
               alt="Clayton Demolition Website"
               title="Demolition Website"
-              desc="Developed a robust and professional one-page website for Clayton Demolition using WordPress, leveraging Elementor for easy design, 
-              LiteSpeed Cache for enhanced performance, and All in One SEO for optimized search engine presence."
+              desc="As my first professional project, this site showcases how far I have come as a freelancer. While not the best visually, this one-page 
+              website for Clayton Demolition still leverages Elementor for rapid design, LiteSpeed Cache for enhanced performance, and All in One SEO for 
+              optimized search engine presence."
               btn="View Project"
               link="https://claytondemolition.com"
               newPage
