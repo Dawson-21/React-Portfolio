@@ -52,7 +52,7 @@ export default () => {
       url: 'https://formspree.io/f/mqapapol',
       data: inputs,
     })
-      .then((_response) => {
+      .then(() => { // use to be .then((response) => {
         handleServerResponse(
           true,
           'Thank you, your message has been submitted.',
