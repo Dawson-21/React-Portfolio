@@ -8,6 +8,7 @@ export default () => {
     info: { error: false, msg: null as string | null },
   });
   const [inputs, setInputs] = useState({
+    name: '',
     email: '',
     message: '',
   });
@@ -19,6 +20,7 @@ export default () => {
         info: { error: false, msg: msg },
       });
       setInputs({
+        name: '',
         email: '',
         message: '',
       });
@@ -75,7 +77,7 @@ export default () => {
               name="name"
               onChange={handleOnChange}
               required
-              value={inputs.email}
+              value={inputs.name}
             />
             <label htmlFor="email" className="block text-lg font-medium text-dark dark:text-white pt-[27px]">Email</label>
             <input
