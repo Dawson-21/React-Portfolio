@@ -48,6 +48,19 @@ const ContactForm: React.FC = () => {
       <form onSubmit={handleSubmit}>
         <div className="lg:w-1/2 w-full inline-block lg:pr-10 -translate-y-[17px]">
           <label className="block lg:mb-4 text-lg font-medium text-dark dark:text-white">
+            Name
+            <input
+              className="shadow-sm bg-white border border-dark text-dark text-lg rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-dark dark:border-gray-600 dark:placeholder-gray-400 dark:text-light dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+              type="text"
+              placeholder="John Doe"
+              name="name"
+              value={formData.subject}
+              onChange={handleChange}
+              required
+            />
+          </label>
+
+          <label className="block text-lg font-medium text-dark dark:text-white pt-[19px]">
             Email
             <input
               className="shadow-sm bg-white border border-dark text-dark text-lg rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-dark dark:border-gray-600 dark:placeholder-gray-400 dark:text-light dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
@@ -55,19 +68,6 @@ const ContactForm: React.FC = () => {
               placeholder="john.smith@email.com"
               name="email"
               value={formData.email}
-              onChange={handleChange}
-              required
-            />
-          </label>
-
-          <label className="block text-lg font-medium text-dark dark:text-white pt-[19px]">
-            Subject
-            <input
-              className="shadow-sm bg-white border border-dark text-dark text-lg rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-dark dark:border-gray-600 dark:placeholder-gray-400 dark:text-light dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-              type="text"
-              placeholder="What's the topic?"
-              name="subject"
-              value={formData.subject}
               onChange={handleChange}
               required
             />
@@ -89,7 +89,7 @@ const ContactForm: React.FC = () => {
         {/* <button type="submit">Send</button> 
          Do I Need to include type="submit"? */}
         <div className="lg:place-self-end place-self-center max-lg:pt-10">
-          <button
+          <button type="submit"
             className="transform hover:scale-[1.15] transition duration-200 ease-in-out relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-md font-bold hover:text-light text-dark dark:text-white rounded-lg group 
             bg-gradient-135 from-bright-orange from-20% to-regal-blue to-80% group-hover:from-bright-orange group-hover:to-regal-blue"
           >
