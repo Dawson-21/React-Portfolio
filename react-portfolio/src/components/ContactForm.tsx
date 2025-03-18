@@ -34,7 +34,7 @@ export default () => {
   };
   const handleOnChange = (e: {
     persist: () => void;
-    target: { id: any; value: any };
+    target: { id: string; value: string };
   }) => {
     e.persist();
     setInputs((prev) => ({
