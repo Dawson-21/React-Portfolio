@@ -34,7 +34,7 @@ export default function Resume() {
           <div className="relative aspect-[1155/378] -translate-x-1/2 bg-gradient-to-r from-[#0047ff] to-[#ff4500] opacity-20 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" />
         </div>
 
-        {/****************** RESUME SECTION ******************/}
+        {/****************** RESUMÉ SECTION ******************/}
 
         <div className="place-self-center pb-10 md:block hidden">
           <iframe
