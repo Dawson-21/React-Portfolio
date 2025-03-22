@@ -7,11 +7,13 @@ export default () => {
     submitting: false,
     info: { error: false, msg: null as string | null },
   });
+
   const [inputs, setInputs] = useState({
     name: "",
     email: "",
     message: "",
   });
+
   const handleServerResponse = (ok: boolean, msg: string) => {
     if (ok) {
       setStatus({
@@ -32,6 +34,7 @@ export default () => {
       });
     }
   };
+
   const handleOnChange = (e: {
     persist: () => void;
     target: { id: string; value: string };
@@ -47,6 +50,7 @@ export default () => {
       info: { error: false, msg: null },
     });
   };
+
   const handleOnSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
     setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
@@ -56,7 +60,7 @@ export default () => {
       data: inputs,
     })
       .then(() => {
-        // use to be .then((response) => {
+        // 'response' was a parameter but unused
         handleServerResponse(
           true,
           "Thank you, your message has been submitted."
@@ -66,6 +70,7 @@ export default () => {
         handleServerResponse(false, error.response.data.error);
       });
   };
+
   return (
     <>
       <div className="2xl:px-[11vw] xl:px-[9vw] lg:px-[7vw] md:px-[15vw] sm:px-[10vw] px-[5vw] py-10 bg-transparent font-myFont">
