@@ -38,7 +38,7 @@ export default function Resume() {
 
         <div className="place-self-center pb-10 md:block hidden">
           <iframe
-            src="https://www.dropbox.com/scl/fi/strh2ux7yoennaywg9r7y/Adams-Developer.pdf?rlkey=s5s52va52x0tr9zmutptakpvd&st=f1c9mygj&dl=0"
+            src="https://moderndev.pro/wp-content/uploads/2025/03/Adams-Developer-3.pdf"
             title="Dawson Adams Resume"
             height={1132}
             width={850}
@@ -47,7 +47,7 @@ export default function Resume() {
 
         <div className="place-self-center pb-10 md:hidden block">
           <a
-            href="https://www.dropbox.com/scl/fi/strh2ux7yoennaywg9r7y/Adams-Developer.pdf?rlkey=s5s52va52x0tr9zmutptakpvd&st=f1c9mygj&dl=0"
+            href="https://moderndev.pro/wp-content/uploads/2025/03/Adams-Developer-3.pdf"
             target="_blank"
             rel="noreferrer"
             className="transform hover:scale-[1.15] transition duration-300 ease-in-out relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-myFont text-dark font-extrabold hover:text-light dark:text-light rounded-lg group 
