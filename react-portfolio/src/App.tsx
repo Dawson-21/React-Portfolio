@@ -6,8 +6,7 @@ import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import Layout from "./Layout";
 
-
-  {/* Using Browser Router for Better SEO (No '#' in the URL) */}
+{/* Using Browser Router for Better SEO (No '#' in the URL) */}
 
 function App() {
   return (
