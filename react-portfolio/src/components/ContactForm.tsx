@@ -152,9 +152,15 @@ export default () => {
       </div>
 
       {status.info.error && (
-        <div className="error">Error: {status.info.msg}</div>
+        <div className="w-[40%] h-10 border-2 rounded-xl border-red-600 bg-red-400 m-auto">
+          Error: {status.info.msg}
+        </div>
       )}
-      {!status.info.error && status.info.msg && <p>{status.info.msg}</p>}
+      {!status.info.error && status.info.msg && (
+        <p className="w-[40%] h-10 border-2 rounded-xl border-green-600 bg-green-400 m-auto">
+          {status.info.msg}
+        </p>
+      )}
     </>
   );
 };
