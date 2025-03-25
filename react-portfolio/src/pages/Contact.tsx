@@ -41,7 +41,7 @@ export default function Contact() {
         </div>
       </div>
 
-      {/****************** CONTACT FORM SECTION ******************/}
+      {/****************** CONTACT FORM  ******************/}
 
       <div className="md:pb-32 pb-16 md:pt-10 bg-light dark:bg-dark2">
         <SectionTitle> SEND ME AN EMAIL </SectionTitle>

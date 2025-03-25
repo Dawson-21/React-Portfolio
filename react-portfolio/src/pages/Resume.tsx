@@ -20,8 +20,8 @@ export default function Resume() {
               Resum&#232;
             </h1>
             <p className="max-w-2xl mx-auto font-myFont text-[15px] text-justify text-gray-600 lg:mb-8 md:mb-0 mb-6 text-lg dark:text-gray-400">
-              If my skills and experience align with what you&#39;re looking for,
-              please feel free to reach out. I would love to connect and
+              If my skills and experience align with what you&#39;re looking
+              for, please feel free to reach out. I would love to connect and
               contribute to your team&#39;s success!
             </p>
           </div>
@@ -34,20 +34,20 @@ export default function Resume() {
           <div className="relative aspect-[1155/378] -translate-x-1/2 bg-gradient-to-r from-[#0047ff] to-[#ff4500] opacity-20 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" />
         </div>
 
-        {/****************** RESUME SECTION ******************/}
+        {/****************** RESUMÉ SECTION ******************/}
 
         <div className="place-self-center pb-10 md:block hidden">
           <iframe
-            src="https://moderndev.pro/wp-content/uploads/2025/01/AI-Software-Engineer.pdf"
+            src="https://moderndev.pro/wp-content/uploads/2025/03/Adams-Developer-3.pdf"
             title="Dawson Adams Resume"
             height={1132}
             width={850}
           />
         </div>
-        
+
         <div className="place-self-center pb-10 md:hidden block">
           <a
-            href="https://moderndev.pro/wp-content/uploads/2025/01/AI-Software-Engineer.pdf"
+            href="https://moderndev.pro/wp-content/uploads/2025/03/Adams-Developer-3.pdf"
             target="_blank"
             rel="noreferrer"
             className="transform hover:scale-[1.15] transition duration-300 ease-in-out relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-myFont text-dark font-extrabold hover:text-light dark:text-light rounded-lg group 
@@ -65,14 +65,13 @@ export default function Resume() {
         <div className="place-self-center pb-10">
           <Socials />
         </div>
-
       </div>
 
       {/****************** CONTACT FORM SECTION ******************/}
 
       <div className="md:pb-32 pb-16 md:pt-10 bg-light dark:bg-dark2">
-      <SectionTitle> SEND ME AN EMAIL </SectionTitle>
-      <ContactForm />
+        <SectionTitle> SEND ME AN EMAIL </SectionTitle>
+        <ContactForm />
       </div>
     </>
   );
