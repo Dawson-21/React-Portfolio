@@ -24,11 +24,11 @@ export default function Home() {
             </h1>
 
             <p className="max-w-2xl mb-6 font-myFont text-[15px] sm:text-justify text-gray-600 lg:mb-8 xl:pr-20 lg:pr-10 text-lg dark:text-gray-400">
-              Professional web developer and aspiring software engineer with
+              Professional web developer and React engineer with
               skills ranging from front-end design and user experience
               optimization to back-end development and database management. I
-              recently graduated from Texas A&M University - Corpus Christi with
-              a Bachelor of Computer Science.
+              graduated from Texas A&M University - Corpus Christi with
+              a B.S. in Computer Science.
             </p>
 
             <Link to="/about">
