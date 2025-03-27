@@ -148,7 +148,7 @@ export default function Portfolio() {
             />
           </div>
         </div>
-        
+{/*         
         <SectionTitle>PERSONAL PROJECTS</SectionTitle>
 
         <div className="sm:inline-flex sm:flex-row flex-col xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-5 md:gap-4 sm:gap-3 gap-2">
@@ -178,8 +178,8 @@ export default function Portfolio() {
               desc="Ut enim ad minim veniam, quis nostrud exercitation ullamco
                 laboris nisi ut aliquip ex ea commodo consequat exercitation."
             />
-          </div>
-        </div>
+          </div> 
+        </div>  */}
       </div>
     </>
   );
