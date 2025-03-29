@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Socials() {
     return (
       <>
-        <Link to="/facebook">
+        <Link to="https://www.facebook.com/dawson.adams.526">
             <button
             className="transform hover:scale-[1.15] transition duration-200 ease-in-out relative inline-flex items-center justify-center p-0.5 me-4 overflow-hidden text-sm font-medium hover:text-light text-dark dark:text-light rounded-full group 
             bg-gradient-135 from-bright-orange from-20% to-regal-blue to-80% group-hover:from-bright-orange group-hover:to-regal-blue"
@@ -25,7 +25,7 @@ export default function Socials() {
             </button>
         </Link>
 
-        <Link to="/insta">
+        <Link to="https://www.instagram.com/dawson.m.adams/">
             <button
             className="transform hover:scale-[1.15] transition duration-200 ease-in-out relative inline-flex items-center justify-center p-0.5 me-4 overflow-hidden text-sm font-medium hover:text-light text-dark dark:text-light rounded-full group 
             bg-gradient-135 from-bright-orange from-20% to-regal-blue to-80% group-hover:from-bright-orange group-hover:to-regal-blue"
@@ -47,7 +47,7 @@ export default function Socials() {
             </button>
         </Link>
 
-        <Link to="/linkedin">
+        <Link to="https://www.linkedin.com/in/dawson-adams21/">
             <button
             className="transform hover:scale-[1.15] transition duration-200 ease-in-out relative inline-flex items-center justify-center p-0.5 me-4 overflow-hidden text-sm font-medium hover:text-light text-dark dark:text-light rounded-full group 
             bg-gradient-135 from-bright-orange from-20% to-regal-blue to-80% group-hover:from-bright-orange group-hover:to-regal-blue"
@@ -69,7 +69,7 @@ export default function Socials() {
             </button>
         </Link>
 
-        <Link to="/github">
+        <Link to="https://github.com/Dawson-21">
             <button
             className="transform hover:scale-[1.15] transition duration-200 ease-in-out relative inline-flex items-center justify-center p-0.5 me-4 overflow-hidden text-sm font-medium hover:text-light text-dark dark:text-light rounded-full group 
             bg-gradient-135 from-bright-orange from-20% to-regal-blue to-80% group-hover:from-bright-orange group-hover:to-regal-blue"
