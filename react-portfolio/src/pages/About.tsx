@@ -127,7 +127,8 @@ export default function About() {
 
       {/****************** SKILLS SECTION ******************/}
 
-      {/* <div className="md:block hidden bg-light dark:bg-dark2 overflow-y-hidden">
+      {/* 
+      <div className="md:block hidden bg-light dark:bg-dark2 overflow-y-hidden">
         <SectionTitle>SKILLS</SectionTitle>
 
         <div className="inline-flex pt-5">
