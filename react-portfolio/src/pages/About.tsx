@@ -127,7 +127,7 @@ export default function About() {
 
       {/****************** SKILLS SECTION ******************/}
 
-      <div className="md:block hidden bg-light dark:bg-dark2 overflow-y-hidden">
+      {/* <div className="md:block hidden bg-light dark:bg-dark2 overflow-y-hidden">
         <SectionTitle>SKILLS</SectionTitle>
 
         <div className="inline-flex pt-5">
@@ -196,7 +196,7 @@ export default function About() {
           </div>
         </div>
         <hr className="w-full h-[2px] mx-auto border-0 bg-gray-300" />
-      </div>
+      </div> */}
 
       {/****************** VALUES SECTION ******************/}
 
