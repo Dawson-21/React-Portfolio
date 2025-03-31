@@ -63,7 +63,7 @@ export default () => {
         // 'response' was a parameter but unused
         handleServerResponse(
           true,
-          "Thank you, your message has been submitted."
+          "Thank you, your message has been submitted. I will get back to you as soon as possible."
         );
       })
       .catch((error) => {
@@ -151,20 +151,13 @@ export default () => {
         </form>
       </div>
 
-      <div className="w-[25%] h-10 border-2 rounded-xl text-center border-red-600 bg-red-400 m-auto">
-        Error: Unable to send message. Please try again later.
-      </div>
-      <p className="w-[25%] h-10 border-2 rounded-xl text-center border-green-600 bg-green-400 m-auto">
-        Thank you, your message has been submitted.
-      </p>
-
       {status.info.error && (
-        <div className="w-auto h-10 border-2 rounded-xl border-red-600 bg-red-400 m-auto">
+        <div className="w-fit h-auto py-1 px-3 border-2 max-md:text-xs rounded-lg text-center border-red-500 bg-red-200 m-auto">
           Error: {status.info.msg}
         </div>
       )}
       {!status.info.error && status.info.msg && (
-        <p className="w-auto h-10 border-2 rounded-xl border-green-600 bg-green-400 m-auto">
+        <p className="w-fit h-auto py-1 px-3 border-2 max-md:text-xs rounded-lg text-center border-green-500 bg-green-200 m-auto">
           {status.info.msg}
         </p>
       )}
