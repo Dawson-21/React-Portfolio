@@ -151,10 +151,10 @@ export default () => {
         </form>
       </div>
 
-      <div className="w-auto h-10 border-2 rounded-xl border-red-600 bg-red-400 m-auto">
+      <div className="w-[20%] h-10 border-2 rounded-xl text-center border-red-600 bg-red-400 m-auto">
         Error: Unable to send message. Please try again later.
       </div>
-      <p className="w-auto h-10 border-2 rounded-xl border-green-600 bg-green-400 m-auto">
+      <p className="w-[20%] h-10 border-2 rounded-xl text-center border-green-600 bg-green-400 m-auto">
         Thank you, your message has been submitted.
       </p>
 
