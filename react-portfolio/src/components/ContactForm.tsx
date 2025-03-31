@@ -152,7 +152,7 @@ export default () => {
       </div>
 
       <div className="w-auto h-10 border-2 rounded-xl border-red-600 bg-red-400 m-auto">
-        Error: {status.info.msg}
+        Error: Unable to send message. Please try again later.
       </div>
       <p className="w-auto h-10 border-2 rounded-xl border-green-600 bg-green-400 m-auto">
         Thank you, your message has been submitted.
@@ -160,7 +160,7 @@ export default () => {
 
       {status.info.error && (
         <div className="w-auto h-10 border-2 rounded-xl border-red-600 bg-red-400 m-auto">
-          Error: unable to send message. Please try again later.
+          Error: {status.info.msg}
         </div>
       )}
       {!status.info.error && status.info.msg && (
