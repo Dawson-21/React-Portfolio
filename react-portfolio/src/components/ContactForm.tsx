@@ -155,12 +155,12 @@ export default () => {
         Error: {status.info.msg}
       </div>
       <p className="w-auto h-10 border-2 rounded-xl border-green-600 bg-green-400 m-auto">
-        {status.info.msg}
+        Thank you, your message has been submitted.
       </p>
 
       {status.info.error && (
         <div className="w-auto h-10 border-2 rounded-xl border-red-600 bg-red-400 m-auto">
-          Error: {status.info.msg}
+          Error: unable to send message. Please try again later.
         </div>
       )}
       {!status.info.error && status.info.msg && (
