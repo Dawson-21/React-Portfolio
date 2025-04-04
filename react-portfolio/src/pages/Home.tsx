@@ -76,12 +76,14 @@ export default function Home() {
         <div className="sm:inline-flex sm:flex-row flex-col xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-5 md:gap-4 sm:gap-3 gap-2">
           <div className="md:max-w-[33%] rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light border-white border-2">
             <Card
-              img="media/portfolio.png"
-              alt="Portfolio Website"
-              title="Portfolio Website"
-              desc="This responsive site, built with React, Tailwind, and Vercel, showcases my web development projects and skills, providing 
-              a dynamic and engaging experience for potential clients and collaborators."
-              link="#"
+              img="media/TGS2.png"
+              alt="Texas Gutter Service Website"
+              title="Gutter Business Website"
+              desc="Clean one-page website for Texas Gutter Service, utilizing my expertise in custom theme development, 
+              responsive design principles, and advanced SEO techniques to ensure high visibility and user engagement."
+              btn="View Project"
+              link="https://texasgutterservice.com"
+              newPage
             />
           </div>
           <div className="md:max-w-[33%] sm:mt-0 mt-5 rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light border-white border-2">
