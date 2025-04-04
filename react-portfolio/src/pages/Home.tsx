@@ -99,14 +99,14 @@ export default function Home() {
             />
           </div>
           <div className="block sm:hidden md:block md:max-w-[33%] sm:mt-0 mt-5 rounded-xl shadow-xl dark:shadow-none bg-white dark:bg-dark dark:border-light border-white border-2">
-            <Card
-              img="media/TGS2.png"
-              alt="Texas Gutter Service Website"
-              title="Gutter Business Website"
-              desc="Clean one-page website for Texas Gutter Service, utilizing my expertise in custom theme development, 
-              responsive design principles, and advanced SEO techniques to ensure high visibility and user engagement."
+                        <Card
+              img="media/CNC2.png"
+              alt="CNC Garage Doors Website"
+              title="Local Business Website"
+              desc="Built a user-friendly one-page website for CNC Garage Doors with WordPress, employing my proficiency in custom plugin integration, 
+              cross-browser compatibility, and mobile-first design to ensure a seamless experience across all devices."
               btn="View Project"
-              link="https://texasgutterservice.com"
+              link="https://cncgaragedoors.com"
               newPage
             />
           </div>
