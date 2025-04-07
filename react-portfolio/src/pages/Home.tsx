@@ -255,7 +255,7 @@ export default function Home() {
           <div className="lg:-ml-[34%] md:-ml-[24%] sm:-ml-[41%] -ml-[60%] [@media(max-width:450px)]:-ml-[73%] lg:-mr-6 xl:space-y-[3.2vw] lg:space-y-[3.4vw] md:space-y-[3.9vw] sm:space-y-[4.5vw] space-y-[1.8rem]">
             <p>I enjoy experimenting with new vegan recipes</p>
             <p>Piano and Guitar are my favorite instruments to play</p>
-            <p>I have three snakes, a bearded dragon, and a cat</p>
+            <p>I have three snakes, a bearded dragon, a dog, and a cat</p>
           </div>
 
           <div className="lg:-mt-4 mt-[0.6vw] md:-ml-0 sm:-ml-12 [@media(max-width:450px)]:-ml-10 xl:space-y-[0.9vw] space-y-[0.6vw]">
