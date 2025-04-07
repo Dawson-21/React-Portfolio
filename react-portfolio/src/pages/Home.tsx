@@ -107,6 +107,7 @@ export default function Home() {
             />
           </div>
         </div>
+        <hr className="w-full h-[2px] mx-auto border-0 bg-gray-300 xl:mt-20 lg:mt-5" />
       </div>
 
       {/****************** PIE CHART SECTION ******************/}
@@ -152,8 +153,6 @@ export default function Home() {
             </p>
           </div>
         </div>
-
-        <hr className="w-full h-[2px] mx-auto border-0 bg-gray-300 xl:mt-20 lg:mt-5" />
       </div>
     </>
   );
