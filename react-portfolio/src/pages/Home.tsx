@@ -3,6 +3,10 @@ import Button2 from "../components/Button2";
 import Card from "../components/Card";
 import SectionTitle from "../components/SectionTitle";
 import PieChart from "../components/PieChart";
+import IconBox from "../components/IconBox";
+import Socials from "../components/Socials";
+import ContactForm from "../components/ContactForm";
+import IconList from "../components/IconList";
 
 export default function Home() {
   return (
@@ -44,9 +48,9 @@ export default function Home() {
               </button>
             </Link>
 
-            <Link to="/portfolio">
+            <Link to="/resume">
               <div className="inline-flex sm:px-5 px-3 py-3 -mr-5 font-myFont hover:scale-[1.15] transition duration-500 ease-in-out">
-                <Button2>View My Work</Button2>
+                <Button2>View My Resum&#232;</Button2>
               </div>
             </Link>
           </div>
@@ -107,11 +111,11 @@ export default function Home() {
             />
           </div>
         </div>
-        <hr className="w-full h-[2px] mx-auto border-0 bg-gray-300 xl:mt-20 lg:mt-5" />
       </div>
 
       {/****************** PIE CHART SECTION ******************/}
 
+      <hr className="w-full h-[2px] mx-auto border-0 bg-gray-300" />
       <PieChart />
 
       {/****************** EDUCATION SECTION ******************/}
@@ -152,6 +156,130 @@ export default function Home() {
               field.
             </p>
           </div>
+        </div>
+      </div>
+
+      {/****************** VALUES SECTION ******************/}
+
+      <div className="bg-light dark:bg-dark2 xl:pt-20 lg:pt-5">
+        <hr className="w-full h-[2px] mx-auto border-0 bg-gray-300" />
+        <SectionTitle>CORE VALUES</SectionTitle>
+
+        <div className="grid xl:grid-cols-3 md:grid-cols-2 pb-16 -mt-5 2xl:mx-[8%]">
+          <div className="xl:pl-16 xl:-mr-16 py-8">
+            <IconBox
+              icon="media/collab2.svg"
+              alt="Collaboration icon"
+              title="Collaboration"
+              desc="I believe that effective teamwork and clear communication are
+              essential for achieving success, whether collaborating within a
+              team or contributing to open-source projects. In my personal
+              experience, cooperation and shared goals drive the best outcomes."
+            />
+          </div>
+
+          <div className="py-8">
+            <IconBox
+              icon="media/learn2.svg"
+              alt="Brain and pencil icon"
+              title="Continuous Learning"
+              desc="I&#39;m committed to continuous self-improvement and skill
+              development, always eager to take on new challenges and master
+              emerging technologies. This drive ensures I remain adaptable and
+              ready to excel in any environment."
+            />
+          </div>
+
+          <div className="xl:pr-16 xl:-ml-16 pt-8">
+            <IconBox
+              icon="media/quality2.svg"
+              alt="Sparkling diamond icon"
+              title="Quality"
+              desc="I take pride in delivering high-quality work, from writing clean,
+              efficient code to ensuring every project meets the highest
+              standards. My attention to detail reflects my commitment to
+              excellence in every aspect of my work."
+            />
+          </div>
+
+          <div className="xl:pl-16 xl:-mr-16 pt-8">
+            <IconBox
+              icon="media/trust2.svg"
+              alt="Handshake icon"
+              title="Integrity"
+              desc="I approach my work with honesty and integrity, ensuring that
+              transparency and accountability are at the core of everything I
+              do. Trustworthiness is a value I uphold in all my professional
+              endeavors."
+            />
+          </div>
+
+          <div className="py-8">
+            <IconBox
+              icon="media/clarity.svg"
+              alt="Light bulb icon"
+              title="Clarity"
+              desc="I prioritize clarity in everything I do to create a smooth and productive work environment. Whether writing code, 
+              documenting processes, or discussing technical concepts, I ensure my communication is precise and easy to understand."
+            />
+          </div>
+
+          <div className="xl:pr-16 xl:-ml-16 pt-8">
+            <IconBox
+              icon="media/creative2.svg"
+              alt="Web art icon"
+              title="Creativity"
+              desc="I thrive on thinking outside the box, finding creative solutions
+              to complex problems, and bringing unique perspectives to every
+              project I tackle. My approach blends innovation with practicality,
+              ensuring fresh ideas that drive meaningful results."
+            />
+          </div>
+        </div>
+      </div>
+
+      {/****************** FUN FACTS SECTION ******************/}
+
+      <div className="bg-light dark:bg-dark2 pb-20">
+        <hr className="w-full h-[2px] mx-auto border-0 bg-gray-300" />
+
+        <SectionTitle>FUN FACTS</SectionTitle>
+
+        <div className="grid lg:grid-cols-4 grid-cols-2 font-myFont text-dark dark:text-white xl:text-lg sm:text-base text-[14px] [@media(max-width:390px)]:text-[13px] pt-5">
+          <div className="lg:-mt-4 -mt-2 md:-ml-0 sm:-ml-12 [@media(max-width:450px)]:-ml-10 xl:space-y-[0.9vw] space-y-[0.6vw]">
+            <IconList img="media/recipe.svg" alt="Cake icon" />
+            <IconList img="media/piano.svg" alt="Piano icon" />
+            <IconList img="media/snake.svg" alt="Snake icon" />
+          </div>
+
+          <div className="lg:-ml-[34%] md:-ml-[24%] sm:-ml-[41%] -ml-[60%] [@media(max-width:450px)]:-ml-[73%] lg:-mr-6 xl:space-y-[3.2vw] lg:space-y-[3.4vw] md:space-y-[3.9vw] sm:space-y-[4.5vw] space-y-[1.8rem]">
+            <p>I enjoy experimenting with new vegan recipes</p>
+            <p>Piano and Guitar are my favorite instruments to play</p>
+            <p>I have three snakes, a bearded dragon, and a cat</p>
+          </div>
+
+          <div className="lg:-mt-4 mt-[0.6vw] md:-ml-0 sm:-ml-12 [@media(max-width:450px)]:-ml-10 xl:space-y-[0.9vw] space-y-[0.6vw]">
+            <IconList img="media/beach.svg" alt="Palm tree icon" />
+            <IconList img="media/pyramid.svg" alt="Pyramid icon" />
+            <IconList img="media/tesla.svg" alt="Tesla tower icon" />
+          </div>
+
+          <div className="lg:-ml-[34%] md:-ml-[24%] sm:-ml-[41%] -ml-[60%] [@media(max-width:450px)]:-ml-[73%] xl:space-y-[3.2vw] lg:space-y-[3.4vw] md:space-y-[3.9vw] sm:space-y-[4.5vw] space-y-[1.8rem] lg:pt-0 sm:pt-[1.8vw] pt-[2.9vw]">
+            <p>I love going to the beach</p>
+            <p>I&#39;m slightly obsessed with ancient civilizations</p>
+            <p>Alan Watts & Nicola Tesla are my mentors</p>
+          </div>
+        </div>
+      </div>
+
+      {/****************** CONTACT FORM  ******************/}
+
+      <div className="md:pb-20 pb-10 bg-light dark:bg-dark2">
+        <hr className="w-full h-[2px] mx-auto border-0 bg-gray-300" />
+        <SectionTitle> SEND ME AN EMAIL </SectionTitle>
+        <ContactForm />
+        <div className="place-self-center">
+          <Socials />
         </div>
       </div>
     </>
