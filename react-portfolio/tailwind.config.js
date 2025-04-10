@@ -25,5 +25,9 @@ export default {
     },
   },
   plugins: [],
+  // enable smooth scrolling globally
+  corePlugins: {
+    preflight: true,
+  },
 }
 

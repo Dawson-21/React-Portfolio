@@ -1,7 +1,12 @@
+import SectionTitle from "../components/SectionTitle";
+
 export default function PieChart() {
   return (
     <>
-      <div className="grid grid-cols-12 py-20 bg-light dark:bg-dark2 snap-start">
+      <div id ="about" className="scroll-mt-20 grid grid-cols-12 pb-20 bg-light dark:bg-dark2 snap-start">
+        <div className="col-span-12">
+          <SectionTitle>ABOUT ME</SectionTitle>
+        </div>
         <div className="col-span-12 ml-[20%] mr-[20%] pb-10 dark:block dark:md:hidden hidden">
           <img src="media/pie-chart-dark.png" alt="Coder and Designer Pie Chart" />
         </div>

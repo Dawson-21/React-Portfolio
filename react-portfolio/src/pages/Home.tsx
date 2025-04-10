@@ -70,7 +70,7 @@ export default function Home() {
 
       {/****************** PROJECTS SECTION ******************/}
 
-      <div className="md:pb-32 pb-20 md:pt-10 dark:bg-dark2 bg-light">
+      <div id="portfolio" className="scroll-mt-20 md:pb-32 pb-20 md:pt-10 dark:bg-dark2 bg-light">
         <SectionTitle>MY LATEST PROJECTS</SectionTitle>
 
         <div className="sm:inline-flex sm:flex-row flex-col xl:mx-[12%] lg:mx-[8%] md:mx-[5%] mx-[4%] lg:gap-5 md:gap-4 sm:gap-3 gap-2">
@@ -198,7 +198,7 @@ export default function Home() {
               desc="I take pride in delivering high-quality work, from writing clean,
               efficient code to ensuring every project meets the highest
               standards. My attention to detail reflects my commitment to
-              excellence in every aspect of my work."
+              excellence."
             />
           </div>
 
@@ -219,7 +219,7 @@ export default function Home() {
               icon="media/clarity.svg"
               alt="Light bulb icon"
               title="Clarity"
-              desc="I prioritize clarity in everything I do to create a smooth and productive work environment. Whether writing code, 
+              desc="I prioritize clarity to create a smooth and productive work environment. Whether writing code, 
               documenting processes, or discussing technical concepts, I ensure my communication is precise and easy to understand."
             />
           </div>
@@ -274,7 +274,7 @@ export default function Home() {
 
       {/****************** CONTACT FORM  ******************/}
 
-      <div className="md:pb-20 pb-10 bg-light dark:bg-dark2">
+      <div id="contact" className="scroll-mt-16 md:pb-20 pb-10 bg-light dark:bg-dark2">
         <hr className="w-full h-[2px] mx-auto border-0 bg-gray-300" />
         <SectionTitle> SEND ME AN EMAIL </SectionTitle>
         <ContactForm />

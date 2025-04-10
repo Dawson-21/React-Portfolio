@@ -1,5 +1,5 @@
 import Button from "./Button";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Nav(props: {
   showMenu: boolean;
@@ -10,13 +10,6 @@ function Nav(props: {
       top: 0,
     });
   };
-  
-  const location = useLocation();
-  const home = location.pathname === '/';
-  const about = location.pathname === '/about';
-  const portfolio = location.pathname === '/portfolio';
-  const contact = location.pathname === '/contact';
-  const resume = location.pathname === '/resume';
 
   let mobileMenu;
 
@@ -26,22 +19,22 @@ function Nav(props: {
         <ul className="flex-col space-y-4 pl-6 py-5">
           <li onClick={() => props.setShowMenu(false)}>
             <Link to="/">
-              <Button currentPage={home}> Home </Button>
-            </Link>
-          </li>
-          <li onClick={() => props.setShowMenu(false)}>
-            <Link to="/about">
-              <Button currentPage={about}> About </Button>
+              <Button> Home </Button>
             </Link>
           </li>
           <li onClick={() => props.setShowMenu(false)}>
             <Link to="/portfolio">
-              <Button currentPage={portfolio}> Portfolio </Button>
+              <Button> Portfolio </Button>
+            </Link>
+          </li>
+          <li onClick={() => props.setShowMenu(false)}>
+            <Link to="/about">
+              <Button> About </Button>
             </Link>
           </li>
           <li onClick={() => props.setShowMenu(false)}>
             <Link to="/contact">
-              <Button currentPage={contact}> Contact </Button>
+              <Button> Contact </Button>
             </Link>
           </li>
         </ul>
@@ -67,9 +60,9 @@ function Nav(props: {
           </Link>
 
           <div className="flex md:order-2 rtl:space-x-reverse">
-            <Link to="/resume" onClick={() => props.setShowMenu(false)}>
-              <Button currentPage={resume}> Resum&#232; </Button>
-            </Link>
+            <a href="/resume.pdf" download onClick={() => props.setShowMenu(false)}>
+              <Button> Resum&#232; </Button>
+            </a>
 
             <button
               type="button"
@@ -102,23 +95,23 @@ function Nav(props: {
             <ul className="flex flex-col p-4 md:p-0 mt-4 rounded-lg font-extrabold md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
               <li>
                 <Link to="/">
-                  <Button currentPage={home}> Home </Button>
+                  <Button> Home </Button>
                 </Link>
               </li>
               <li>
-                <Link to="/about">
-                  <Button currentPage={about}> About </Button>
-                </Link>
+                <a href="#portfolio">
+                  <Button> Portfolio </Button>
+                </a>
               </li>
               <li>
-                <Link to="/portfolio">
-                  <Button currentPage={portfolio}> Portfolio </Button>
-                </Link>
+                <a href="#about">
+                  <Button> About </Button>
+                </a>
               </li>
               <li>
-                <Link to="/contact">
-                  <Button currentPage={contact}> Contact </Button>
-                </Link>
+                <a href="#contact">
+                  <Button> Contact </Button>
+                </a>
               </li>
             </ul>
           </div>
