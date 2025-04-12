@@ -60,7 +60,7 @@ function Nav(props: {
           </Link>
 
           <div className="flex md:order-2 rtl:space-x-reverse">
-            <a href="/resume.pdf" download onClick={() => props.setShowMenu(false)}>
+            <a href="/Dawson-Adams-Resume.pdf" onClick={() => props.setShowMenu(false)}>
               <Button> Resum&#232; </Button>
             </a>
 
