@@ -21,7 +21,7 @@ export default function About() {
               src="media/hero-img2.png"
               alt="Dawson Adams"
               className="fade-right"
-            />
+             />
           </div>
           <div className="place-self-center lg:col-span-7 fade-in lg:mt-0 mt-8">
             <h1 className="max-w-2xl mb-4 font-myFont font-bold tracking-tight leading-none text-4xl sm:text-5xl lg:text-5xl xl:text-6xl dark:text-white lg:text-center">
@@ -29,10 +29,10 @@ export default function About() {
             </h1>
             <p className="max-w-2xl font-myFont text-[15px] text-justify text-gray-600 lg:mb-8 md:mb-0 mb-6 text-lg dark:text-gray-400">
               I&#39;m passionate about all things code and love diving into new
-              skills and challenges to keep growing my expertise. When I&#39;m
-              not wrestling with code, you can find me whipping up something
-              tasty in the kitchen, exploring the great outdoors, or hanging out
-              with my many pets.
+              skills and challenges to keep growing my expertise. When I&#39;m not
+              wrestling with code, you can find me whipping up something tasty
+              in the kitchen, exploring the great outdoors, or hanging out with
+              my many pets.
             </p>
           </div>
         </div>
@@ -65,7 +65,7 @@ export default function About() {
           <div className="lg:-ml-[34%] md:-ml-[24%] sm:-ml-[41%] -ml-[60%] [@media(max-width:450px)]:-ml-[73%] lg:-mr-6 xl:space-y-[3.2vw] lg:space-y-[3.4vw] md:space-y-[3.9vw] sm:space-y-[4.5vw] space-y-[1.8rem]">
             <p>I enjoy experimenting with new vegan recipes</p>
             <p>Piano and Guitar are my favorite instruments to play</p>
-            <p>I have three snakes, a bearded dragon, a dog, and a cat</p>
+            <p>I have three snakes, a bearded dragon, and a cat</p>
           </div>
 
           <div className="lg:-mt-4 mt-[0.6vw] md:-ml-0 sm:-ml-12 [@media(max-width:450px)]:-ml-10 xl:space-y-[0.9vw] space-y-[0.6vw]">
@@ -121,6 +121,8 @@ export default function About() {
             </p>
           </div>
         </div>
+
+        <hr className="w-full h-[2px] mx-auto border-0 bg-gray-300 xl:mt-20 lg:mt-5" />
       </div>
 
       {/****************** SKILLS SECTION ******************/}
@@ -199,8 +201,7 @@ export default function About() {
 
       {/****************** VALUES SECTION ******************/}
 
-      <div className="bg-light dark:bg-dark2 xl:pt-20 lg:pt-5">
-        <hr className="w-full h-[2px] mx-auto border-0 bg-gray-300" />
+      <div className="bg-light dark:bg-dark2">
         <SectionTitle>CORE VALUES</SectionTitle>
 
         <div className="grid xl:grid-cols-3 md:grid-cols-2 pb-20 -mt-5 2xl:mx-[8%]">
